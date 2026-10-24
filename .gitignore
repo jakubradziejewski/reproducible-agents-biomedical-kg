@@ -1,0 +1,6 @@
+﻿
+# project-specific
+.venv/
+.env
+.ipynb_checkpoints/
+results/*.jsonl
