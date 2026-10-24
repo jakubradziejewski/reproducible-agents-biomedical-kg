@@ -3,5 +3,4 @@
 .venv/
 .env
 .ipynb_checkpoints/
-results/*.jsonl
 __pycache__/
