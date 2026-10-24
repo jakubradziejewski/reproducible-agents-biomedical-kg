@@ -52,3 +52,37 @@ All 24 relationship types, with properties, are in [`data/schema.md`](data/schem
 - The data is a **2017 snapshot** and never changes, which suits reproducibility studies.
 - The server runs **Neo4j 3.x**, so modern Cypher syntax (for example `EXISTS { ... }` subqueries) is not available. Agents must write older-dialect Cypher.
 - Entity names are lowercase strings (`bile duct cancer`), gene identifiers are numeric, and compound names are capitalised (`Flavoxate`).
+
+## How to run
+
+**Requirements:** [uv](https://docs.astral.sh/uv/) and Git (uv installs Python). Optional: [Ollama](https://ollama.com) for free local models, and a free Gemini API key for a hosted model.
+
+```powershell
+# 1. Install
+git clone <repo-url>
+cd reproducible-agents-biomedical-kg
+uv sync
+
+# 2. Configure. The public Hetionet server needs no credentials; keys are only for hosted models.
+cp .env.example .env        # then edit .env. Never commit it.
+
+# 3. Check the database connection and export its schema
+uv run python src/explore_schema.py          # writes data/schema.md
+
+# 4. Rebuild the gold questions from the hand-written Cypher
+uv run python src/build_gold.py              # writes data/questions.jsonl
+
+# 5. Self-test the evaluator
+uv run python src/evaluate.py
+
+# 6. Run agents: one question first, then the whole set with repetitions
+uv run python src/run_experiments.py --models gemini-flash --only q03
+uv run python src/run_experiments.py --models gemini-flash --reps 3
+```
+
+| Option | Meaning |
+|---|---|
+| `--models a,b` | Keys from `src/models.py` |
+| `--only q01,q03` | Run only these questions |
+| `--reps N` | Repeat each question N times (repeatability) |
+| `--max-steps N` | Max tool calls per run (default 6) |
