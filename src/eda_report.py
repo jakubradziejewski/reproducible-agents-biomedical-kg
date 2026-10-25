@@ -4,8 +4,10 @@ Every number in the report is computed here from data/eda/*.csv; nothing is type
 Run from the repo root:  uv run python src/eda_report.py   (offline; needs the cache).
 """
 import datetime
+from collections.abc import Callable
+from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 import numpy as np
 import pandas as pd
@@ -19,6 +21,22 @@ FIG_DIR = REPORT_DIR / "figures"
 REPORT_PATH = REPORT_DIR / "REPORT.md"
 SERVER = "Hetionet v1.0 on Neo4j 3.5 (neo4j.het.io)"
 COMMANDS = "`uv run python src/eda_queries.py` then `uv run python src/eda_report.py`"
+
+
+# ---------------------------------------------------------------- promoted exploration findings
+@dataclass(frozen=True)
+class Finding:
+    """A probe result promoted from EXPLORATION.md; `summarize` returns one sentence with a number."""
+    slug: str
+    title: str
+    kind: Literal["data error", "modelling artefact", "real biology", "unexplained"]
+    dataset: str  # a finding_<slug> key in eda_queries.DATASETS
+    summarize: Callable[[pd.DataFrame], str]
+
+
+MAX_FINDINGS = 3
+FINDINGS: list[Finding] = []
+assert len(FINDINGS) <= MAX_FINDINGS
 
 
 # ---------------------------------------------------------------- formatting helpers
@@ -307,16 +325,32 @@ def _implications(data, f) -> list[str]:
     ]
 
 
+def _findings(sentences: list[tuple[Finding, str]]) -> list[str]:
+    if not sentences:
+        return []
+    lines = [
+        "## 5. Unexpected findings", "",
+        f"Promoted from a bounded open-ended exploration (at most {MAX_FINDINGS} findings; the full "
+        "probe log, including dead ends, is in `EXPLORATION.md` and `probes.jsonl`).", "",
+    ]
+    for f, sentence in sentences:
+        lines += [f"### {f.title}", "", f"*Classification: {f.kind}.* {sentence}", ""]
+    return lines
+
+
 def render(data: dict[str, pd.DataFrame], facts: dict[str, Any], figures: dict[str, Path]) -> str:
+    found = [(f, f.summarize(data[f.dataset])) for f in FINDINGS]
     lines = [
         "# Hetionet v1.0 — Exploratory Data Analysis", "",
         f"{SERVER}; generated {datetime.date.today().isoformat()}; reproduce with {COMMANDS}.", "",
         "## Key takeaways", "",
-        *[f"- {t}" for t in takeaways(facts)], "",
+        *[f"- {t}" for t in takeaways(facts)],
+        *[f"- {s}" for _, s in found], "",
         *_basic(data, facts, figures),
         *_quirks(data, facts, figures),
         *_signal(facts, figures),
         *_implications(data, facts),
+        *_findings(found),
     ]
     return "\n".join(lines)
 
