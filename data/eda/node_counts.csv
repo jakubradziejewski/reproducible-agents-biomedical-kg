@@ -1,0 +1,12 @@
+label,n_labels,n
+Gene,1,20945
+SideEffect,1,5734
+BiologicalProcess,1,11381
+MolecularFunction,1,2884
+Compound,1,1552
+CellularComponent,1,1391
+PharmacologicClass,1,345
+Pathway,1,1822
+Disease,1,137
+Symptom,1,438
+Anatomy,1,402
