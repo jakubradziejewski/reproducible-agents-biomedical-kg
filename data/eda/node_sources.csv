@@ -1,0 +1,14 @@
+label,source,license,n
+Anatomy,Uberon,CC BY 3.0,402
+BiologicalProcess,Gene Ontology,CC BY 4.0,11381
+CellularComponent,Gene Ontology,CC BY 4.0,1391
+Compound,DrugBank,CC BY-NC 4.0,1552
+Disease,Disease Ontology,CC BY 3.0,137
+Gene,Entrez Gene,CC0 1.0,20945
+MolecularFunction,Gene Ontology,CC BY 4.0,2884
+Pathway,PID via Pathway Commons,CC0 1.0,220
+Pathway,Reactome via Pathway Commons,CC BY 4.0,1308
+Pathway,WikiPathways,CC BY 3.0,294
+PharmacologicClass,FDA via DrugCentral,CC BY 4.0,345
+SideEffect,UMLS via SIDER 4.1,CC BY-NC-SA 4.0,5734
+Symptom,MeSH,CC0 1.0,438

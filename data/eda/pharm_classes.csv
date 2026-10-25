@@ -1,0 +1,346 @@
+name,class_type,n_compounds
+5-Lipoxygenase Inhibitors,Mechanism of Action,1
+Acetyl Aldehyde Dehydrogenase Inhibitors,Mechanism of Action,1
+Acidifying Activity,Mechanism of Action,1
+Adenosine Receptor Agonists,Mechanism of Action,2
+Adrenal Steroid Synthesis Inhibitors,Mechanism of Action,2
+Adrenergic Agonists,Mechanism of Action,1
+Adrenergic alpha-Agonists,Mechanism of Action,1
+Adrenergic alpha1-Agonists,Mechanism of Action,1
+Adrenergic alpha2-Agonists,Mechanism of Action,5
+Adrenergic beta1-Antagonists,Mechanism of Action,1
+Adrenergic beta2-Agonists,Mechanism of Action,7
+Adrenergic beta2-Antagonists,Mechanism of Action,1
+Adrenergic beta3-Agonists,Mechanism of Action,1
+Aldosterone Antagonists,Mechanism of Action,2
+Alkylating Activity,Mechanism of Action,16
+Allergens,Chemical/Ingredient,2
+Allylamine,Chemical/Ingredient,2
+Amides,Chemical/Ingredient,6
+Amino Acids,Chemical/Ingredient,1
+Aminoglycosides,Chemical/Ingredient,7
+Aminosalicylic Acids,Chemical/Ingredient,4
+Amphenicols,Chemical/Ingredient,1
+Amphetamines,Chemical/Ingredient,1
+Androgen Receptor Agonists,Mechanism of Action,4
+Androgen Receptor Antagonists,Mechanism of Action,4
+Androstanes,Chemical/Ingredient,4
+Angiotensin 2 Receptor Antagonists,Mechanism of Action,5
+Angiotensin 2 Type 1 Receptor Antagonists,Mechanism of Action,1
+Anthracyclines,Chemical/Ingredient,4
+Antidiuretic Hormone Antagonists,Mechanism of Action,1
+Appetite Suppression,Physiologic Effect,6
+Aromatase Inhibitors,Mechanism of Action,1
+Arteriolar Vasodilation,Physiologic Effect,2
+Azoles,Chemical/Ingredient,14
+Barbiturates,Chemical/Ingredient,2
+Benzodiazepines,Chemical/Ingredient,14
+Benzothiazoles,Chemical/Ingredient,1
+Benzylamines,Chemical/Ingredient,1
+Biguanides,Chemical/Ingredient,1
+Bile Acids and Salts,Chemical/Ingredient,1
+Bile-acid Binding Activity,Mechanism of Action,1
+Bismuth,Chemical/Ingredient,1
+Breast Cancer Resistance Protein Inhibitors,Mechanism of Action,3
+Calcium Channel Antagonists,Mechanism of Action,10
+Calcium Chelating Activity,Mechanism of Action,1
+Cannabinoids,Chemical/Ingredient,2
+Carbamoyl Phosphate Synthetase 1 Activators,Mechanism of Action,1
+Carbapenems,Chemical/Ingredient,1
+Carbonic Anhydrase Inhibitors,Mechanism of Action,1
+Cardiac Glycosides,Chemical/Ingredient,1
+Cardiac Rhythm Alteration,Physiologic Effect,1
+Carnitine,Chemical/Ingredient,1
+Catecholamine Synthesis Inhibitors,Mechanism of Action,1
+Catecholamines,Chemical/Ingredient,4
+Cell-mediated Immunity,Physiologic Effect,2
+Central Nervous System Depression,Physiologic Effect,2
+Central Nervous System Stimulation,Physiologic Effect,8
+Centrally-mediated Muscle Relaxation,Physiologic Effect,6
+Cephalosporins,Chemical/Ingredient,13
+Chemokine Co-receptor 5 Antagonists,Mechanism of Action,1
+Chloride Channel Activation Potentiators,Mechanism of Action,1
+Chloride Channel Activators,Mechanism of Action,1
+Cholecalciferol,Chemical/Ingredient,2
+Cholinergic Antagonists,Mechanism of Action,4
+Cholinergic Muscarinic Agonists,Mechanism of Action,3
+Cholinergic Muscarinic Antagonists,Mechanism of Action,7
+Competitive Opioid Antagonists,Mechanism of Action,3
+Corticosteroid Hormone Receptor Agonists,Mechanism of Action,22
+Cyclooxygenase Inhibitors,Mechanism of Action,3
+Cystine Disulfide Reduction,Mechanism of Action,1
+Cytochrome P450 1A Inducers,Mechanism of Action,1
+Cytochrome P450 1A2 Inducers,Mechanism of Action,2
+Cytochrome P450 1A2 Inhibitors,Mechanism of Action,3
+Cytochrome P450 2B6 Inducers,Mechanism of Action,5
+Cytochrome P450 2B6 Inhibitors,Mechanism of Action,1
+Cytochrome P450 2C19 Inducers,Mechanism of Action,5
+Cytochrome P450 2C19 Inhibitors,Mechanism of Action,7
+Cytochrome P450 2C8 Inducers,Mechanism of Action,2
+Cytochrome P450 2C8 Inhibitors,Mechanism of Action,4
+Cytochrome P450 2C9 Inducers,Mechanism of Action,5
+Cytochrome P450 2C9 Inhibitors,Mechanism of Action,9
+Cytochrome P450 2D6 Inducers,Mechanism of Action,2
+Cytochrome P450 2D6 Inhibitors,Mechanism of Action,9
+Cytochrome P450 3A Inducers,Mechanism of Action,4
+Cytochrome P450 3A Inhibitors,Mechanism of Action,10
+Cytochrome P450 3A4 Inducers,Mechanism of Action,9
+Cytochrome P450 3A4 Inhibitors,Mechanism of Action,20
+Cytochrome P450 3A5 Inhibitors,Mechanism of Action,3
+DNA Polymerase Inhibitors,Mechanism of Action,7
+DOPA Decarboxylase Inhibitors,Mechanism of Action,3
+Decreased Autonomic Ganglionic Activity,Physiologic Effect,1
+Decreased Blood Pressure,Physiologic Effect,4
+Decreased Cell Wall Integrity,Physiologic Effect,1
+Decreased Cell Wall Synthesis & Repair,Physiologic Effect,1
+Decreased Central Nervous System Disorganized Electrical Activity,Physiologic Effect,18
+Decreased Cholesterol Absorption,Physiologic Effect,1
+Decreased Coagulation Factor Activity,Physiologic Effect,1
+Decreased DNA Replication,Physiologic Effect,1
+Decreased Fibrinolysis,Physiologic Effect,2
+Decreased GnRH Secretion,Physiologic Effect,1
+Decreased Histamine Release,Physiologic Effect,6
+Decreased Immunologic Activity,Physiologic Effect,1
+Decreased Immunologically Active Molecule Activity,Physiologic Effect,1
+Decreased Leukotriene Production,Physiologic Effect,1
+Decreased Mitosis,Physiologic Effect,2
+Decreased Parasympathetic Acetylcholine Activity,Physiologic Effect,1
+Decreased Platelet Aggregation,Physiologic Effect,6
+Decreased Platelet Production,Physiologic Effect,1
+Decreased Prostaglandin Production,Physiologic Effect,3
+Decreased Protein Synthesis,Physiologic Effect,2
+Decreased RNA Replication,Physiologic Effect,1
+Decreased Renal K+ Excretion,Physiologic Effect,2
+Decreased Respiratory Secretion Viscosity,Physiologic Effect,1
+Decreased Sebaceous Gland Activity,Physiologic Effect,3
+Decreased Striated Muscle Contraction,Physiologic Effect,1
+Decreased Striated Muscle Tone,Physiologic Effect,1
+Decreased Sympathetic Activity,Physiologic Effect,2
+Decreased Tracheobronchial Stretch Receptor Activity,Physiologic Effect,1
+Deoxyuridine,Chemical/Ingredient,1
+Depigmenting Activity,Physiologic Effect,1
+Diarylquinolines,Chemical/Ingredient,1
+Digestive/GI System Activity Alteration,Physiologic Effect,1
+Dihydrofolate Reductase Inhibitors,Mechanism of Action,3
+Dihydropyridines,Chemical/Ingredient,8
+Dipeptidase Inhibitors,Mechanism of Action,1
+Dipeptidyl Peptidase 4 Inhibitors,Mechanism of Action,3
+Diphosphonates,Chemical/Ingredient,6
+Dopamine D2 Antagonists,Mechanism of Action,2
+Dopamine Uptake Inhibitors,Mechanism of Action,1
+Dyes,Mechanism of Action,1
+Emesis Suppression,Physiologic Effect,3
+Ergocalciferols,Chemical/Ingredient,1
+Ergolines,Chemical/Ingredient,3
+Ergot Alkaloids,Chemical/Ingredient,1
+Ergotamines,Chemical/Ingredient,2
+Esters,Chemical/Ingredient,1
+Estradiol,Chemical/Ingredient,1
+Estradiol Congeners,Chemical/Ingredient,1
+Estrogen Receptor Agonists,Mechanism of Action,4
+"Estrogens, Conjugated (USP)",Chemical/Ingredient,1
+Factor Xa Inhibitors,Mechanism of Action,1
+Folic Acid,Chemical/Ingredient,1
+Folic Acid Metabolism Inhibitors,Mechanism of Action,2
+Full Opioid Agonists,Mechanism of Action,14
+GABA A Agonists,Mechanism of Action,3
+GABA B Agonists,Mechanism of Action,1
+GI Motility Alteration,Physiologic Effect,1
+General Anesthesia,Physiologic Effect,8
+Genitourinary Arterial Vasodilation,Physiologic Effect,1
+Glucosylceramide Synthase Inhibitors,Mechanism of Action,1
+Glycopeptides,Chemical/Ingredient,1
+Glycosaminoglycans,Chemical/Ingredient,1
+Gonadotropin Releasing Hormone Receptor Agonists,Mechanism of Action,2
+Gonadotropin Releasing Hormone Receptor Antagonists,Mechanism of Action,1
+Guanylate Cyclase Activators,Mechanism of Action,1
+HCV NS3/4A Protease Inhibitors,Mechanism of Action,3
+HIV Protease Inhibitors,Mechanism of Action,1
+Hematologic Activity Alteration,Physiologic Effect,1
+"Heparin, Low-Molecular-Weight",Chemical/Ingredient,1
+Histamine H1 Receptor Antagonists,Mechanism of Action,11
+Histamine H2 Receptor Antagonists,Mechanism of Action,4
+Histamine Receptor Antagonists,Mechanism of Action,2
+Hydroxy Acids,Chemical/Ingredient,1
+Hydroxyphenylpyruvate Dioxygenase Inhibitors,Mechanism of Action,1
+Increased Acetylcholine Activity,Physiologic Effect,1
+Increased Blood Pressure,Physiologic Effect,2
+Increased Calcium-sensing Receptor Sensitivity,Mechanism of Action,1
+Increased Cellular Death,Physiologic Effect,1
+Increased Coagulation Factor VIII Activity,Physiologic Effect,1
+Increased Coagulation Factor VIII Concentration,Physiologic Effect,1
+Increased Cytokine Activity,Physiologic Effect,1
+Increased Cytokine Production,Physiologic Effect,1
+Increased Diuresis,Physiologic Effect,12
+Increased Diuresis at Loop of Henle,Physiologic Effect,4
+Increased Dopamine Activity,Physiologic Effect,1
+Increased Glutathione Concentration,Physiologic Effect,1
+Increased Hematopoietic Stem Cell Mobilization,Physiologic Effect,1
+Increased Histamine Release,Physiologic Effect,2
+Increased Large Intestinal Motility,Physiologic Effect,1
+Increased Medullary Respiratory Drive,Physiologic Effect,1
+Increased Megakaryocyte Maturation,Physiologic Effect,1
+Increased Norepinephrine Activity,Physiologic Effect,1
+Increased Platelet Production,Physiologic Effect,1
+Increased Prostaglandin Activity,Physiologic Effect,1
+Increased Prothrombin Activity,Physiologic Effect,1
+Increased Sympathetic Activity,Physiologic Effect,6
+Inhibit Ovum Fertilization,Physiologic Effect,1
+Inhibition Gastric Acid Secretion,Physiologic Effect,1
+Iodine,Chemical/Ingredient,1
+Iron Chelating Activity,Mechanism of Action,3
+Ketolides,Chemical/Ingredient,1
+Lead Chelating Activity,Mechanism of Action,2
+Leukotriene Receptor Antagonists,Mechanism of Action,2
+Lincosamides,Chemical/Ingredient,1
+Lipase Inhibitors,Mechanism of Action,1
+Lipoglycopeptides,Chemical/Ingredient,2
+Lipopeptides,Chemical/Ingredient,3
+Local Anesthesia,Physiologic Effect,8
+M2 Protein Inhibitors,Mechanism of Action,2
+Macrolides,Chemical/Ingredient,4
+Magnetic Resonance Contrast Activity,Mechanism of Action,6
+Melanin Synthesis Inhibitors,Mechanism of Action,1
+Melatonin Receptor Agonists,Mechanism of Action,1
+Metal Chelating Activity,Mechanism of Action,1
+Methylated Sulfonamides,Chemical/Ingredient,1
+Microsomal Triglyceride Transfer Protein Inhibitors,Mechanism of Action,1
+Microtubule Inhibition,Physiologic Effect,6
+Monoamine Oxidase-B Inhibitors,Mechanism of Action,1
+Monobactams,Chemical/Ingredient,1
+Multidrug and Toxin Extrusion Transporter 1 Inhibitors,Mechanism of Action,1
+NMDA Receptor Antagonists,Mechanism of Action,1
+Neuraminidase Inhibitors,Mechanism of Action,3
+Neurokinin 1 Antagonists,Mechanism of Action,2
+Neuromuscular Depolarizing Blockade,Physiologic Effect,1
+Neuromuscular Nondepolarizing Blockade,Physiologic Effect,5
+Nicotine,Chemical/Ingredient,1
+Nicotinic Acids,Chemical/Ingredient,1
+Nitrates,Chemical/Ingredient,3
+Nitrofurans,Chemical/Ingredient,1
+Nitrogen Mustard Compounds,Chemical/Ingredient,1
+Nitroimidazoles,Chemical/Ingredient,2
+Non-Nucleoside Analog,Chemical/Ingredient,5
+Non-Nucleoside Reverse Transcriptase Inhibitors,Mechanism of Action,5
+Nonsteroidal Anti-inflammatory Compounds,Chemical/Ingredient,22
+Norepinephrine Uptake Inhibitors,Mechanism of Action,8
+Nucleic Acid Synthesis Inhibitors,Mechanism of Action,11
+Nucleoside Analog,Chemical/Ingredient,19
+Nucleoside Reverse Transcriptase Inhibitors,Mechanism of Action,7
+Opioid Agonists,Mechanism of Action,3
+Opioid Antagonists,Mechanism of Action,3
+Organic Anion Transporter 1 Inhibitors,Mechanism of Action,1
+Organic Anion Transporter 3 Inhibitors,Mechanism of Action,1
+Organic Anion Transporting Polypeptide 1B1 Inhibitors,Mechanism of Action,4
+Organic Anion Transporting Polypeptide 1B3 Inhibitors,Mechanism of Action,2
+Organic Anion Transporting Polypeptide 2B1 Inhibitors,Mechanism of Action,1
+Organic Cation Transporter 1 Inhibitors,Mechanism of Action,1
+Organic Cation Transporter 2 Inhibitors,Mechanism of Action,4
+Organometallic Compounds,Chemical/Ingredient,1
+Osmotic Activity,Mechanism of Action,2
+Oxazolidinones,Chemical/Ingredient,1
+P-Glycoprotein Inducers,Mechanism of Action,1
+P-Glycoprotein Inhibitors,Mechanism of Action,18
+P-Glycoprotein Interactions,Mechanism of Action,1
+P2Y12 Receptor Antagonists,Mechanism of Action,3
+PPAR alpha,Chemical/Ingredient,3
+PPAR gamma,Chemical/Ingredient,2
+Partial Cholinergic Nicotinic Agonists,Mechanism of Action,1
+Partial Opioid Agonists,Mechanism of Action,4
+Penicillins,Chemical/Ingredient,9
+Peroxisome Proliferator-activated Receptor Activity,Mechanism of Action,2
+Peroxisome Proliferator-activated Receptor alpha Agonists,Mechanism of Action,2
+Phenothiazines,Chemical/Ingredient,8
+Phenylalanine Hydroxylase Activators,Mechanism of Action,2
+Phosphate Chelating Activity,Mechanism of Action,1
+Phosphodiesterase 3 Inhibitors,Mechanism of Action,1
+Phosphodiesterase 4 Inhibitors,Mechanism of Action,1
+Phosphodiesterase 5 Inhibitors,Mechanism of Action,1
+Photoabsorption,Mechanism of Action,3
+Photosensitizing Activity,Physiologic Effect,3
+Platinum-containing Compounds,Chemical/Ingredient,3
+Polyenes,Chemical/Ingredient,3
+Polymyxins,Chemical/Ingredient,2
+Porphyrinogens,Chemical/Ingredient,2
+Potassium Channel Antagonists,Mechanism of Action,2
+Potassium Channel Openers,Mechanism of Action,1
+Progestational Hormone Receptor Antagonists,Mechanism of Action,1
+Progesterone,Chemical/Ingredient,1
+Progesterone Congeners,Chemical/Ingredient,10
+Prostaglandin Receptor Agonists,Mechanism of Action,2
+Prostaglandins,Chemical/Ingredient,7
+"Prostaglandins E, Synthetic",Chemical/Ingredient,1
+Prostaglandins I,Chemical/Ingredient,3
+Proteasome Inhibitors,Mechanism of Action,2
+Protein Kinase Inhibitors,Mechanism of Action,12
+Protein Synthesis Inhibitors,Mechanism of Action,1
+Psoralens,Chemical/Ingredient,2
+Purines,Chemical/Ingredient,1
+Pyrethrins,Chemical/Ingredient,1
+Pyridines,Chemical/Ingredient,1
+Pyrophosphate Analog,Chemical/Ingredient,1
+Quaternary Ammonium Compounds,Chemical/Ingredient,1
+Quinolones,Chemical/Ingredient,7
+RNA Replicase Inhibitors,Mechanism of Action,1
+RNA Synthetase Inhibitors,Mechanism of Action,1
+Receptor Tyrosine Kinase Inhibitors,Mechanism of Action,1
+Reduction Activity,Mechanism of Action,1
+Retinoids,Chemical/Ingredient,7
+Reversed Anticoagulation Activity,Physiologic Effect,1
+Rifamycins,Chemical/Ingredient,4
+Sclerosing Activity,Mechanism of Action,1
+Selective Estrogen Receptor Modulators,Mechanism of Action,2
+Serotonin 1b Receptor Agonists,Mechanism of Action,7
+Serotonin 1d Receptor Agonists,Mechanism of Action,7
+Serotonin 3 Receptor Antagonists,Mechanism of Action,5
+Serotonin Uptake Inhibitors,Mechanism of Action,6
+Sigma-1 Receptor Agonists,Mechanism of Action,1
+Smoothened Receptor Antagonists,Mechanism of Action,1
+Sodium-Glucose Transporter 2 Inhibitors,Mechanism of Action,2
+Somatostatin Receptor Agonists,Mechanism of Action,2
+Sphingosine 1-Phosphate Receptor Modulators,Mechanism of Action,1
+Stimulation Large Intestine Fluid/Electrolyte Secretion,Physiologic Effect,2
+Streptogramins,Chemical/Ingredient,2
+Sulfonamides,Chemical/Ingredient,9
+Sulfones,Chemical/Ingredient,1
+Sulfonylurea Compounds,Chemical/Ingredient,6
+Tetracyclines,Chemical/Ingredient,6
+Thiazides,Chemical/Ingredient,6
+Thiazolidinediones,Chemical/Ingredient,2
+Thrombin Inhibitors,Mechanism of Action,1
+Thrombopoietin Receptor Agonists,Mechanism of Action,1
+Thrombopoietin Receptor Interactions,Mechanism of Action,1
+Thyroid Hormone Synthesis Inhibitors,Mechanism of Action,2
+Thyroxine,Chemical/Ingredient,1
+Topoisomerase Inhibitors,Mechanism of Action,9
+Triiodothyronine,Chemical/Ingredient,1
+UDP Glucuronosyltransferases Inhibitors,Mechanism of Action,1
+UGT1A1 Inhibitors,Mechanism of Action,2
+UGT1A3 Inhibitors,Mechanism of Action,1
+UGT1A4 Inhibitors,Mechanism of Action,1
+UGT1A6 Inhibitors,Mechanism of Action,1
+UGT1A9 Inhibitors,Mechanism of Action,1
+UGT2B15 Inhibitors,Mechanism of Action,1
+UGT2B7 Inhibitors,Mechanism of Action,1
+Ultrasound Contrast Activity,Mechanism of Action,1
+Uncompetitive NMDA Receptor Antagonists,Mechanism of Action,1
+Urea,Chemical/Ingredient,1
+Urease Inhibitors,Mechanism of Action,1
+Vascular Sclerosing Activity,Physiologic Effect,1
+Vasodilation,Physiologic Effect,6
+Vasopressins,Chemical/Ingredient,1
+Venous Vasodilation,Physiologic Effect,1
+Vesicular Monoamine Transporter 2 Inhibitors,Mechanism of Action,1
+Vinca Alkaloids,Chemical/Ingredient,3
+Vitamin A,Chemical/Ingredient,1
+Vitamin B 12,Chemical/Ingredient,1
+Vitamin D,Chemical/Ingredient,2
+Vitamin K,Chemical/Ingredient,1
+Vitamin K Inhibitors,Mechanism of Action,2
+X-Ray Contrast Activity,Mechanism of Action,5
+Xanthine Oxidase Inhibitors,Mechanism of Action,1
+Xanthines,Chemical/Ingredient,3
+alpha Glucosidase Inhibitors,Mechanism of Action,2
+beta Lactamase Inhibitors,Mechanism of Action,2
+mTOR Inhibitors,Mechanism of Action,1
+pleuromutilin,Chemical/Ingredient,1

@@ -1,0 +1,138 @@
+disease,name,genes,treats,palliates,symptoms,anatomies,similar
+DOID:0050156,idiopathic pulmonary fibrosis,18,0,1,8,4,2
+DOID:0050425,restless legs syndrome,12,0,10,21,16,6
+DOID:0050741,alcohol dependence,49,4,2,40,37,6
+DOID:0050742,nicotine dependence,19,1,1,12,4,3
+DOID:0060073,lymphatic system cancer,9,9,0,0,0,0
+DOID:0060119,pharynx cancer,16,0,0,43,58,9
+DOID:10021,duodenum cancer,4,0,0,12,15,18
+DOID:10153,ileum cancer,0,0,0,5,11,17
+DOID:1024,leprosy,23,3,0,21,40,0
+DOID:10283,prostate cancer,535,21,9,25,17,5
+DOID:10534,stomach cancer,298,9,0,31,28,14
+DOID:10608,celiac disease,48,0,0,17,21,10
+DOID:10652,Alzheimer's disease,196,4,5,44,20,3
+DOID:10763,hypertension,496,68,2,33,63,6
+DOID:10811,nasal cavity cancer,4,0,0,0,0,0
+DOID:10871,age related macular degeneration,55,0,0,20,18,3
+DOID:1094,attention deficit hyperactivity disorder,41,0,14,34,14,7
+DOID:10941,intracranial aneurysm,23,0,0,50,49,2
+DOID:10976,membranous glomerulonephritis,27,0,0,3,6,5
+DOID:11054,urinary bladder cancer,121,11,0,25,21,9
+DOID:11119,Gilles de la Tourette syndrome,16,0,9,24,7,7
+DOID:1115,sarcoma,69,8,0,45,89,33
+DOID:11239,appendix cancer,4,0,0,3,8,14
+DOID:11476,osteoporosis,98,15,1,24,23,3
+DOID:11555,Fuchs' endothelial dystrophy,6,0,0,7,6,3
+DOID:11612,polycystic ovary syndrome,200,1,5,11,21,5
+DOID:11615,penile cancer,2,0,0,5,9,13
+DOID:11714,gestational diabetes,17,1,0,7,17,5
+DOID:11819,ureter cancer,1,0,0,4,8,10
+DOID:119,vaginal cancer,3,0,0,5,15,16
+DOID:1192,peripheral nervous system neoplasm,70,12,0,52,76,20
+DOID:11920,tracheal cancer,1,0,0,8,8,12
+DOID:11934,head and neck cancer,55,4,1,79,91,19
+DOID:11949,Creutzfeldt-Jakob disease,7,0,0,35,9,2
+DOID:12185,otosclerosis,4,0,0,19,34,2
+DOID:12236,primary biliary cirrhosis,78,3,0,8,11,8
+DOID:12306,vitiligo,38,1,1,15,12,6
+DOID:12361,Graves' disease,34,2,0,22,14,4
+DOID:12365,malaria,49,11,0,25,14,1
+DOID:1245,vulva cancer,6,0,0,8,14,13
+DOID:12849,autistic disorder,253,0,8,38,24,4
+DOID:12930,dilated cardiomyopathy,72,3,2,19,22,0
+DOID:12995,conduct disorder,12,0,3,7,4,7
+DOID:1312,focal segmental glomerulosclerosis,44,1,0,3,8,5
+DOID:13189,gout,18,9,1,7,16,4
+DOID:1319,brain cancer,111,7,4,88,66,8
+DOID:13223,uterine fibroid,8,0,0,19,25,23
+DOID:1324,lung cancer,252,16,1,42,27,16
+DOID:13241,Behcet's disease,21,0,0,26,44,11
+DOID:13378,Kawasaki disease,14,1,0,12,20,2
+DOID:13499,jejunal cancer,0,0,0,7,9,16
+DOID:14004,thoracic aortic aneurysm,13,0,0,19,28,2
+DOID:14221,metabolic syndrome X,90,1,0,16,20,8
+DOID:14227,azoospermia,36,1,0,1,6,1
+DOID:14268,sclerosing cholangitis,15,0,0,7,12,8
+DOID:14330,Parkinson's disease,143,0,28,65,55,4
+DOID:1459,hypothyroidism,44,4,0,34,24,3
+DOID:1595,endogenous depression,33,0,15,53,26,6
+DOID:1612,breast cancer,540,29,14,34,39,3
+DOID:1686,glaucoma,109,21,2,25,29,4
+DOID:1725,peritoneum cancer,1,0,0,15,22,17
+DOID:175,vascular cancer,9,0,0,18,28,15
+DOID:1781,thyroid cancer,58,4,0,15,15,13
+DOID:1790,malignant mesothelioma,9,0,0,14,11,11
+DOID:1793,pancreatic cancer,142,10,1,26,22,15
+DOID:1826,epilepsy syndrome,399,25,0,64,42,1
+DOID:184,bone cancer,74,5,0,59,101,22
+DOID:1909,melanoma,342,7,0,31,49,15
+DOID:1936,atherosclerosis,165,6,0,13,36,4
+DOID:1964,fallopian tube cancer,3,0,0,8,8,10
+DOID:1993,rectum cancer,17,0,0,19,24,15
+DOID:2043,hepatitis B,68,4,0,12,13,4
+DOID:216,dental caries,13,0,0,18,12,1
+DOID:2174,ocular cancer,54,2,0,27,43,13
+DOID:219,colon cancer,63,5,4,17,29,15
+DOID:2355,anemia,262,0,0,63,38,4
+DOID:2377,multiple sclerosis,150,11,22,78,39,1
+DOID:2394,ovarian cancer,149,10,0,20,28,15
+DOID:2531,hematologic cancer,550,51,2,13,12,1
+DOID:2596,larynx cancer,5,0,0,12,16,9
+DOID:263,kidney cancer,213,13,6,30,18,18
+DOID:2841,asthma,222,37,3,26,23,3
+DOID:2986,IgA glomerulonephritis,448,0,0,4,9,5
+DOID:2994,germ cell cancer,58,7,0,116,128,28
+DOID:2998,testicular cancer,23,11,0,18,16,16
+DOID:3070,malignant glioma,181,2,0,72,38,5
+DOID:3083,chronic obstructive pulmonary disease,77,9,6,23,18,2
+DOID:3121,gallbladder cancer,13,0,0,7,17,9
+DOID:3277,thymus cancer,19,1,0,17,23,7
+DOID:3310,atopic dermatitis,77,16,2,10,17,5
+DOID:3312,bipolar disorder,93,0,20,38,16,7
+DOID:332,amyotrophic lateral sclerosis,114,1,1,40,39,4
+DOID:3393,coronary artery disease,478,28,10,13,44,4
+DOID:3565,meningioma,28,0,0,55,57,11
+DOID:3571,liver cancer,179,3,0,26,19,19
+DOID:363,uterine cancer,89,7,0,24,27,12
+DOID:3953,adrenal gland cancer,38,0,0,28,22,11
+DOID:4045,muscle cancer,42,6,0,23,41,25
+DOID:4159,skin cancer,69,9,0,29,52,14
+DOID:418,systemic scleroderma,52,10,15,33,29,7
+DOID:4362,cervical cancer,42,1,0,21,18,8
+DOID:4481,allergic rhinitis,34,15,5,17,27,2
+DOID:4606,bile duct cancer,42,0,0,5,16,8
+DOID:4989,pancreatitis,103,2,1,25,21,6
+DOID:5041,esophageal cancer,168,4,3,27,22,12
+DOID:5099,middle ear cancer,1,0,0,0,0,0
+DOID:5408,Paget's disease of bone,16,6,0,22,26,6
+DOID:5419,schizophrenia,235,0,30,43,32,4
+DOID:5559,mediastinal cancer,1,0,0,23,29,16
+DOID:5612,spinal cancer,7,0,0,32,24,7
+DOID:585,nephrolithiasis,26,1,0,18,14,2
+DOID:5875,retroperitoneal cancer,3,0,0,18,23,20
+DOID:594,panic disorder,16,0,18,21,12,3
+DOID:635,acquired immunodeficiency syndrome,40,14,0,24,25,2
+DOID:6364,migraine,46,7,24,61,59,2
+DOID:7147,ankylosing spondylitis,33,8,7,25,29,13
+DOID:7148,rheumatoid arthritis,267,15,16,51,48,9
+DOID:7693,abdominal aortic aneurysm,24,0,0,24,31,3
+DOID:784,chronic kidney failure,132,0,10,34,49,6
+DOID:824,periodontitis,59,0,0,13,21,1
+DOID:8398,osteoarthritis,62,0,25,24,36,6
+DOID:8577,ulcerative colitis,121,16,0,25,20,8
+DOID:8778,Crohn's disease,120,6,2,25,24,9
+DOID:8850,salivary gland cancer,118,0,0,11,35,11
+DOID:8893,psoriasis,92,21,4,25,24,10
+DOID:8986,narcolepsy,27,0,5,22,14,1
+DOID:90,degenerative disc disease,14,0,0,8,6,0
+DOID:9008,psoriatic arthritis,26,8,0,6,27,8
+DOID:9074,systemic lupus erythematosus,155,13,7,35,36,9
+DOID:9206,Barrett's esophagus,24,2,0,6,6,3
+DOID:9296,cleft lip,54,0,0,24,39,0
+DOID:9352,type 2 diabetes mellitus,275,22,0,14,38,8
+DOID:9744,type 1 diabetes mellitus,131,1,2,26,34,3
+DOID:9835,refractive error,98,0,0,32,23,3
+DOID:986,alopecia areata,12,1,0,7,8,3
+DOID:9917,pleural cancer,0,0,0,0,0,0
+DOID:9970,obesity,373,11,0,17,33,5
