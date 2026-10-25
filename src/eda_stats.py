@@ -25,6 +25,11 @@ def auroc(pos: Sequence[float], neg: Sequence[float]) -> float:
     return float(u / (n_pos * n_neg))
 
 
+def spearman(x: pd.Series, y: pd.Series) -> float:
+    """Spearman rank correlation: Pearson on average ranks (no scipy)."""
+    return float(x.rank().corr(y.rank()))
+
+
 def degree_summary(degrees: pd.DataFrame) -> pd.DataFrame:
     def one(g: pd.DataFrame) -> pd.Series:
         d = g["degree"]
@@ -99,3 +104,11 @@ def pair_scores(
     treated = set(zip(treats["compound"], treats["disease"]))
     out["treated"] = [(c, d) in treated for c, d in zip(out["compound"], out["disease"])]
     return out
+
+
+def metapath_auroc(paths: pd.DataFrame, treatments: pd.DataFrame, degrees: pd.DataFrame) -> float:
+    """AUROC of path counts separating treated from untreated Compound x Disease pairs."""
+    compounds = degrees.loc[degrees["label"] == "Compound", "id"].tolist()
+    diseases = degrees.loc[degrees["label"] == "Disease", "id"].tolist()
+    ps = pair_scores(paths, treatments, compounds, diseases)
+    return auroc(ps.loc[ps["treated"], "paths"], ps.loc[~ps["treated"], "paths"])

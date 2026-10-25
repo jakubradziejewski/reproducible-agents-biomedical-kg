@@ -86,5 +86,11 @@ uv run python src/run_experiments.py --models qwen3.8-27b --reps 3
 | `--reps N` | Repeat each question N times (repeatability) |
 | `--max-steps N` | Max tool calls per run (default 6) |
 
+## Exploratory analysis
 
+An exploratory analysis of Hetionet (sizes, degree distributions, data quirks, a repurposing-signal check and what they mean for the benchmark) is in [`reports/eda/REPORT.md`](reports/eda/REPORT.md).
 
+```powershell
+uv run python src/eda_queries.py     # fetch and cache datasets in data/eda/ (needs the server)
+uv run python src/eda_report.py      # offline: figures plus reports/eda/REPORT.md
+```

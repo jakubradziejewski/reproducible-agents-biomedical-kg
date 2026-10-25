@@ -17,7 +17,7 @@ import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
 from matplotlib.colors import LinearSegmentedColormap, LogNorm  # noqa: E402
 
-from eda_stats import auroc, coverage, completeness, pair_scores  # noqa: E402
+from eda_stats import coverage, completeness, metapath_auroc, pair_scores, spearman  # noqa: E402
 
 SURFACE = "#fcfcfb"
 INK = "#0b0b0b"
@@ -53,7 +53,7 @@ def _fig(w: float, h: float, **kw):
 def _save(fig, out_dir: Path, key: str) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"{key}.png"
-    fig.savefig(path)
+    fig.savefig(path, metadata={"Software": None})
     plt.close(fig)
     return path
 
@@ -202,13 +202,9 @@ def fig_treatments_per_disease(data, out_dir: Path) -> Path:
     return _save(fig, out_dir, "treatments_per_disease")
 
 
-def _spearman(x: pd.Series, y: pd.Series) -> float:
-    return float(x.rank().corr(y.rank()))  # Pearson on ranks; no scipy needed
-
-
 def fig_gene_study_bias(data, out_dir: Path) -> Path:
     g = data["gene_profile"]
-    rho = _spearman(g["bound_by"], g["interacts"])
+    rho = spearman(g["bound_by"], g["interacts"])
     fig, ax = _fig(8, 6.5)
     ax.scatter(np.log1p(g["bound_by"]), np.log1p(g["interacts"]), s=6, color=BLUE,
                alpha=0.25, linewidths=0)
@@ -272,7 +268,7 @@ def fig_metapath_signal(data, out_dir: Path) -> Path:
     fig, axes = plt.subplots(1, 2, figsize=(11, 4.6), sharey=True)
     for ax, (key, name) in zip(axes, panels):
         ps = pair_scores(data[key], data["treatments"], compounds, diseases)
-        auc = auroc(ps.loc[ps["treated"], "paths"], ps.loc[~ps["treated"], "paths"])
+        auc = metapath_auroc(data[key], data["treatments"], deg)
         for treated, color, lab in [(True, BLUE, "treated"), (False, ORANGE, "untreated")]:
             x = np.sort(np.log1p(ps.loc[ps["treated"] == treated, "paths"].to_numpy()))
             ax.step(x, np.arange(1, len(x) + 1) / len(x), where="post", color=color, lw=1.8,

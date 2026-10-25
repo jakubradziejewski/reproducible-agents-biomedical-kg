@@ -7,7 +7,7 @@ import eda_queries
 from db import is_read_only
 from eda_stats import (
     auroc, completeness, coverage, cross_label_names, degree_summary, gini,
-    name_quirks, pair_scores, top_hubs,
+    metapath_auroc, name_quirks, pair_scores, spearman, top_hubs,
 )
 
 
@@ -100,3 +100,14 @@ def test_all_dataset_queries_read_only():
     for q in qs:
         fields = {f for _, f, _, _ in string.Formatter().parse(q) if f}
         assert is_read_only(q.format(**dict.fromkeys(fields, "DUMMY"))), q
+
+
+def test_spearman_monotone_and_inverse():
+    x = pd.Series([1, 2, 3, 4])
+    assert spearman(x, pd.Series([10, 100, 1000, 5000])) == pytest.approx(1.0)
+    assert spearman(x, pd.Series([4, 3, 2, 1])) == pytest.approx(-1.0)
+
+
+def test_metapath_auroc_in_unit_interval(tiny_data):
+    a = metapath_auroc(tiny_data["cbgad_paths"], tiny_data["treatments"], tiny_data["degrees"])
+    assert 0.0 <= a <= 1.0

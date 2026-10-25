@@ -8,7 +8,7 @@ A benchmark of how accurately and how *reproducibly* LLM agents answer drug-repu
 
 ## Commands
 
-Uses uv (Python >=3.12). There is no test framework or linter configured.
+Uses uv (Python >=3.12). Tests run with `uv run pytest`; no linter is configured.
 
 ```bash
 uv sync
@@ -18,6 +18,9 @@ uv run python src/evaluate.py           # self-test of the scorer against the go
 uv run python src/run_experiments.py --models qwen3.8-27b --only q01            # single question
 uv run python src/run_experiments.py --models a,b --reps 3 --max-steps 6        # full run
 uv run python src/check_log.py [results/pilot_*.jsonl]   # re-check faithfulness offline (default: newest log)
+uv run python src/eda_queries.py [--refresh]   # fills the data/eda/ cache from the live server
+uv run python src/eda_report.py         # offline: figures plus reports/eda/REPORT.md
+uv run pytest                           # unit tests
 ```
 
 Always run from the repo root: modules import each other flatly (`from db import run_cypher`, scripts live in `src/`) and open `data/...`/`results/...` by relative path. Running agents needs `.env` with `LLM_BASE_URL` and `LLM_API_KEY` (see `.env.example`); DB-only scripts don't.
