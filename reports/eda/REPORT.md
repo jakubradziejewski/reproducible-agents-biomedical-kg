@@ -54,7 +54,7 @@ Gene degree has Gini 0.54 and median 82, but the top hub, UBC, has 9,372 edges. 
 
 ![Share of nodes with an edge, per relationship type](figures/coverage_heatmap.png)
 
-8.1% of genes are bound by a compound (BINDS_CbG) and 24.9% of compounds treat a disease (TREATS_CtD). The lowest source-side coverage is DOWNREGULATES_AdG (9.0%).
+8.1% of genes are bound by a compound (BINDS_CbG) and 24.9% of compounds treat a disease (TREATS_CtD). The lowest source-side coverage is 9.0% for 2 types (DOWNREGULATES_AdG, UPREGULATES_AuG).
 
 ### B5. Completeness
 
@@ -62,11 +62,11 @@ Gene degree has Gini 0.54 and median 82, but the top hub, UBC, has 9,372 edges. 
 
 3 of 132 label-property combinations are less than fully populated; the emptiest are Pathway.url (16.1%), Anatomy.bto_id (61.7%), Gene.chromosome (99.8%).
 
-### B6. Sources and bias flag
+### B6. Provenance
 
 ![Unbiased share of edges per relationship type](figures/unbiased_share.png)
 
-Edges come from 40 distinct sources. The share of edges flagged unbiased ranges from 0.0% (BINDS_CbG) to 100.0% (UPREGULATES_DuG).
+Edges come from 40 distinct sources. The share of edges flagged unbiased ranges from 0.0% for 12 types (BINDS_CbG, CAUSES_CcSE, INCLUDES_PCiC, ...) to 100.0% for 9 types (COVARIES_GcG, DOWNREGULATES_AdG, DOWNREGULATES_CdG, ...).
 
 ## 2. Data quirks
 

@@ -23,7 +23,7 @@ def test_render_links_every_figure_and_has_no_nan(tiny_data, tmp_path):
     figs = make_all(tiny_data, tmp_path / "figures")
     md = render(tiny_data, compute_facts(tiny_data), figs)
     assert all(f"figures/{p.name}" in md for p in figs.values())
-    assert "nan" not in md.lower() and "## Key takeaways" in md
+    assert not re.search(r"\bnan\b", md, re.I) and "## Key takeaways" in md
 
 
 def test_main_without_cache_names_command(tmp_path, monkeypatch):

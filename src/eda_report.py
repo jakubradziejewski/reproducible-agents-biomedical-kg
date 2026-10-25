@@ -57,6 +57,21 @@ def _names(items: list[str], k: int = 5) -> str:
     return shown + (", ..." if len(items) > k else "")
 
 
+def _ranked(s: pd.Series, descending: bool = True) -> list[tuple[Any, float]]:
+    """(key, value) pairs ordered by value, ties broken alphabetically by key."""
+    sign = -1 if descending else 1
+    return sorted(s.items(), key=lambda kv: (sign * kv[1], str(kv[0])))
+
+
+def _extreme(ranked: list[tuple[Any, float]], fmt, what: str = "types") -> str:
+    """Describe the first value of a ranking, naming the ties if several keys share it."""
+    top = ranked[0][1]
+    tied = [str(k) for k, v in ranked if v == top]
+    if len(tied) == 1:
+        return f"{fmt(top)} ({tied[0]})"
+    return f"{fmt(top)} for {len(tied)} {what} ({_names(tied, 3)})"
+
+
 def _frac(cov: pd.DataFrame, rel: str, side: str) -> float:
     return float(cov.loc[cov["rel_type"] == rel, side].iloc[0])
 
@@ -64,7 +79,8 @@ def _frac(cov: pd.DataFrame, rel: str, side: str) -> float:
 # ---------------------------------------------------------------- facts
 def compute_facts(data: dict[str, pd.DataFrame]) -> dict[str, Any]:
     deg, ec = data["degrees"], data["edge_counts"]
-    by_rel = ec.groupby("rel_type")["n"].sum().sort_values(ascending=False)
+    by_rel = ec.groupby("rel_type")["n"].sum()
+    top2 = _ranked(by_rel)[:2]
     summ = st.degree_summary(deg)
     cov = st.coverage(data["rel_coverage"], data["node_counts"])
     dp, tr, sym = data["disease_profile"], data["treatments"], data["symmetry"]
@@ -79,8 +95,8 @@ def compute_facts(data: dict[str, pd.DataFrame]) -> dict[str, Any]:
         "n_edges": int(ec["n"].sum()),
         "n_labels": int(data["node_counts"]["label"].nunique()),
         "n_rel_types": int(by_rel.size),
-        "top2_rel_share": float(by_rel.head(2).sum() / by_rel.sum()),
-        "top2_rel_types": list(by_rel.head(2).index),
+        "top2_rel_share": float(sum(v for _, v in top2) / by_rel.sum()),
+        "top2_rel_types": [k for k, _ in top2],
         "gene_gini": st.gini(gene_deg),
         "gene_median_degree": float(gene_deg.median()),
         "isolated_by_label": {k: int(v) for k, v in sorted(summ["isolated"].items())},
@@ -150,19 +166,18 @@ def _fig(figs: dict[str, Path], key: str, alt: str) -> str:
 
 def _basic(data, f, figs) -> list[str]:
     ec, nc, deg = data["edge_counts"], data["node_counts"], data["degrees"]
-    by_rel = ec.groupby("rel_type")["n"].sum().sort_values(ascending=False)
+    rel_rank = _ranked(ec.groupby("rel_type")["n"].sum())
     top_label = nc.sort_values(["n", "label"], ascending=[False, True]).iloc[0]
     pairs = ec[["src", "dst"]].drop_duplicates()
-    pair_n = ec.groupby(["src", "dst"])["n"].sum().sort_values(ascending=False)
-    (ds, dd), dn = pair_n.index[0], pair_n.iloc[0]
+    (ds, dd), dn = _ranked(ec.groupby(["src", "dst"])["n"].sum())[0]
     cov = st.coverage(data["rel_coverage"], nc)
     comp = st.completeness(data["node_props"], nc)
     stacked = comp.stack()
     partial = stacked[stacked < 1]
-    lowest = partial.sort_values().head(3)
-    low_txt = ", ".join(f"{lab}.{prop} ({_pct(v)})" for (lab, prop), v in lowest.items())
+    lowest = _ranked(partial, descending=False)[:3]
+    low_txt = ", ".join(f"{lab}.{prop} ({_pct(v)})" for (lab, prop), v in lowest)
     unb = ec.groupby("rel_type")[["n", "n_unbiased"]].sum()
-    unb_share = (unb["n_unbiased"] / unb["n"]).sort_values()
+    unb_share = unb["n_unbiased"] / unb["n"]
     es = data["edge_sources"]
     summ = st.degree_summary(deg)
     return [
@@ -170,8 +185,8 @@ def _basic(data, f, figs) -> list[str]:
         "### B1. Size", "",
         _fig(figs, "counts", "Nodes per label and edges per relationship type"), "",
         f"{top_label['label']} is the largest label with {_n(top_label['n'])} of {_n(f['n_nodes'])} "
-        f"nodes. {by_rel.index[0]} is the largest relationship type with {_n(by_rel.iloc[0])} edges; "
-        f"the smallest is {by_rel.index[-1]} with {_n(by_rel.iloc[-1])}.", "",
+        f"nodes. {rel_rank[0][0]} is the largest relationship type with {_n(rel_rank[0][1])} edges; "
+        f"the smallest is {rel_rank[-1][0]} with {_n(rel_rank[-1][1])}.", "",
         "### B2. Metagraph", "",
         _fig(figs, "metagraph_heatmap", "Edges between node labels"), "",
         f"{len(pairs)} directed label pairs are connected by at least one relationship type. "
@@ -186,17 +201,17 @@ def _basic(data, f, figs) -> list[str]:
         _fig(figs, "coverage_heatmap", "Share of nodes with an edge, per relationship type"), "",
         f"{_pct(f['pct_genes_bound'])} of genes are bound by a compound (BINDS_CbG) and "
         f"{_pct(f['pct_compounds_treating'])} of compounds treat a disease (TREATS_CtD). "
-        f"The lowest source-side coverage is {cov.sort_values('src_frac').iloc[0]['rel_type']} "
-        f"({_pct(cov['src_frac'].min())}).", "",
+        f"The lowest source-side coverage is "
+        f"{_extreme(_ranked(cov.set_index('rel_type')['src_frac'], descending=False), _pct)}.", "",
         "### B5. Completeness", "",
         _fig(figs, "completeness_heatmap", "Property completeness per label"), "",
         f"{len(partial)} of {len(stacked)} label-property combinations are less than fully "
         f"populated" + (f"; the emptiest are {low_txt}." if len(partial) else "."), "",
-        "### B6. Sources and bias flag", "",
+        "### B6. Provenance", "",
         _fig(figs, "unbiased_share", "Unbiased share of edges per relationship type"), "",
         f"Edges come from {es['source'].nunique()} distinct sources. The share of edges flagged "
-        f"unbiased ranges from {_pct(unb_share.iloc[0])} ({unb_share.index[0]}) to "
-        f"{_pct(unb_share.iloc[-1])} ({unb_share.index[-1]}).", "",
+        f"unbiased ranges from {_extreme(_ranked(unb_share, descending=False), _pct)} to "
+        f"{_extreme(_ranked(unb_share), _pct)}.", "",
     ]
 
 
