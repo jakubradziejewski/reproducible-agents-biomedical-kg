@@ -1,0 +1,7 @@
+name,id_a,id_b,source_a,source_b,genes_a,genes_b,shared
+Apoptosis,PC7_1684,WP254_r84652,Reactome via Pathway Commons,WikiPathways,155,84,36
+Cell Cycle,PC7_2519,WP179_r70629,Reactome via Pathway Commons,WikiPathways,544,102,71
+DNA Replication,PC7_2951,WP466_r79981,Reactome via Pathway Commons,WikiPathways,104,42,42
+Glucuronidation,PC7_4214,WP698_r79224,Reactome via Pathway Commons,WikiPathways,20,26,19
+Notch Signaling Pathway,WP268_r70096,WP61_r78592,WikiPathways,WikiPathways,45,61,27
+Striated Muscle Contraction,PC7_7682,WP383_r80200,Reactome via Pathway Commons,WikiPathways,31,38,31

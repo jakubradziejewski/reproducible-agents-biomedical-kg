@@ -1,0 +1,30 @@
+gene,name,chromosome,description,degree
+100288966,LOC100288966,Un,POTE ankyrin domain family member D-like,0
+101928318,LOC101928318,Un,nucleolar protein 58-like,0
+102723382,LOC102723382,Un,ankyrin repeat domain-containing protein 20B-like,0
+102723822,LOC102723822,Un,nucleolar GTP-binding protein 1-like,0
+102723891,LOC102723891,Un,ankyrin repeat domain-containing protein 20B-like,0
+105379422,LOC105379422,Un,octapeptide-repeat protein T2-like,0
+105379423,LOC105379423,Un,putative uncharacterized protein DDB_G0271982,0
+105379554,LOC105379554,Un,maFF-interacting protein,0
+105379557,LOC105379557,Un,histone-lysine N-methyltransferase 2C-like,0
+105379561,LOC105379561,Un,uncharacterized LOC105379561,0
+642249,LOC642249,Un,uncharacterized LOC642249,0
+8227,AKAP17A,X|Y,A kinase (PRKA) anchor protein 17A,127
+438,ASMT,X|Y,acetylserotonin O-methyltransferase,52
+8623,ASMTL,X|Y,acetylserotonin O-methyltransferase-like,124
+4267,CD99,X|Y,CD99 molecule,126
+64109,CRLF2,X|Y,cytokine receptor-like factor 2,12
+1438,CSF2RA,X|Y,"colony stimulating factor 2 receptor, alpha, low-affinity (granulocyte-macrophage)",119
+207063,DHRSX,X|Y,dehydrogenase/reductase (SDR family) X-linked,45
+8225,GTPBP6,X|Y,GTP binding protein 6 (putative),55
+3563,IL3RA,X|Y,"interleukin 3 receptor, alpha (low affinity)",150
+3581,IL9R,X|Y,interleukin 9 receptor,42
+286530,P2RY8,X|Y,"purinergic receptor P2Y, G-protein coupled, 8",94
+55344,PLCXD1,X|Y,"phosphatidylinositol-specific phospholipase C, X domain containing 1",41
+28227,PPP2R3B,X|Y,"protein phosphatase 2, regulatory subunit B'', beta",92
+6473,SHOX,X|Y,short stature homeobox,11
+293,SLC25A6,X|Y,"solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 6",621
+10251,SPRY3,X|Y,sprouty homolog 3 (Drosophila),136
+6845,VAMP7,X|Y,vesicle-associated membrane protein 7,364
+9189,ZBED1,X|Y,"zinc finger, BED-type containing 1",110

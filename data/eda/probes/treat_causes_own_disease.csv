@@ -1,0 +1,62 @@
+compound,compound_name,disease,side_effect
+DB00705,Delavirdine,acquired immunodeficiency syndrome,C0001175
+DB00900,Didanosine,acquired immunodeficiency syndrome,C0001175
+DB00224,Indinavir,acquired immunodeficiency syndrome,C0001175
+DB00495,Zidovudine,acquired immunodeficiency syndrome,C0001175
+DB01274,Arformoterol,asthma,C0004096
+DB00588,Fluticasone Propionate,asthma,C0004096
+DB00983,Formoterol,asthma,C0004096
+DB05039,Indacaterol,asthma,C0004096
+DB00332,Ipratropium bromide,asthma,C0004096
+DB00764,Mometasone,asthma,C0004096
+DB00471,Montelukast,asthma,C0004096
+DB00816,Orciprenaline,asthma,C0004096
+DB01001,Salbutamol,asthma,C0004096
+DB00938,Salmeterol,asthma,C0004096
+DB00620,Triamcinolone,asthma,C0004096
+DB01248,Docetaxel,breast cancer,C0006142
+DB00441,Gemcitabine,breast cancer,C0006142
+DB01223,Aminophylline,chronic obstructive pulmonary disease,C0024117
+DB01274,Arformoterol,chronic obstructive pulmonary disease,C0024117
+DB00983,Formoterol,chronic obstructive pulmonary disease,C0024117
+DB00762,Irinotecan,colon cancer,C0007102
+DB00700,Eplerenone,coronary artery disease,C1956346
+DB01039,Fenofibrate,coronary artery disease,C1956346
+DB00373,Timolol,coronary artery disease,C1956346
+DB00484,Brimonidine,glaucoma,C0017601
+DB00437,Allopurinol,gout,C0018099
+DB01394,Colchicine,gout,C0018099
+DB00328,Indomethacin,gout,C0018099
+DB01244,Bepridil,hypertension,C0020538
+DB00796,Candesartan,hypertension,C0020538
+DB01136,Carvedilol,hypertension,C0020538
+DB00590,Doxazosin,hypertension,C0020538
+DB00492,Fosinopril,hypertension,C0020538
+DB00629,Guanabenz,hypertension,C0020538
+DB01018,Guanfacine,hypertension,C0020538
+DB01029,Irbesartan,hypertension,C0020538
+DB00598,Labetalol,hypertension,C0020538
+DB00524,Metolazone,hypertension,C0020538
+DB00264,Metoprolol,hypertension,C0020538
+DB01203,Nadolol,hypertension,C0020538
+DB00622,Nicardipine,hypertension,C0020538
+DB00790,Perindopril,hypertension,C0020538
+DB00966,Telmisartan,hypertension,C0020538
+DB00373,Timolol,hypertension,C0020538
+DB00661,Verapamil,hypertension,C0020538
+DB00996,Gabapentin,migraine,C0149931
+DB00273,Topiramate,migraine,C0149931
+DB01083,Orlistat,obesity,C0028754
+DB00273,Topiramate,obesity,C0028754
+DB00153,Ergocalciferol,osteoporosis,C0029456
+DB01077,Etidronic acid,osteoporosis,C0029456
+DB00488,Altretamine,ovarian cancer,C1140680
+DB01248,Docetaxel,ovarian cancer,C1140680
+DB00459,Acitretin,psoriasis,C0033860
+DB00136,Calcitriol,psoriasis,C0033860
+DB01013,Clobetasol propionate,psoriasis,C0033860
+DB00091,Cyclosporine,psoriasis,C0033860
+DB00563,Methotrexate,psoriasis,C0033860
+DB00091,Cyclosporine,rheumatoid arthritis,C0003873
+DB00620,Triamcinolone,systemic lupus erythematosus,C0024141
+DB01200,Bromocriptine,type 2 diabetes mellitus,C0011860

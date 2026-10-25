@@ -1,0 +1,403 @@
+id,name,expresses,up,down,diseases
+UBERON:0000002,uterine cervix,7939,2125,1805,7
+UBERON:0000004,nose,24,0,0,9
+UBERON:0000006,islet of Langerhans,5015,0,0,6
+UBERON:0000007,pituitary gland,9170,3210,3581,10
+UBERON:0000010,peripheral nervous system,293,0,0,9
+UBERON:0000011,parasympathetic nervous system,1,0,0,16
+UBERON:0000013,sympathetic nervous system,36,0,0,12
+UBERON:0000020,sense organ,3071,0,0,0
+UBERON:0000026,appendage,189,0,0,11
+UBERON:0000029,lymph node,12138,2436,2300,36
+UBERON:0000033,head,11952,0,0,15
+UBERON:0000038,follicular fluid,15,0,0,2
+UBERON:0000042,serous membrane,0,0,0,9
+UBERON:0000043,tendon,9381,0,0,13
+UBERON:0000045,ganglion,1014,0,0,5
+UBERON:0000053,macula lutea,2,0,0,5
+UBERON:0000054,macula,0,0,0,2
+UBERON:0000056,ureter,9,0,0,13
+UBERON:0000057,urethra,7627,3845,1463,9
+UBERON:0000165,mouth,1560,0,0,9
+UBERON:0000178,blood,10136,4461,6182,12
+UBERON:0000211,ligament,0,0,0,13
+UBERON:0000473,testis,15036,4939,3891,13
+UBERON:0000474,female reproductive system,11437,0,0,10
+UBERON:0000482,basal lamina of epithelium,0,0,0,21
+UBERON:0000483,epithelium,1511,0,0,36
+UBERON:0000922,embryo,2045,0,0,16
+UBERON:0000941,cranial nerve II,0,0,0,14
+UBERON:0000946,cardial valve,6,0,0,7
+UBERON:0000948,heart,11702,3728,4263,5
+UBERON:0000949,endocrine system,0,0,0,8
+UBERON:0000955,brain,14853,4623,4130,27
+UBERON:0000959,optic chiasma,0,0,0,8
+UBERON:0000964,cornea,58,0,0,4
+UBERON:0000966,retina,3710,0,0,12
+UBERON:0000970,eye,3957,0,0,11
+UBERON:0000974,neck,1222,0,0,17
+UBERON:0000975,sternum,2,0,0,13
+UBERON:0000977,pleura,12,0,0,9
+UBERON:0000978,leg,89,0,0,12
+UBERON:0000982,skeletal joint,78,0,0,7
+UBERON:0000985,axillary vein,0,0,0,4
+UBERON:0000988,pons,56,0,0,17
+UBERON:0000989,penis,54,0,0,13
+UBERON:0000991,gonad,7184,0,0,12
+UBERON:0000992,female gonad,11139,2645,1749,13
+UBERON:0000993,oviduct,573,0,0,3
+UBERON:0000995,uterus,6741,1037,1358,13
+UBERON:0000996,vagina,10502,2069,1688,14
+UBERON:0000997,mammalian vulva,7762,2626,3093,10
+UBERON:0000998,seminal vesicle,6378,0,0,6
+UBERON:0000999,ejaculatory duct,1,0,0,3
+UBERON:0001000,vas deferens,12,0,0,5
+UBERON:0001003,skin epidermis,366,0,0,9
+UBERON:0001004,respiratory system,5788,0,0,6
+UBERON:0001007,digestive system,5671,0,0,19
+UBERON:0001008,renal system,5968,0,0,11
+UBERON:0001011,hemolymph,6,0,0,1
+UBERON:0001013,adipose tissue,11580,3113,2022,8
+UBERON:0001016,nervous system,11380,0,0,18
+UBERON:0001017,central nervous system,11261,0,0,20
+UBERON:0001021,nerve,351,0,0,14
+UBERON:0001031,sheath of Schwann,1,0,0,4
+UBERON:0001037,strand of hair,69,0,0,15
+UBERON:0001044,saliva-secreting gland,5523,2299,2919,7
+UBERON:0001064,ventral pancreatic duct,14,0,0,6
+UBERON:0001067,vertebral arch joint,0,0,0,4
+UBERON:0001070,external carotid artery,2,0,0,11
+UBERON:0001072,posterior vena cava,6,0,0,11
+UBERON:0001088,urine,108,0,0,18
+UBERON:0001089,sweat,7,0,0,12
+UBERON:0001090,synovial fluid,23,0,0,8
+UBERON:0001093,vertebral bone 2,0,0,0,4
+UBERON:0001103,diaphragm,9,0,0,17
+UBERON:0001105,clavicle bone,0,0,0,8
+UBERON:0001111,intercostal muscle,1,0,0,6
+UBERON:0001130,vertebral column,97,0,0,10
+UBERON:0001132,parathyroid gland,105,0,0,10
+UBERON:0001135,smooth muscle tissue,2713,1180,1624,22
+UBERON:0001140,renal vein,3,0,0,10
+UBERON:0001143,hepatic vein,0,0,0,5
+UBERON:0001148,median nerve,0,0,0,11
+UBERON:0001174,common bile duct,0,0,0,9
+UBERON:0001175,common hepatic duct,0,0,0,7
+UBERON:0001182,superior mesenteric artery,1,0,0,18
+UBERON:0001183,inferior mesenteric artery,1,0,0,4
+UBERON:0001184,renal artery,9,0,0,9
+UBERON:0001193,hepatic artery,10,0,0,9
+UBERON:0001194,splenic artery,0,0,0,9
+UBERON:0001224,renal pelvis,0,0,0,4
+UBERON:0001225,cortex of kidney,7632,2469,2648,10
+UBERON:0001228,renal papilla,3,0,0,4
+UBERON:0001231,nephron tubule,4702,0,0,11
+UBERON:0001232,collecting duct of renal tubule,37,0,0,4
+UBERON:0001235,adrenal cortex,5980,2294,2052,9
+UBERON:0001236,adrenal medulla,52,0,0,3
+UBERON:0001237,paraaortic body,0,0,0,6
+UBERON:0001264,pancreas,5587,0,0,13
+UBERON:0001267,femoral nerve,0,0,0,5
+UBERON:0001283,bile canaliculus,4,0,0,3
+UBERON:0001285,nephron,160,0,0,7
+UBERON:0001288,loop of Henle,12,0,0,3
+UBERON:0001295,endometrium,7937,2642,2361,9
+UBERON:0001296,myometrium,7422,2812,2410,4
+UBERON:0001300,scrotum,6,0,0,16
+UBERON:0001305,ovarian follicle,55,0,0,4
+UBERON:0001310,umbilical artery,7,0,0,5
+UBERON:0001322,sciatic nerve,24,0,0,10
+UBERON:0001323,tibial nerve,0,0,0,10
+UBERON:0001324,common fibular nerve,0,0,0,9
+UBERON:0001343,seminiferous tubule of testis,36,0,0,5
+UBERON:0001348,brown adipose tissue,124,0,0,5
+UBERON:0001352,external acoustic meatus,0,0,0,9
+UBERON:0001361,femoral vein,0,0,0,9
+UBERON:0001365,sacro-iliac joint,0,0,0,11
+UBERON:0001394,axillary artery,0,0,0,7
+UBERON:0001398,brachial artery,0,0,0,12
+UBERON:0001404,radial artery,0,0,0,5
+UBERON:0001406,ulnar artery,0,0,0,4
+UBERON:0001437,epiphysis,1,0,0,7
+UBERON:0001456,face,0,0,0,18
+UBERON:0001460,arm,106,0,0,15
+UBERON:0001461,elbow,0,0,0,11
+UBERON:0001463,manual digit 1,0,0,0,9
+UBERON:0001464,hip,5,0,0,8
+UBERON:0001465,knee,34,0,0,7
+UBERON:0001467,shoulder,0,0,0,12
+UBERON:0001469,sternoclavicular joint,0,0,0,6
+UBERON:0001470,glenohumeral joint,0,0,0,7
+UBERON:0001479,sesamoid bone,0,0,0,4
+UBERON:0001484,articular capsule,0,0,0,3
+UBERON:0001485,knee joint,0,0,0,7
+UBERON:0001486,hip joint,2,0,0,6
+UBERON:0001488,ankle joint,2,0,0,7
+UBERON:0001490,elbow joint,0,0,0,7
+UBERON:0001492,radial nerve,0,0,0,5
+UBERON:0001494,ulnar nerve,0,0,0,9
+UBERON:0001515,thoracic aorta,6,0,0,8
+UBERON:0001516,abdominal aorta,3,0,0,9
+UBERON:0001529,brachiocephalic artery,0,0,0,6
+UBERON:0001530,common carotid artery plus branches,0,0,0,14
+UBERON:0001532,internal carotid artery,7,0,0,8
+UBERON:0001533,subclavian artery,0,0,0,11
+UBERON:0001535,vertebral artery,0,0,0,10
+UBERON:0001544,popliteal vein,0,0,0,3
+UBERON:0001567,cheek,6,0,0,10
+UBERON:0001577,facial muscle,0,0,0,16
+UBERON:0001579,olfactory nerve,3,0,0,6
+UBERON:0001585,anterior vena cava,3,0,0,10
+UBERON:0001587,subclavian vein,0,0,0,10
+UBERON:0001594,azygos vein,0,0,0,6
+UBERON:0001597,masseter muscle,8,0,0,12
+UBERON:0001598,temporalis muscle,0,0,0,9
+UBERON:0001599,stapedius muscle,0,0,0,4
+UBERON:0001600,tensor tympani,0,0,0,1
+UBERON:0001616,maxillary artery,0,0,0,4
+UBERON:0001619,ophthalmic artery,0,0,0,8
+UBERON:0001620,central retinal artery,0,0,0,10
+UBERON:0001624,anterior cerebral artery,0,0,0,2
+UBERON:0001627,middle cerebral artery,17,0,0,6
+UBERON:0001633,basilar artery,0,0,0,4
+UBERON:0001636,posterior cerebral artery,0,0,0,2
+UBERON:0001637,artery,344,0,0,14
+UBERON:0001638,vein,30,0,0,17
+UBERON:0001640,celiac artery,0,0,0,15
+UBERON:0001643,oculomotor nerve,0,0,0,11
+UBERON:0001644,trochlear nerve,0,0,0,6
+UBERON:0001645,trigeminal nerve,36,0,0,11
+UBERON:0001646,abducens nerve,0,0,0,9
+UBERON:0001647,facial nerve,0,0,0,10
+UBERON:0001648,vestibulocochlear nerve,3,0,0,7
+UBERON:0001649,glossopharyngeal nerve,0,0,0,9
+UBERON:0001650,hypoglossal nerve,0,0,0,9
+UBERON:0001673,central retinal vein,0,0,0,10
+UBERON:0001675,trigeminal ganglion,7496,2739,3031,4
+UBERON:0001676,occipital bone,0,0,0,13
+UBERON:0001677,sphenoid bone,0,0,0,11
+UBERON:0001678,temporal bone,0,0,0,13
+UBERON:0001679,ethmoid bone,0,0,0,11
+UBERON:0001681,nasal bone,0,0,0,4
+UBERON:0001684,mandible,20,0,0,10
+UBERON:0001685,hyoid bone,0,0,0,6
+UBERON:0001687,stapes bone,0,0,0,1
+UBERON:0001688,incus bone,0,0,0,1
+UBERON:0001689,malleus bone,0,0,0,1
+UBERON:0001690,ear,103,0,0,15
+UBERON:0001691,external ear,7,0,0,12
+UBERON:0001694,petrous part of temporal bone,0,0,0,12
+UBERON:0001697,orbit of skull,5,0,0,14
+UBERON:0001700,geniculate ganglion,0,0,0,3
+UBERON:0001702,eyelash,0,0,0,10
+UBERON:0001705,nail,3,0,0,10
+UBERON:0001707,nasal cavity,4,0,0,10
+UBERON:0001708,jaw skeleton,30,0,0,10
+UBERON:0001710,lower jaw region,0,0,0,10
+UBERON:0001711,eyelid,15,0,0,12
+UBERON:0001716,secondary palate,26,0,0,9
+UBERON:0001717,spinal nucleus of trigeminal nerve,0,0,0,1
+UBERON:0001720,cochlear nucleus,0,0,0,3
+UBERON:0001723,tongue,434,0,0,12
+UBERON:0001724,sphenoidal sinus,0,0,0,10
+UBERON:0001733,soft palate,0,0,0,5
+UBERON:0001734,palatine uvula,0,0,0,6
+UBERON:0001736,submandibular gland,16,0,0,6
+UBERON:0001737,larynx,94,0,0,8
+UBERON:0001744,lymphoid tissue,4543,0,0,23
+UBERON:0001750,lacrimal apparatus,0,0,0,9
+UBERON:0001756,middle ear,3,0,0,11
+UBERON:0001759,vagus nerve,36,0,0,13
+UBERON:0001760,frontal sinus,0,0,0,4
+UBERON:0001762,turbinate bone,0,0,0,6
+UBERON:0001764,maxillary sinus,0,0,0,11
+UBERON:0001768,uvea,0,0,0,5
+UBERON:0001769,iris,10,0,0,7
+UBERON:0001771,pupil,0,0,0,10
+UBERON:0001772,corneal epithelium,21,0,0,5
+UBERON:0001773,sclera,3,0,0,7
+UBERON:0001775,ciliary body,5,0,0,6
+UBERON:0001776,optic choroid,113,0,0,7
+UBERON:0001777,substantia propria of cornea,0,0,0,2
+UBERON:0001780,spinal nerve,8,0,0,10
+UBERON:0001783,optic disc,0,0,0,6
+UBERON:0001785,cranial nerve,66,0,0,14
+UBERON:0001786,fovea centralis,0,0,0,4
+UBERON:0001796,aqueous humor of eyeball,0,0,0,7
+UBERON:0001805,autonomic ganglion,0,0,0,6
+UBERON:0001814,brachial nerve plexus,0,0,0,9
+UBERON:0001815,lumbosacral nerve plexus,0,0,0,8
+UBERON:0001818,tarsal gland,8,0,0,5
+UBERON:0001820,sweat gland,9,0,0,6
+UBERON:0001821,sebaceous gland,4,0,0,9
+UBERON:0001825,paranasal sinus,0,0,0,10
+UBERON:0001827,secretion of lacrimal gland,7,0,0,13
+UBERON:0001831,parotid gland,4958,0,0,7
+UBERON:0001832,sublingual gland,4,0,0,4
+UBERON:0001833,lip,8,0,0,6
+UBERON:0001836,saliva,65,0,0,19
+UBERON:0001837,duct of salivary gland,4,0,0,4
+UBERON:0001840,semicircular canal,11,0,0,4
+UBERON:0001844,cochlea,56,0,0,9
+UBERON:0001846,internal ear,72,0,0,8
+UBERON:0001855,cochlear duct of membranous labyrinth,46,0,0,2
+UBERON:0001860,endolymphatic duct,0,0,0,3
+UBERON:0001864,scala tympani,0,0,0,0
+UBERON:0001866,sebum,2,0,0,4
+UBERON:0001884,phrenic nerve,4,0,0,8
+UBERON:0001886,choroid plexus,9,0,0,8
+UBERON:0001887,internal capsule of telencephalon,0,0,0,9
+UBERON:0001890,forebrain,4942,0,0,9
+UBERON:0001891,midbrain,7845,2869,4177,16
+UBERON:0001893,telencephalon,6857,1563,1801,8
+UBERON:0001895,metencephalon,1605,0,0,0
+UBERON:0001896,medulla oblongata,7711,2617,4224,13
+UBERON:0001905,pineal body,201,0,0,11
+UBERON:0001908,optic tract,0,0,0,15
+UBERON:0001910,medial forebrain bundle,0,0,0,3
+UBERON:0001911,mammary gland,4197,0,0,3
+UBERON:0001914,colostrum,0,0,0,5
+UBERON:0001968,semen,99,0,0,8
+UBERON:0001969,blood plasma,988,0,0,10
+UBERON:0001970,bile,25,0,0,17
+UBERON:0001971,gastric juice,9,0,0,11
+UBERON:0001980,arteriole,14,0,0,10
+UBERON:0001981,blood vessel,562,0,0,16
+UBERON:0001985,corneal endothelium,0,0,0,4
+UBERON:0001986,endothelium,306,0,0,24
+UBERON:0001988,feces,0,0,0,15
+UBERON:0001989,superior cervical ganglion,19,0,0,5
+UBERON:0002005,enteric nervous system,17,0,0,5
+UBERON:0002010,celiac nerve plexus,0,0,0,4
+UBERON:0002012,pulmonary artery,31,0,0,13
+UBERON:0002016,pulmonary vein,4,0,0,7
+UBERON:0002017,portal vein,8,0,0,16
+UBERON:0002018,synovial membrane of synovial joint,181,0,0,6
+UBERON:0002019,accessory XI nerve,0,0,0,6
+UBERON:0002028,hindbrain,1687,0,0,6
+UBERON:0002030,nipple,6745,2846,2947,3
+UBERON:0002037,cerebellum,11923,2543,2818,20
+UBERON:0002040,bronchial artery,0,0,0,6
+UBERON:0002046,thyroid gland,12082,2841,2172,11
+UBERON:0002048,lung,13003,2545,2407,13
+UBERON:0002053,zona glomerulosa of adrenal gland,14,0,0,2
+UBERON:0002054,zona fasciculata of adrenal gland,10,0,0,2
+UBERON:0002055,zona reticularis of adrenal gland,0,0,0,1
+UBERON:0002060,femoral artery,4,0,0,10
+UBERON:0002061,truncus arteriosus,0,0,0,0
+UBERON:0002066,umbilical vein,71,0,0,16
+UBERON:0002067,dermis,42,0,0,9
+UBERON:0002073,hair follicle,1532,0,0,5
+UBERON:0002081,cardiac atrium,6178,2055,2447,14
+UBERON:0002082,cardiac ventricle,5109,1656,3248,4
+UBERON:0002097,skin of body,3245,0,0,19
+UBERON:0002099,cardiac septum,0,0,0,3
+UBERON:0002102,forelimb,136,0,0,8
+UBERON:0002103,hindlimb,109,0,0,13
+UBERON:0002107,liver,11246,3441,4741,20
+UBERON:0002110,gall bladder,698,0,0,15
+UBERON:0002113,kidney,4465,0,0,16
+UBERON:0002129,cerebellar cortex,40,0,0,10
+UBERON:0002130,cerebellar nuclear complex,0,0,0,7
+UBERON:0002134,tricuspid valve,0,0,0,8
+UBERON:0002135,mitral valve,0,0,0,7
+UBERON:0002137,aortic valve,5,0,0,9
+UBERON:0002146,pulmonary valve,0,0,0,4
+UBERON:0002148,locus ceruleus,20,0,0,12
+UBERON:0002162,area postrema,10,0,0,3
+UBERON:0002165,endocardium,14,0,0,3
+UBERON:0002185,bronchus,8074,1658,1215,7
+UBERON:0002204,musculoskeletal system,0,0,0,9
+UBERON:0002205,manubrium of sternum,0,0,0,6
+UBERON:0002223,endolymphatic sac,0,0,0,5
+UBERON:0002226,basilar membrane of cochlea,0,0,0,1
+UBERON:0002228,rib,0,0,0,8
+UBERON:0002240,spinal cord,7853,2872,4320,17
+UBERON:0002250,popliteal artery,0,0,0,5
+UBERON:0002275,reticular formation,0,0,0,7
+UBERON:0002279,vestibular aqueduct,0,0,0,2
+UBERON:0002282,stria vascularis of cochlear duct,7,0,0,1
+UBERON:0002285,telencephalic ventricle,155,0,0,10
+UBERON:0002286,third ventricle,0,0,0,8
+UBERON:0002294,biliary system,0,0,0,10
+UBERON:0002297,cerumen,0,0,0,4
+UBERON:0002298,brainstem,1850,0,0,22
+UBERON:0002299,alveolus of lung,16,0,0,7
+UBERON:0002303,juxtaglomerular apparatus,0,0,0,4
+UBERON:0002347,thoracic vertebra,0,0,0,13
+UBERON:0002349,myocardium,5954,0,0,4
+UBERON:0002351,sinoatrial node,16,0,0,3
+UBERON:0002352,atrioventricular node,0,0,0,5
+UBERON:0002353,atrioventricular bundle,0,0,0,2
+UBERON:0002354,purkinje fiber,4,0,0,2
+UBERON:0002356,perineum,0,0,0,16
+UBERON:0002360,meninx,3,0,0,13
+UBERON:0002361,pia mater,0,0,0,9
+UBERON:0002362,arachnoid mater,2,0,0,8
+UBERON:0002363,dura mater,4,0,0,12
+UBERON:0002365,exocrine gland,679,0,0,10
+UBERON:0002366,bulbo-urethral gland,1,0,0,1
+UBERON:0002367,prostate gland,12589,1815,1149,2
+UBERON:0002368,endocrine gland,11574,0,0,15
+UBERON:0002369,adrenal gland,12157,5092,5866,10
+UBERON:0002371,bone marrow,7337,2285,2909,18
+UBERON:0002377,muscle of neck,0,0,0,11
+UBERON:0002378,muscle of abdomen,14,0,0,19
+UBERON:0002382,rectus abdominis muscle,0,0,0,9
+UBERON:0002384,connective tissue,2810,0,0,17
+UBERON:0002385,muscle tissue,0,0,0,22
+UBERON:0002386,forelimb zeugopod,15,0,0,13
+UBERON:0002387,pes,11,0,0,18
+UBERON:0002389,manual digit,118,0,0,19
+UBERON:0002390,hematopoietic system,6208,0,0,7
+UBERON:0002392,nasolacrimal duct,0,0,0,7
+UBERON:0002394,bile duct,22,0,0,10
+UBERON:0002397,maxilla,0,0,0,8
+UBERON:0002398,manus,118,0,0,18
+UBERON:0002405,immune system,0,0,0,20
+UBERON:0002407,pericardium,50,0,0,11
+UBERON:0002410,autonomic nervous system,53,0,0,22
+UBERON:0002411,clitoris,3,0,0,10
+UBERON:0002413,cervical vertebra,0,0,0,17
+UBERON:0002414,lumbar vertebra,0,0,0,16
+UBERON:0002418,cartilage tissue,134,0,0,11
+UBERON:0002422,fourth ventricle,14,0,0,5
+UBERON:0002439,myenteric nerve plexus,17,0,0,10
+UBERON:0002441,cervicothoracic ganglion,4,0,0,4
+UBERON:0002450,decidua,7840,0,0,8
+UBERON:0002453,ethmoid sinus,0,0,0,9
+UBERON:0002466,intestine secretion,1,0,0,9
+UBERON:0002481,bone tissue,0,0,0,14
+UBERON:0002486,glottis,14,0,0,4
+UBERON:0002494,papillary muscle of heart,0,0,0,3
+UBERON:0002497,acromion,0,0,0,3
+UBERON:0002500,zygomatic arch,0,0,0,10
+UBERON:0002501,oval window,0,0,0,1
+UBERON:0002502,round window of inner ear,0,0,0,1
+UBERON:0002512,corpus luteum,17,0,0,7
+UBERON:0002515,periosteum,101,0,0,6
+UBERON:0002516,epiphyseal plate,14,0,0,8
+UBERON:0002517,basicranium,0,0,0,10
+UBERON:0002518,otolith organ,0,0,0,5
+UBERON:0002519,otolithic part of statoconial membrane,0,0,0,4
+UBERON:0002521,elastic tissue,0,0,0,9
+UBERON:0002522,tunica media,1,0,0,14
+UBERON:0002523,tunica intima,22,0,0,15
+UBERON:0002606,neuropil,0,0,0,8
+UBERON:0002673,vestibular nuclear complex,3,0,0,5
+UBERON:0002707,corticospinal tract,0,0,0,9
+UBERON:0002741,diagonal band of Broca,8,0,0,1
+UBERON:0002925,trigeminal nucleus,7,0,0,2
+UBERON:0002944,spinothalamic tract of medulla,0,0,0,3
+UBERON:0003092,ultimobranchial body,0,0,0,2
+UBERON:0003126,trachea,6725,1858,1229,11
+UBERON:0003129,skull,55,0,0,18
+UBERON:0003216,hard palate,0,0,0,6
+UBERON:0003685,cranial suture,0,0,0,3
+UBERON:0003889,fallopian tube,0,0,0,13
+UBERON:0004288,skeleton,0,0,0,4
+UBERON:0004452,carpal region,0,0,0,9
+UBERON:0004535,cardiovascular system,4228,0,0,16
+UBERON:0004727,cochlear nerve,3,0,0,6
+UBERON:0004769,diaphysis,0,0,0,3
+UBERON:0006849,scapula,4,0,0,6

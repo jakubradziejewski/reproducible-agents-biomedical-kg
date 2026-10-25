@@ -34,7 +34,8 @@ def test_main_without_cache_names_command(tmp_path, monkeypatch):
     assert not (tmp_path / "figures").exists()
 
 
-def test_render_without_findings_has_no_section_5(tiny_data, tmp_path):
+def test_render_without_findings_has_no_section_5(tiny_data, tmp_path, monkeypatch):
+    monkeypatch.setattr(eda_report, "FINDINGS", [])
     figs = make_all(tiny_data, tmp_path / "figures")
     assert "## 5." not in render(tiny_data, compute_facts(tiny_data), figs)
 
@@ -55,3 +56,14 @@ def test_findings_within_limit_and_registered():
     assert len(eda_report.FINDINGS) <= eda_report.MAX_FINDINGS == 3
     for f in eda_report.FINDINGS:
         assert f.dataset == f"finding_{f.slug}" and f.dataset in eda_queries.DATASETS
+
+
+def test_promoted_findings_render_numbers_from_data(tiny_data, tmp_path):
+    figs = make_all(tiny_data, tmp_path / "figures")
+    md = render(tiny_data, compute_facts(tiny_data), figs)
+    section_5 = md.split("## 5. Unexpected findings")[1]
+    for f in eda_report.FINDINGS:
+        sentence = f.summarize(tiny_data[f.dataset])
+        assert re.search(r"\d", sentence) and sentence in section_5 and f.kind in section_5
+    assert "3 genes have a chromosome value outside" in section_5  # 2 X|Y + 1 Un; missing value excluded
+    assert "2 of the 3 isolated genes (66.7%)" in section_5

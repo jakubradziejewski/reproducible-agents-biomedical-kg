@@ -34,8 +34,57 @@ class Finding:
     summarize: Callable[[pd.DataFrame], str]
 
 
+def _drug_causes_indication(df: pd.DataFrame) -> str:
+    t = df[df["treaters"] > 0]
+    n, obs = int(t["treaters"].sum()), int(t["treaters_causing"].sum())
+    n_compounds = int(df["n_compounds"].iloc[0])
+    expected = float((t["treaters"] * t["causers"] / n_compounds).sum())
+    return (
+        f"Of the {_n(n)} TREATS edges into the {len(t)} treated diseases that share their name with "
+        f"a side effect, {_n(obs)} ({_pct(obs / n)}) come from a compound also listed as causing that "
+        f"side effect, {obs / expected:.1f} times the {expected:.1f} expected if treating compounds "
+        f"caused it as often as all {_n(n_compounds)} compounds do."
+    )
+
+
+STANDARD_CHROMOSOMES = {*map(str, range(1, 23)), "X", "Y", "MT"}
+
+
+def _nonstandard_chromosomes(df: pd.DataFrame) -> str:
+    chrom = df["chromosome"].astype("string")
+    odd = df.assign(chromosome=chrom)[chrom.notna() & ~chrom.isin(STANDARD_CHROMOSOMES)]
+    odd = odd.sort_values(["genes", "chromosome"], ascending=[False, True])
+    parts = ", ".join(f"{_n(r.genes)} `{r.chromosome}` ({_n(r.isolated)} isolated)"
+                      for r in odd.itertuples())
+    xy = int(odd.loc[odd["chromosome"] == "X|Y", "genes"].sum())
+    return (
+        f"{_n(odd['genes'].sum())} genes have a chromosome value outside 1-22, X, Y and MT: {parts}; "
+        f"the {_n(xy)} `X|Y` genes lie in the pseudoautosomal regions, so an exact filter such as "
+        f"`chromosome = 'X'` misses them."
+    )
+
+
+def _loc_placeholder_genes(df: pd.DataFrame) -> str:
+    iso = df[df["isolated"]]
+    loc = df[df["loc_name"]]
+    loc_iso = int(iso.loc[iso["loc_name"], "genes"].sum())
+    n_iso, n_loc = int(iso["genes"].sum()), int(loc["genes"].sum())
+    return (
+        f"{_n(loc_iso)} of the {_n(n_iso)} isolated genes ({_pct(loc_iso / n_iso)}) are uncharacterised "
+        f"`LOC` placeholder records, and {_pct(loc_iso / n_loc)} of all {_n(n_loc)} `LOC` genes have "
+        f"no edge at all."
+    )
+
+
 MAX_FINDINGS = 3
-FINDINGS: list[Finding] = []
+FINDINGS: list[Finding] = [
+    Finding("drug_causes_indication", "Drugs listed as causing the disease they treat", "unexplained",
+            "finding_drug_causes_indication", _drug_causes_indication),
+    Finding("nonstandard_chromosomes", "Multi-valued and unplaced chromosomes", "real biology",
+            "finding_nonstandard_chromosomes", _nonstandard_chromosomes),
+    Finding("loc_placeholder_genes", "Isolated genes are mostly LOC placeholders", "modelling artefact",
+            "finding_loc_placeholder_genes", _loc_placeholder_genes),
+]
 assert len(FINDINGS) <= MAX_FINDINGS
 
 

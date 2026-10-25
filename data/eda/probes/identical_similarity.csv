@@ -1,0 +1,24 @@
+compound_a,compound_b,same_skeleton,same_inchikey,treats_a,treats_b
+Alitretinoin,Isotretinoin,True,False,2,1
+Arformoterol,Formoterol,True,False,2,2
+Atropine,Hyoscyamine,True,False,0,1
+Betamethasone,Dexamethasone,True,False,11,11
+Brompheniramine,Dexbrompheniramine,True,False,0,0
+Citalopram,Escitalopram,True,False,1,0
+Cycrimine,Procyclidine,False,False,0,0
+Dextroamphetamine,Amphetamine,True,False,0,0
+Dextrothyroxine,Levothyroxine,True,False,1,1
+Doxorubicin,Epirubicin,True,False,17,14
+Levobupivacaine,Bupivacaine,True,False,0,0
+Levomilnacipran,Milnacipran,True,False,0,0
+Methadyl Acetate,Levomethadyl Acetate,True,False,0,0
+Methylphenidate,Dexmethylphenidate,True,False,0,0
+Neomycin,Framycetin,True,True,0,0
+Ofloxacin,Levofloxacin,True,False,0,0
+Pseudoephedrine,Ephedrine,True,False,0,0
+Quinine,Quinidine,True,False,1,1
+Tretinoin,Alitretinoin,True,False,1,2
+Tretinoin,Isotretinoin,True,False,1,1
+Ursodeoxycholic acid,Chenodeoxycholic acid,True,False,1,1
+Vidarabine,Adenosine,True,False,0,0
+Zopiclone,Eszopiclone,True,False,0,0

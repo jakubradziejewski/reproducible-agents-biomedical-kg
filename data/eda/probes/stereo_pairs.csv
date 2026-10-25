@@ -1,0 +1,25 @@
+compound_a,compound_b,same_inchikey,similarity
+Alitretinoin,Isotretinoin,False,1.0
+Alitretinoin,Tretinoin,False,1.0
+Amphetamine,Dextroamphetamine,False,1.0
+Ardeparin,Enoxaparin,True,
+Betamethasone,Dexamethasone,False,1.0
+Bupivacaine,Levobupivacaine,False,1.0
+Citalopram,Escitalopram,False,1.0
+Dexbrompheniramine,Brompheniramine,False,1.0
+Epirubicin,Doxorubicin,False,1.0
+Eszopiclone,Zopiclone,False,1.0
+Formoterol,Arformoterol,False,1.0
+Framycetin,Neomycin,True,1.0
+Hyoscyamine,Atropine,False,1.0
+Levofloxacin,Ofloxacin,False,1.0
+Levomethadyl Acetate,Methadyl Acetate,False,1.0
+Levothyroxine,Dextrothyroxine,False,1.0
+Methylphenidate,Dexmethylphenidate,False,1.0
+Milnacipran,Levomilnacipran,False,1.0
+Omeprazole,Esomeprazole,False,0.9403
+Pseudoephedrine,Ephedrine,False,1.0
+Quinine,Quinidine,False,1.0
+Tretinoin,Isotretinoin,False,1.0
+Ursodeoxycholic acid,Chenodeoxycholic acid,False,1.0
+Vidarabine,Adenosine,False,1.0

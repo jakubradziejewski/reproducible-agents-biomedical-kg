@@ -1,0 +1,544 @@
+disease_a,disease_b,shared_genes,shared_symptoms,genes_a,genes_b
+Alzheimer's disease,Creutzfeldt-Jakob disease,2,15,196,7
+Alzheimer's disease,Parkinson's disease,31,20,196,143
+Alzheimer's disease,amyotrophic lateral sclerosis,17,10,196,114
+Barrett's esophagus,esophageal cancer,12,4,24,168
+Barrett's esophagus,head and neck cancer,2,3,24,55
+Barrett's esophagus,stomach cancer,8,2,24,298
+Behcet's disease,Crohn's disease,4,7,21,120
+Behcet's disease,Kawasaki disease,1,5,21,14
+Behcet's disease,abdominal aortic aneurysm,1,6,21,24
+Behcet's disease,ankylosing spondylitis,4,5,21,33
+Behcet's disease,psoriasis,8,5,21,92
+Behcet's disease,psoriatic arthritis,3,1,21,26
+Behcet's disease,rheumatoid arthritis,9,10,21,267
+Behcet's disease,systemic lupus erythematosus,5,13,21,155
+Behcet's disease,systemic scleroderma,4,8,21,52
+Behcet's disease,thoracic aortic aneurysm,0,6,21,13
+Behcet's disease,ulcerative colitis,7,8,21,121
+Creutzfeldt-Jakob disease,amyotrophic lateral sclerosis,0,10,7,114
+Crohn's disease,ankylosing spondylitis,11,4,120,33
+Crohn's disease,celiac disease,13,10,120,48
+Crohn's disease,colon cancer,1,11,120,63
+Crohn's disease,ileum cancer,0,3,120,0
+Crohn's disease,jejunal cancer,0,5,120,0
+Crohn's disease,psoriatic arthritis,9,3,120,26
+Crohn's disease,sclerosing cholangitis,1,1,120,15
+Crohn's disease,ulcerative colitis,46,16,120,121
+Fuchs' endothelial dystrophy,age related macular degeneration,1,4,6,55
+Fuchs' endothelial dystrophy,glaucoma,0,5,6,109
+Fuchs' endothelial dystrophy,refractive error,0,4,6,98
+Gilles de la Tourette syndrome,Parkinson's disease,5,13,16,143
+Gilles de la Tourette syndrome,attention deficit hyperactivity disorder,5,11,16,41
+Gilles de la Tourette syndrome,autistic disorder,4,11,16,253
+Gilles de la Tourette syndrome,bipolar disorder,5,13,16,93
+Gilles de la Tourette syndrome,conduct disorder,2,4,16,12
+Gilles de la Tourette syndrome,restless legs syndrome,0,3,16,12
+Gilles de la Tourette syndrome,schizophrenia,6,13,16,235
+Graves' disease,head and neck cancer,0,10,34,55
+Graves' disease,hypothyroidism,3,7,34,44
+Graves' disease,ocular cancer,0,9,34,54
+Graves' disease,thyroid cancer,2,3,34,58
+IgA glomerulonephritis,ankylosing spondylitis,4,1,448,33
+IgA glomerulonephritis,chronic kidney failure,12,2,448,132
+IgA glomerulonephritis,focal segmental glomerulosclerosis,10,1,448,44
+IgA glomerulonephritis,membranous glomerulonephritis,9,1,448,27
+IgA glomerulonephritis,systemic lupus erythematosus,25,4,448,155
+Kawasaki disease,coronary artery disease,4,2,14,478
+Paget's disease of bone,ankylosing spondylitis,0,10,16,33
+Paget's disease of bone,bone cancer,1,12,16,74
+Paget's disease of bone,osteoarthritis,2,4,16,62
+Paget's disease of bone,osteoporosis,6,6,16,98
+Paget's disease of bone,otosclerosis,0,10,16,4
+Paget's disease of bone,sarcoma,0,8,16,69
+Parkinson's disease,amyotrophic lateral sclerosis,12,16,143,114
+Parkinson's disease,restless legs syndrome,0,11,143,12
+abdominal aortic aneurysm,atherosclerosis,15,2,24,165
+abdominal aortic aneurysm,thoracic aortic aneurysm,2,11,24,13
+acquired immunodeficiency syndrome,hepatitis B,12,3,40,68
+acquired immunodeficiency syndrome,sarcoma,3,11,40,69
+adrenal gland cancer,germ cell cancer,1,19,38,58
+adrenal gland cancer,hypertension,8,5,38,496
+adrenal gland cancer,kidney cancer,9,11,38,213
+adrenal gland cancer,liver cancer,6,10,38,179
+adrenal gland cancer,lung cancer,11,7,38,252
+adrenal gland cancer,mediastinal cancer,0,5,38,1
+adrenal gland cancer,pancreatic cancer,10,5,38,142
+adrenal gland cancer,retroperitoneal cancer,0,8,38,3
+adrenal gland cancer,testicular cancer,0,6,38,23
+adrenal gland cancer,thyroid cancer,6,3,38,58
+adrenal gland cancer,vascular cancer,0,5,38,9
+age related macular degeneration,glaucoma,4,15,55,109
+age related macular degeneration,refractive error,1,16,55,98
+alcohol dependence,bipolar disorder,8,17,49,93
+alcohol dependence,conduct disorder,7,2,49,12
+alcohol dependence,endogenous depression,8,14,49,33
+alcohol dependence,nicotine dependence,6,4,49,19
+alcohol dependence,pancreatitis,5,3,49,103
+alcohol dependence,panic disorder,5,6,49,16
+allergic rhinitis,asthma,28,10,34,222
+allergic rhinitis,atopic dermatitis,15,6,34,77
+alopecia areata,atopic dermatitis,4,3,12,77
+alopecia areata,psoriasis,2,5,12,92
+alopecia areata,vitiligo,4,3,12,38
+amyotrophic lateral sclerosis,multiple sclerosis,9,23,114,150
+anemia,celiac disease,8,8,262,48
+anemia,chronic kidney failure,16,10,262,132
+anemia,malaria,21,15,262,49
+anemia,thymus cancer,5,8,262,19
+ankylosing spondylitis,gout,1,4,33,18
+ankylosing spondylitis,osteoarthritis,5,12,33,62
+ankylosing spondylitis,osteoporosis,2,10,33,98
+ankylosing spondylitis,psoriasis,13,7,33,92
+ankylosing spondylitis,psoriatic arthritis,9,6,33,26
+ankylosing spondylitis,rheumatoid arthritis,15,17,33,267
+ankylosing spondylitis,systemic lupus erythematosus,11,8,33,155
+ankylosing spondylitis,systemic scleroderma,2,11,33,52
+ankylosing spondylitis,ulcerative colitis,14,3,33,121
+appendix cancer,colon cancer,2,3,4,63
+appendix cancer,duodenum cancer,0,3,4,4
+appendix cancer,fallopian tube cancer,0,2,4,3
+appendix cancer,gallbladder cancer,0,3,4,13
+appendix cancer,germ cell cancer,2,3,4,58
+appendix cancer,ileum cancer,0,2,4,0
+appendix cancer,jejunal cancer,0,3,4,0
+appendix cancer,malignant mesothelioma,0,2,4,9
+appendix cancer,ovarian cancer,1,3,4,149
+appendix cancer,peritoneum cancer,0,3,4,1
+appendix cancer,rectum cancer,2,2,4,17
+appendix cancer,retroperitoneal cancer,0,2,4,3
+appendix cancer,stomach cancer,2,3,4,298
+appendix cancer,uterine fibroid,0,2,4,8
+asthma,atopic dermatitis,41,4,222,77
+asthma,chronic obstructive pulmonary disease,38,11,222,77
+atherosclerosis,coronary artery disease,101,6,165,478
+atherosclerosis,metabolic syndrome X,45,6,165,90
+atherosclerosis,type 2 diabetes mellitus,55,5,165,275
+atopic dermatitis,psoriasis,17,8,77,92
+atopic dermatitis,vitiligo,1,1,77,38
+attention deficit hyperactivity disorder,autistic disorder,13,18,41,253
+attention deficit hyperactivity disorder,bipolar disorder,25,15,41,93
+attention deficit hyperactivity disorder,conduct disorder,8,7,41,12
+attention deficit hyperactivity disorder,endogenous depression,17,11,41,33
+attention deficit hyperactivity disorder,nicotine dependence,2,3,41,19
+attention deficit hyperactivity disorder,restless legs syndrome,0,8,41,12
+autistic disorder,conduct disorder,5,7,253,12
+autistic disorder,schizophrenia,42,18,253,235
+azoospermia,testicular cancer,0,0,36,23
+bile duct cancer,duodenum cancer,0,4,42,4
+bile duct cancer,gallbladder cancer,6,4,42,13
+bile duct cancer,liver cancer,11,3,42,179
+bile duct cancer,muscle cancer,2,1,42,42
+bile duct cancer,pancreatic cancer,12,3,42,142
+bile duct cancer,pancreatitis,8,4,42,103
+bile duct cancer,primary biliary cirrhosis,4,3,42,78
+bile duct cancer,sclerosing cholangitis,1,4,42,15
+bipolar disorder,conduct disorder,6,4,93,12
+bipolar disorder,endogenous depression,23,23,93,33
+bipolar disorder,panic disorder,7,7,93,16
+bipolar disorder,schizophrenia,52,21,93,235
+bone cancer,brain cancer,8,26,74,111
+bone cancer,breast cancer,22,10,74,540
+bone cancer,germ cell cancer,2,39,74,58
+bone cancer,head and neck cancer,3,36,74,55
+bone cancer,kidney cancer,10,9,74,213
+bone cancer,larynx cancer,1,3,74,5
+bone cancer,lung cancer,15,14,74,252
+bone cancer,mediastinal cancer,0,6,74,1
+bone cancer,meningioma,3,29,74,28
+bone cancer,muscle cancer,7,16,74,42
+bone cancer,ocular cancer,5,13,74,54
+bone cancer,peripheral nervous system neoplasm,5,29,74,70
+bone cancer,pharynx cancer,2,23,74,16
+bone cancer,prostate cancer,17,6,74,535
+bone cancer,retroperitoneal cancer,0,8,74,3
+bone cancer,salivary gland cancer,2,10,74,118
+bone cancer,sarcoma,18,21,74,69
+bone cancer,skin cancer,6,12,74,69
+bone cancer,spinal cancer,0,20,74,7
+bone cancer,thyroid cancer,3,4,74,58
+bone cancer,tracheal cancer,0,0,74,1
+brain cancer,germ cell cancer,2,61,111,58
+brain cancer,intracranial aneurysm,0,41,111,23
+brain cancer,malignant glioma,28,62,111,181
+brain cancer,meningioma,6,45,111,28
+brain cancer,ocular cancer,6,12,111,54
+brain cancer,peripheral nervous system neoplasm,10,34,111,70
+brain cancer,spinal cancer,0,14,111,7
+breast cancer,colon cancer,26,11,540,63
+breast cancer,ovarian cancer,64,10,540,149
+celiac disease,duodenum cancer,0,5,48,4
+celiac disease,ileum cancer,0,3,48,0
+celiac disease,jejunal cancer,0,4,48,0
+celiac disease,pancreatitis,4,6,48,103
+celiac disease,primary biliary cirrhosis,5,1,48,78
+celiac disease,sclerosing cholangitis,1,2,48,15
+celiac disease,type 1 diabetes mellitus,15,3,48,131
+celiac disease,ulcerative colitis,17,11,48,121
+cervical cancer,fallopian tube cancer,0,6,42,3
+cervical cancer,ovarian cancer,9,9,42,149
+cervical cancer,penile cancer,0,3,42,2
+cervical cancer,rectum cancer,2,13,42,17
+cervical cancer,uterine cancer,3,18,42,89
+cervical cancer,uterine fibroid,0,10,42,8
+cervical cancer,vaginal cancer,0,5,42,3
+cervical cancer,vulva cancer,0,5,42,6
+chronic kidney failure,focal segmental glomerulosclerosis,13,2,132,44
+chronic kidney failure,hypertension,54,10,132,496
+chronic kidney failure,membranous glomerulonephritis,7,2,132,27
+chronic kidney failure,restless legs syndrome,1,5,132,12
+chronic obstructive pulmonary disease,idiopathic pulmonary fibrosis,4,6,77,18
+colon cancer,duodenum cancer,0,7,63,4
+colon cancer,gallbladder cancer,5,5,63,13
+colon cancer,ileum cancer,0,3,63,0
+colon cancer,jejunal cancer,0,5,63,0
+colon cancer,liver cancer,22,13,63,179
+colon cancer,lung cancer,26,11,63,252
+colon cancer,ovarian cancer,23,10,63,149
+colon cancer,pancreatic cancer,20,11,63,142
+colon cancer,peritoneum cancer,0,11,63,1
+colon cancer,rectum cancer,6,11,63,17
+colon cancer,stomach cancer,19,13,63,298
+colon cancer,ulcerative colitis,8,10,63,121
+conduct disorder,endogenous depression,5,3,12,33
+conduct disorder,nicotine dependence,1,1,12,19
+coronary artery disease,metabolic syndrome X,42,2,478,90
+coronary artery disease,type 2 diabetes mellitus,77,2,478,275
+dental caries,periodontitis,2,10,13,59
+duodenum cancer,esophageal cancer,1,6,4,168
+duodenum cancer,gallbladder cancer,0,6,4,13
+duodenum cancer,germ cell cancer,0,8,4,58
+duodenum cancer,ileum cancer,0,3,4,0
+duodenum cancer,jejunal cancer,0,6,4,0
+duodenum cancer,liver cancer,0,9,4,179
+duodenum cancer,pancreatic cancer,4,10,4,142
+duodenum cancer,pancreatitis,2,9,4,103
+duodenum cancer,peritoneum cancer,0,8,4,1
+duodenum cancer,rectum cancer,0,5,4,17
+duodenum cancer,retroperitoneal cancer,0,3,4,3
+duodenum cancer,sarcoma,0,7,4,69
+duodenum cancer,stomach cancer,1,9,4,298
+duodenum cancer,uterine fibroid,0,5,4,8
+endogenous depression,panic disorder,8,8,33,16
+endogenous depression,schizophrenia,23,19,33,235
+epilepsy syndrome,migraine,10,16,399,46
+esophageal cancer,head and neck cancer,14,20,168,55
+esophageal cancer,larynx cancer,1,6,168,5
+esophageal cancer,lung cancer,33,16,168,252
+esophageal cancer,mediastinal cancer,0,8,168,1
+esophageal cancer,pancreatic cancer,20,13,168,142
+esophageal cancer,pharynx cancer,5,4,168,16
+esophageal cancer,rectum cancer,2,8,168,17
+esophageal cancer,stomach cancer,37,15,168,298
+esophageal cancer,tracheal cancer,0,6,168,1
+esophageal cancer,uterine fibroid,0,5,168,8
+fallopian tube cancer,germ cell cancer,1,5,3,58
+fallopian tube cancer,malignant mesothelioma,0,4,3,9
+fallopian tube cancer,ovarian cancer,2,5,3,149
+fallopian tube cancer,peritoneum cancer,0,3,3,1
+fallopian tube cancer,uterine cancer,0,7,3,89
+fallopian tube cancer,uterine fibroid,0,6,3,8
+fallopian tube cancer,vaginal cancer,0,2,3,3
+fallopian tube cancer,vulva cancer,0,4,3,6
+focal segmental glomerulosclerosis,hypertension,20,2,44,496
+focal segmental glomerulosclerosis,membranous glomerulonephritis,7,1,44,27
+focal segmental glomerulosclerosis,systemic lupus erythematosus,6,2,44,155
+gallbladder cancer,liver cancer,3,6,13,179
+gallbladder cancer,pancreatic cancer,5,5,13,142
+gallbladder cancer,peritoneum cancer,0,6,13,1
+gallbladder cancer,sclerosing cholangitis,0,3,13,15
+gallbladder cancer,stomach cancer,5,4,13,298
+germ cell cancer,head and neck cancer,2,48,58,55
+germ cell cancer,ileum cancer,0,4,58,0
+germ cell cancer,jejunal cancer,0,6,58,0
+germ cell cancer,malignant glioma,3,56,58,181
+germ cell cancer,mediastinal cancer,0,19,58,1
+germ cell cancer,melanoma,6,26,58,342
+germ cell cancer,meningioma,1,47,58,28
+germ cell cancer,muscle cancer,2,16,58,42
+germ cell cancer,ocular cancer,3,23,58,54
+germ cell cancer,ovarian cancer,8,13,58,149
+germ cell cancer,pancreatic cancer,3,12,58,142
+germ cell cancer,peripheral nervous system neoplasm,3,45,58,70
+germ cell cancer,retroperitoneal cancer,0,16,58,3
+germ cell cancer,sarcoma,4,30,58,69
+germ cell cancer,skin cancer,4,17,58,69
+germ cell cancer,spinal cancer,0,21,58,7
+germ cell cancer,testicular cancer,9,15,58,23
+germ cell cancer,thymus cancer,2,7,58,19
+germ cell cancer,thyroid cancer,3,9,58,58
+germ cell cancer,uterine cancer,2,13,58,89
+germ cell cancer,vaginal cancer,0,1,58,3
+germ cell cancer,vulva cancer,2,3,58,6
+gestational diabetes,metabolic syndrome X,9,2,17,90
+gestational diabetes,obesity,11,2,17,373
+gestational diabetes,polycystic ovary syndrome,9,2,17,200
+gestational diabetes,type 1 diabetes mellitus,1,4,17,131
+gestational diabetes,type 2 diabetes mellitus,12,3,17,275
+glaucoma,ocular cancer,4,16,109,54
+glaucoma,refractive error,7,18,109,98
+gout,osteoarthritis,2,5,18,62
+gout,psoriatic arthritis,1,4,18,26
+gout,rheumatoid arthritis,3,6,18,267
+head and neck cancer,larynx cancer,1,12,55,5
+head and neck cancer,mediastinal cancer,0,12,55,1
+head and neck cancer,melanoma,24,11,55,342
+head and neck cancer,muscle cancer,4,14,55,42
+head and neck cancer,ocular cancer,4,12,55,54
+head and neck cancer,peripheral nervous system neoplasm,3,30,55,70
+head and neck cancer,pharynx cancer,5,40,55,16
+head and neck cancer,salivary gland cancer,8,9,55,118
+head and neck cancer,sarcoma,8,25,55,69
+head and neck cancer,skin cancer,5,13,55,69
+head and neck cancer,stomach cancer,23,12,55,298
+head and neck cancer,thyroid cancer,7,15,55,58
+head and neck cancer,tracheal cancer,0,7,55,1
+head and neck cancer,uterine fibroid,0,6,55,8
+hematologic cancer,muscle cancer,11,1,550,42
+hepatitis B,liver cancer,21,6,68,179
+hepatitis B,membranous glomerulonephritis,3,1,68,27
+hepatitis B,primary biliary cirrhosis,13,3,68,78
+hypertension,metabolic syndrome X,42,5,496,90
+hypertension,obesity,105,4,496,373
+hypertension,type 2 diabetes mellitus,103,7,496,275
+hypothyroidism,thyroid cancer,7,2,44,58
+hypothyroidism,vitiligo,1,6,44,38
+idiopathic pulmonary fibrosis,systemic scleroderma,1,2,18,52
+ileum cancer,jejunal cancer,0,4,0,0
+ileum cancer,liver cancer,0,4,0,179
+ileum cancer,melanoma,0,2,0,342
+ileum cancer,peripheral nervous system neoplasm,0,0,0,70
+ileum cancer,peritoneum cancer,0,3,0,1
+ileum cancer,rectum cancer,0,2,0,17
+ileum cancer,sarcoma,0,2,0,69
+ileum cancer,stomach cancer,0,4,0,298
+ileum cancer,ulcerative colitis,0,3,0,121
+ileum cancer,ureter cancer,0,0,0,1
+ileum cancer,uterine fibroid,0,2,0,8
+intracranial aneurysm,meningioma,1,33,23,28
+jejunal cancer,liver cancer,0,5,0,179
+jejunal cancer,melanoma,0,4,0,342
+jejunal cancer,pancreatic cancer,0,6,0,142
+jejunal cancer,peritoneum cancer,0,5,0,1
+jejunal cancer,rectum cancer,0,3,0,17
+jejunal cancer,retroperitoneal cancer,0,3,0,3
+jejunal cancer,sarcoma,0,4,0,69
+jejunal cancer,stomach cancer,0,6,0,298
+jejunal cancer,uterine fibroid,0,4,0,8
+kidney cancer,liver cancer,36,14,213,179
+kidney cancer,lung cancer,49,13,213,252
+kidney cancer,melanoma,42,10,213,342
+kidney cancer,muscle cancer,11,6,213,42
+kidney cancer,nephrolithiasis,1,11,213,26
+kidney cancer,pancreatic cancer,22,13,213,142
+kidney cancer,penile cancer,0,2,213,2
+kidney cancer,retroperitoneal cancer,0,10,213,3
+kidney cancer,sarcoma,17,18,213,69
+kidney cancer,testicular cancer,1,8,213,23
+kidney cancer,thyroid cancer,11,2,213,58
+kidney cancer,ureter cancer,0,3,213,1
+kidney cancer,urinary bladder cancer,18,11,213,121
+kidney cancer,uterine fibroid,0,8,213,8
+kidney cancer,vaginal cancer,2,2,213,3
+kidney cancer,vascular cancer,5,7,213,9
+larynx cancer,muscle cancer,1,3,5,42
+larynx cancer,pharynx cancer,1,9,5,16
+larynx cancer,salivary gland cancer,1,1,5,118
+larynx cancer,sarcoma,1,5,5,69
+larynx cancer,thyroid cancer,1,6,5,58
+larynx cancer,tracheal cancer,0,6,5,1
+liver cancer,lung cancer,53,9,179,252
+liver cancer,pancreatic cancer,32,13,179,142
+liver cancer,peritoneum cancer,0,10,179,1
+liver cancer,primary biliary cirrhosis,15,3,179,78
+liver cancer,rectum cancer,4,8,179,17
+liver cancer,retroperitoneal cancer,0,4,179,3
+liver cancer,sarcoma,12,15,179,69
+liver cancer,sclerosing cholangitis,7,4,179,15
+liver cancer,stomach cancer,35,15,179,298
+liver cancer,vascular cancer,0,5,179,9
+lung cancer,malignant mesothelioma,1,8,252,9
+lung cancer,mediastinal cancer,0,14,252,1
+lung cancer,melanoma,66,10,252,342
+lung cancer,muscle cancer,9,9,252,42
+lung cancer,sarcoma,21,19,252,69
+lung cancer,testicular cancer,5,6,252,23
+lung cancer,thymus cancer,8,8,252,19
+lung cancer,thyroid cancer,16,8,252,58
+lung cancer,tracheal cancer,0,7,252,1
+lung cancer,vascular cancer,0,8,252,9
+malignant glioma,meningioma,7,39,181,28
+malignant glioma,peripheral nervous system neoplasm,18,28,181,70
+malignant glioma,spinal cancer,0,18,181,7
+malignant mesothelioma,mediastinal cancer,0,5,9,1
+malignant mesothelioma,muscle cancer,1,3,9,42
+malignant mesothelioma,ovarian cancer,3,6,9,149
+malignant mesothelioma,peritoneum cancer,1,7,9,1
+malignant mesothelioma,retroperitoneal cancer,0,6,9,3
+malignant mesothelioma,sarcoma,1,12,9,69
+malignant mesothelioma,testicular cancer,0,4,9,23
+malignant mesothelioma,thymus cancer,0,4,9,19
+mediastinal cancer,muscle cancer,0,5,1,42
+mediastinal cancer,peripheral nervous system neoplasm,0,6,1,70
+mediastinal cancer,retroperitoneal cancer,0,3,1,3
+mediastinal cancer,sarcoma,0,13,1,69
+mediastinal cancer,testicular cancer,0,3,1,23
+mediastinal cancer,thymus cancer,0,7,1,19
+mediastinal cancer,thyroid cancer,0,6,1,58
+mediastinal cancer,tracheal cancer,0,7,1,1
+mediastinal cancer,vascular cancer,0,9,1,9
+melanoma,meningioma,5,9,342,28
+melanoma,ocular cancer,16,13,342,54
+melanoma,penile cancer,1,1,342,2
+melanoma,rectum cancer,5,8,342,17
+melanoma,sarcoma,24,12,342,69
+melanoma,skin cancer,25,9,342,69
+melanoma,vaginal cancer,2,1,342,3
+melanoma,vitiligo,11,1,342,38
+melanoma,vulva cancer,0,2,342,6
+membranous glomerulonephritis,systemic lupus erythematosus,8,2,27,155
+meningioma,muscle cancer,2,9,28,42
+meningioma,ocular cancer,2,10,28,54
+meningioma,peripheral nervous system neoplasm,6,35,28,70
+meningioma,sarcoma,3,15,28,69
+meningioma,spinal cancer,2,18,28,7
+metabolic syndrome X,obesity,65,10,90,373
+metabolic syndrome X,polycystic ovary syndrome,22,5,90,200
+metabolic syndrome X,psoriatic arthritis,3,0,90,26
+metabolic syndrome X,type 2 diabetes mellitus,49,9,90,275
+migraine,restless legs syndrome,0,3,46,12
+muscle cancer,ocular cancer,2,4,42,54
+muscle cancer,peripheral nervous system neoplasm,7,10,42,70
+muscle cancer,peritoneum cancer,0,2,42,1
+muscle cancer,pharynx cancer,1,10,42,16
+muscle cancer,retroperitoneal cancer,0,7,42,3
+muscle cancer,salivary gland cancer,1,4,42,118
+muscle cancer,sarcoma,18,16,42,69
+muscle cancer,testicular cancer,1,1,42,23
+muscle cancer,urinary bladder cancer,6,4,42,121
+muscle cancer,uterine cancer,7,7,42,89
+muscle cancer,uterine fibroid,1,3,42,8
+muscle cancer,vaginal cancer,0,2,42,3
+muscle cancer,vascular cancer,3,6,42,9
+muscle cancer,vulva cancer,0,4,42,6
+narcolepsy,restless legs syndrome,0,8,27,12
+nephrolithiasis,ureter cancer,0,4,26,1
+obesity,polycystic ovary syndrome,43,7,373,200
+obesity,type 2 diabetes mellitus,95,6,373,275
+ocular cancer,peripheral nervous system neoplasm,5,9,54,70
+ocular cancer,salivary gland cancer,7,1,54,118
+ocular cancer,sarcoma,5,4,54,69
+ocular cancer,skin cancer,5,7,54,69
+osteoarthritis,osteoporosis,12,9,62,98
+osteoarthritis,psoriatic arthritis,3,5,62,26
+osteoarthritis,rheumatoid arthritis,27,16,62,267
+otosclerosis,peripheral nervous system neoplasm,0,16,4,70
+ovarian cancer,peritoneum cancer,1,9,149,1
+ovarian cancer,polycystic ovary syndrome,7,3,149,200
+ovarian cancer,retroperitoneal cancer,0,7,149,3
+ovarian cancer,testicular cancer,2,10,149,23
+ovarian cancer,uterine cancer,25,11,149,89
+ovarian cancer,uterine fibroid,2,7,149,8
+ovarian cancer,vaginal cancer,1,1,149,3
+ovarian cancer,vulva cancer,1,2,149,6
+pancreatic cancer,pancreatitis,23,12,142,103
+pancreatic cancer,peritoneum cancer,0,8,142,1
+pancreatic cancer,retroperitoneal cancer,0,5,142,3
+pancreatic cancer,stomach cancer,32,14,142,298
+pancreatic cancer,vascular cancer,1,3,142,9
+pancreatitis,sclerosing cholangitis,4,4,103,15
+penile cancer,prostate cancer,0,4,2,535
+penile cancer,rectum cancer,0,3,2,17
+penile cancer,sarcoma,0,4,2,69
+penile cancer,skin cancer,1,3,2,69
+penile cancer,testicular cancer,0,0,2,23
+penile cancer,ureter cancer,0,1,2,1
+penile cancer,urinary bladder cancer,0,2,2,121
+penile cancer,uterine cancer,0,3,2,89
+penile cancer,vaginal cancer,0,1,2,3
+penile cancer,vulva cancer,0,2,2,6
+peripheral nervous system neoplasm,pharynx cancer,1,21,70,16
+peripheral nervous system neoplasm,retroperitoneal cancer,0,4,70,3
+peripheral nervous system neoplasm,salivary gland cancer,6,9,70,118
+peripheral nervous system neoplasm,sarcoma,10,14,70,69
+peripheral nervous system neoplasm,skin cancer,6,5,70,69
+peripheral nervous system neoplasm,spinal cancer,1,14,70,7
+peripheral nervous system neoplasm,tracheal cancer,0,2,70,1
+peripheral nervous system neoplasm,uterine fibroid,0,0,70,8
+peripheral nervous system neoplasm,vascular cancer,1,4,70,9
+peritoneum cancer,retroperitoneal cancer,0,8,1,3
+peritoneum cancer,sarcoma,0,10,1,69
+peritoneum cancer,stomach cancer,0,11,1,298
+peritoneum cancer,uterine cancer,0,10,1,89
+peritoneum cancer,uterine fibroid,0,8,1,8
+pharynx cancer,salivary gland cancer,3,7,16,118
+pharynx cancer,sarcoma,3,11,16,69
+pharynx cancer,tracheal cancer,0,4,16,1
+polycystic ovary syndrome,type 2 diabetes mellitus,39,6,200,275
+primary biliary cirrhosis,rheumatoid arthritis,21,3,78,267
+primary biliary cirrhosis,sclerosing cholangitis,9,5,78,15
+primary biliary cirrhosis,systemic lupus erythematosus,13,3,78,155
+primary biliary cirrhosis,systemic scleroderma,7,3,78,52
+prostate cancer,testicular cancer,3,3,535,23
+prostate cancer,ureter cancer,0,1,535,1
+prostate cancer,urinary bladder cancer,42,12,535,121
+psoriasis,psoriatic arthritis,23,6,92,26
+psoriasis,rheumatoid arthritis,32,15,92,267
+psoriasis,skin cancer,2,13,92,69
+psoriasis,systemic lupus erythematosus,24,8,92,155
+psoriasis,systemic scleroderma,5,10,92,52
+psoriasis,vitiligo,4,2,92,38
+psoriatic arthritis,rheumatoid arthritis,11,6,26,267
+rectum cancer,stomach cancer,5,11,17,298
+rectum cancer,ulcerative colitis,1,7,17,121
+rectum cancer,urinary bladder cancer,6,12,17,121
+rectum cancer,vaginal cancer,0,3,17,3
+rectum cancer,vulva cancer,2,4,17,6
+retroperitoneal cancer,sarcoma,0,11,3,69
+retroperitoneal cancer,testicular cancer,0,4,3,23
+retroperitoneal cancer,ureter cancer,0,3,3,1
+retroperitoneal cancer,uterine fibroid,0,9,3,8
+retroperitoneal cancer,vascular cancer,0,5,3,9
+rheumatoid arthritis,systemic lupus erythematosus,76,20,267,155
+rheumatoid arthritis,systemic scleroderma,21,18,267,52
+salivary gland cancer,sarcoma,3,4,118,69
+salivary gland cancer,skin cancer,5,2,118,69
+salivary gland cancer,thyroid cancer,4,1,118,58
+salivary gland cancer,tracheal cancer,0,0,118,1
+sarcoma,skin cancer,7,13,69,69
+sarcoma,spinal cancer,0,14,69,7
+sarcoma,testicular cancer,2,10,69,23
+sarcoma,tracheal cancer,0,5,69,1
+sarcoma,uterine cancer,9,12,69,89
+sarcoma,uterine fibroid,0,10,69,8
+sarcoma,vaginal cancer,1,2,69,3
+sarcoma,vascular cancer,5,15,69,9
+sarcoma,vulva cancer,0,3,69,6
+sclerosing cholangitis,ulcerative colitis,3,2,15,121
+skin cancer,uterine fibroid,0,4,69,8
+skin cancer,vascular cancer,2,5,69,9
+skin cancer,vitiligo,4,6,69,38
+skin cancer,vulva cancer,3,5,69,6
+stomach cancer,uterine fibroid,0,9,298,8
+systemic lupus erythematosus,systemic scleroderma,24,15,155,52
+testicular cancer,ureter cancer,0,0,23,1
+testicular cancer,urinary bladder cancer,3,5,23,121
+testicular cancer,vaginal cancer,0,1,23,3
+thymus cancer,thyroid cancer,2,4,19,58
+thymus cancer,vascular cancer,0,5,19,9
+thyroid cancer,tracheal cancer,0,4,58,1
+tracheal cancer,uterine fibroid,0,1,1,8
+type 1 diabetes mellitus,type 2 diabetes mellitus,32,6,131,275
+ureter cancer,urinary bladder cancer,0,2,1,121
+ureter cancer,vaginal cancer,0,1,1,3
+ureter cancer,vascular cancer,0,0,1,9
+urinary bladder cancer,uterine fibroid,1,8,121,8
+urinary bladder cancer,vaginal cancer,1,3,121,3
+uterine cancer,uterine fibroid,2,12,89,8
+uterine cancer,vaginal cancer,0,4,89,3
+uterine cancer,vascular cancer,1,5,89,9
+uterine cancer,vulva cancer,0,5,89,6
+uterine fibroid,vaginal cancer,0,2,8,3
+uterine fibroid,vascular cancer,0,5,8,9
+uterine fibroid,vulva cancer,0,4,8,6
+vaginal cancer,vulva cancer,0,3,3,6

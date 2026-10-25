@@ -1,0 +1,51 @@
+disease,name,side_effect,treaters,treaters_causing,causers,n_compounds
+DOID:0050156,idiopathic pulmonary fibrosis,C1800706,0,0,4,1552
+DOID:0050425,restless legs syndrome,C0035258,0,0,28,1552
+DOID:0050742,nicotine dependence,C0028043,1,0,1,1552
+DOID:10283,prostate cancer,C0376358,21,0,17,1552
+DOID:10763,hypertension,C0020538,68,17,453,1552
+DOID:10941,intracranial aneurysm,C0007766,0,0,3,1552
+DOID:1115,sarcoma,C1261473,8,0,4,1552
+DOID:11476,osteoporosis,C0029456,15,2,65,1552
+DOID:12306,vitiligo,C0042900,1,0,3,1552
+DOID:12365,malaria,C0024530,11,0,1,1552
+DOID:1312,focal segmental glomerulosclerosis,C0017668,1,0,2,1552
+DOID:13189,gout,C0018099,9,3,123,1552
+DOID:14227,azoospermia,C0004509,1,0,26,1552
+DOID:1459,hypothyroidism,C0020676,4,0,77,1552
+DOID:1612,breast cancer,C0006142,29,2,38,1552
+DOID:1686,glaucoma,C0017601,21,1,94,1552
+DOID:1781,thyroid cancer,C0007115,4,0,1,1552
+DOID:1936,atherosclerosis,C0004153,6,0,4,1552
+DOID:216,dental caries,C0011334,0,0,39,1552
+DOID:219,colon cancer,C0007102,5,1,3,1552
+DOID:2377,multiple sclerosis,C0026769,11,0,5,1552
+DOID:2394,ovarian cancer,C1140680,10,2,15,1552
+DOID:2841,asthma,C0004096,37,11,240,1552
+DOID:3083,chronic obstructive pulmonary disease,C0024117,9,3,28,1552
+DOID:3121,gallbladder cancer,C0153452,0,0,1,1552
+DOID:3312,bipolar disorder,C0005586,0,0,12,1552
+DOID:3393,coronary artery disease,C1956346,28,3,42,1552
+DOID:3565,meningioma,C0025286,0,0,3,1552
+DOID:363,uterine cancer,C0153567,7,0,2,1552
+DOID:3953,adrenal gland cancer,C0750887,0,0,1,1552
+DOID:4159,skin cancer,C0007114,9,0,31,1552
+DOID:4606,bile duct cancer,C0740277,0,0,1,1552
+DOID:4989,pancreatitis,C0030305,2,0,246,1552
+DOID:5419,schizophrenia,C0036341,0,0,11,1552
+DOID:585,nephrolithiasis,C0392525,1,0,102,1552
+DOID:594,panic disorder,C0030319,0,0,9,1552
+DOID:635,acquired immunodeficiency syndrome,C0001175,14,4,18,1552
+DOID:6364,migraine,C0149931,7,2,204,1552
+DOID:7147,ankylosing spondylitis,C0038013,8,0,2,1552
+DOID:7148,rheumatoid arthritis,C0003873,15,1,30,1552
+DOID:7693,abdominal aortic aneurysm,C0162871,0,0,1,1552
+DOID:824,periodontitis,C0031099,0,0,12,1552
+DOID:8398,osteoarthritis,C0029408,0,0,200,1552
+DOID:8893,psoriasis,C0033860,21,5,75,1552
+DOID:8986,narcolepsy,C0027404,0,0,2,1552
+DOID:9074,systemic lupus erythematosus,C0024141,13,1,64,1552
+DOID:9296,cleft lip,C0008924,0,0,2,1552
+DOID:9352,type 2 diabetes mellitus,C0011860,22,1,7,1552
+DOID:9744,type 1 diabetes mellitus,C0011854,1,0,1,1552
+DOID:9970,obesity,C0028754,11,2,20,1552

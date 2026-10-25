@@ -1,0 +1,3158 @@
+compound,disease,symptom
+Abacavir,acquired immunodeficiency syndrome,Abdominal Pain
+Abacavir,acquired immunodeficiency syndrome,Anorexia
+Abacavir,acquired immunodeficiency syndrome,Cough
+Abacavir,acquired immunodeficiency syndrome,Nausea
+Abacavir,acquired immunodeficiency syndrome,Pain
+Abacavir,acquired immunodeficiency syndrome,Pruritus
+Abiraterone,prostate cancer,Constipation
+Abiraterone,prostate cancer,Fatigue
+Abiraterone,prostate cancer,Nocturia
+Acamprosate,alcohol dependence,Amblyopia
+Acamprosate,alcohol dependence,Amnesia
+Acamprosate,alcohol dependence,Asthenia
+Acamprosate,alcohol dependence,Tremor
+Acamprosate,alcohol dependence,Vomiting
+Acebutolol,hypertension,Dizziness
+Acebutolol,hypertension,Headache
+Acebutolol,hypertension,Intermittent Claudication
+Acebutolol,hypertension,Nocturia
+Acetazolamide,epilepsy syndrome,Ataxia
+Acetylsalicylic acid,coronary artery disease,Chest Pain
+Acitretin,psoriasis,Arthralgia
+Acitretin,psoriasis,Back Pain
+Acitretin,psoriasis,Chills
+Acitretin,psoriasis,Fatigue
+Acitretin,psoriasis,Flushing
+Acitretin,psoriasis,Nausea
+Acitretin,psoriasis,Pain
+Acitretin,psoriasis,Pruritus
+Acitretin,psoriasis,Purpura
+Adefovir Dipivoxil,hepatitis B,Jaundice
+Alendronate,Paget's disease of bone,Dizziness
+Alendronate,Paget's disease of bone,Pain
+Alendronate,Paget's disease of bone,Vertigo
+Alendronate,osteoporosis,Asthenia
+Alendronate,osteoporosis,Hypercalciuria
+Alendronate,osteoporosis,Musculoskeletal Pain
+Alendronate,osteoporosis,Pain
+Alitretinoin,hematologic cancer,Anorexia
+Alitretinoin,hematologic cancer,Fatigue
+Alitretinoin,hematologic cancer,Nausea
+Alitretinoin,hematologic cancer,Pain
+Alitretinoin,hematologic cancer,Vomiting
+Alitretinoin,peripheral nervous system neoplasm,Back Pain
+Alitretinoin,peripheral nervous system neoplasm,Blindness
+Alitretinoin,peripheral nervous system neoplasm,Deafness
+Alitretinoin,peripheral nervous system neoplasm,Dizziness
+Alitretinoin,peripheral nervous system neoplasm,Facial Paralysis
+Alitretinoin,peripheral nervous system neoplasm,Headache
+Alitretinoin,peripheral nervous system neoplasm,Hoarseness
+Alitretinoin,peripheral nervous system neoplasm,Ophthalmoplegia
+Alitretinoin,peripheral nervous system neoplasm,Tinnitus
+Allopurinol,gout,Arthralgia
+Allopurinol,gout,Pain
+Altretamine,ovarian cancer,Anorexia
+Altretamine,ovarian cancer,Fatigue
+Altretamine,ovarian cancer,Nausea
+Altretamine,ovarian cancer,Vomiting
+Amiloride,hypertension,Angina Pectoris
+Amiloride,hypertension,Dizziness
+Amiloride,hypertension,Headache
+Amiloride,hypertension,Polyuria
+Aminophylline,asthma,Tremor
+Amitriptyline,migraine,Ataxia
+Amitriptyline,migraine,Dizziness
+Amitriptyline,migraine,Headache
+Amitriptyline,migraine,Mydriasis
+Amitriptyline,migraine,Nausea
+Amitriptyline,migraine,Syncope
+Amitriptyline,migraine,Vomiting
+Amlodipine,hypertension,Dizziness
+Amlodipine,hypertension,Headache
+Amlodipine,hypertension,Nocturia
+Amlodipine,hypertension,Polyuria
+Amobarbital,epilepsy syndrome,Ataxia
+Amobarbital,epilepsy syndrome,Syncope
+Amprenavir,acquired immunodeficiency syndrome,Abdominal Pain
+Amprenavir,acquired immunodeficiency syndrome,Anorexia
+Amprenavir,acquired immunodeficiency syndrome,Nausea
+Amprenavir,acquired immunodeficiency syndrome,Pruritus
+Anagrelide,hematologic cancer,Anorexia
+Anagrelide,hematologic cancer,Fatigue
+Anagrelide,hematologic cancer,Nausea
+Anagrelide,hematologic cancer,Pain
+Anagrelide,hematologic cancer,Vomiting
+Anastrozole,breast cancer,Anorexia
+Anastrozole,breast cancer,Arthralgia
+Anastrozole,breast cancer,Asthenia
+Anastrozole,breast cancer,Fatigue
+Anastrozole,breast cancer,Myalgia
+Anastrozole,breast cancer,Nausea
+Anastrozole,breast cancer,Pain
+Anastrozole,breast cancer,Vomiting
+Apraclonidine,glaucoma,Eye Pain
+Apraclonidine,glaucoma,Mydriasis
+Apraclonidine,glaucoma,Pallor
+Apraclonidine,glaucoma,Photophobia
+Arformoterol,asthma,Chest Pain
+Arformoterol,asthma,Cough
+Arformoterol,asthma,Dysphonia
+Arformoterol,asthma,Tremor
+Arformoterol,chronic obstructive pulmonary disease,Cough
+Arformoterol,chronic obstructive pulmonary disease,Fatigue
+Auranofin,rheumatoid arthritis,Dyspepsia
+Auranofin,rheumatoid arthritis,Nausea
+Auranofin,rheumatoid arthritis,Proteinuria
+Azathioprine,Crohn's disease,Abdominal Pain
+Azathioprine,Crohn's disease,Arthralgia
+Azathioprine,Crohn's disease,Nausea
+Azathioprine,Crohn's disease,Vomiting
+Azathioprine,multiple sclerosis,Dizziness
+Azathioprine,rheumatoid arthritis,Arthralgia
+Azathioprine,rheumatoid arthritis,Nausea
+Azathioprine,systemic lupus erythematosus,Abdominal Pain
+Azathioprine,systemic lupus erythematosus,Arthralgia
+Azathioprine,systemic lupus erythematosus,Headache
+Azathioprine,systemic scleroderma,Arthralgia
+Azathioprine,ulcerative colitis,Abdominal Pain
+Azathioprine,ulcerative colitis,Arthralgia
+Azathioprine,ulcerative colitis,Nausea
+Azathioprine,ulcerative colitis,Vomiting
+Beclomethasone,asthma,Cough
+Beclomethasone,asthma,Dysphonia
+Beclomethasone,asthma,Sneezing
+Beclomethasone,psoriasis,Back Pain
+Beclomethasone,psoriasis,Nausea
+Beclomethasone,psoriasis,Pain
+Benazepril,hypertension,Angina Pectoris
+Benazepril,hypertension,Dizziness
+Benazepril,hypertension,Headache
+Benazepril,hypertension,Proteinuria
+Bendroflumethiazide,hypertension,Dizziness
+Bendroflumethiazide,hypertension,Polyuria
+Bepridil,hypertension,Angina Pectoris
+Bepridil,hypertension,Dizziness
+Bepridil,hypertension,Headache
+Betamethasone,allergic rhinitis,Headache
+Betamethasone,allergic rhinitis,Pruritus
+Betamethasone,ankylosing spondylitis,Dizziness
+Betamethasone,ankylosing spondylitis,Fatigue
+Betamethasone,ankylosing spondylitis,Pain
+Betamethasone,ankylosing spondylitis,Paraplegia
+Betamethasone,ankylosing spondylitis,Vertigo
+Betamethasone,atopic dermatitis,Pruritus
+Betamethasone,hematologic cancer,Anorexia
+Betamethasone,hematologic cancer,Fatigue
+Betamethasone,hematologic cancer,Nausea
+Betamethasone,hematologic cancer,Pain
+Betamethasone,hematologic cancer,Vomiting
+Betamethasone,multiple sclerosis,Blindness
+Betamethasone,multiple sclerosis,Dizziness
+Betamethasone,multiple sclerosis,Fatigue
+Betamethasone,multiple sclerosis,Pain
+Betamethasone,multiple sclerosis,Paraplegia
+Betamethasone,multiple sclerosis,Vertigo
+Betamethasone,psoriasis,Fatigue
+Betamethasone,psoriasis,Nausea
+Betamethasone,psoriasis,Pain
+Betamethasone,psoriasis,Pruritus
+Betamethasone,psoriatic arthritis,Fatigue
+Betamethasone,psoriatic arthritis,Pain
+Betamethasone,rheumatoid arthritis,Dyspepsia
+Betamethasone,rheumatoid arthritis,Fatigue
+Betamethasone,rheumatoid arthritis,Nausea
+Betamethasone,rheumatoid arthritis,Pain
+Betamethasone,systemic lupus erythematosus,Abdominal Pain
+Betamethasone,systemic lupus erythematosus,Ecchymosis
+Betamethasone,systemic lupus erythematosus,Fatigue
+Betamethasone,systemic lupus erythematosus,Headache
+Betamethasone,ulcerative colitis,Abdominal Pain
+Betamethasone,ulcerative colitis,Dyspepsia
+Betamethasone,ulcerative colitis,Nausea
+Betamethasone,ulcerative colitis,Vomiting
+Betaxolol,glaucoma,Eye Pain
+Betaxolol,glaucoma,Photophobia
+Betaxolol,glaucoma,Scotoma
+Betaxolol,hypertension,Angina Pectoris
+Betaxolol,hypertension,Dizziness
+Betaxolol,hypertension,Headache
+Betaxolol,hypertension,Intermittent Claudication
+Betaxolol,hypertension,Oliguria
+Betaxolol,hypertension,Proteinuria
+Bexarotene,hematologic cancer,Anorexia
+Bexarotene,hematologic cancer,Fatigue
+Bexarotene,hematologic cancer,Nausea
+Bexarotene,hematologic cancer,Pain
+Bexarotene,hematologic cancer,Purpura
+Bexarotene,hematologic cancer,Vomiting
+Bicalutamide,prostate cancer,Constipation
+Bicalutamide,prostate cancer,Dysuria
+Bicalutamide,prostate cancer,Fatigue
+Bicalutamide,prostate cancer,Flatulence
+Bicalutamide,prostate cancer,Nausea
+Bicalutamide,prostate cancer,Nocturia
+Bicalutamide,prostate cancer,Pain
+Bicalutamide,prostate cancer,Pelvic Pain
+Bicalutamide,prostate cancer,Urinary Incontinence
+Bimatoprost,glaucoma,Eye Pain
+Bimatoprost,glaucoma,Photophobia
+Bimatoprost,glaucoma,Scotoma
+Bleomycin,germ cell cancer,Chest Pain
+Bleomycin,germ cell cancer,Flushing
+Bleomycin,germ cell cancer,Nausea
+Bleomycin,germ cell cancer,Vomiting
+Bleomycin,hematologic cancer,Anorexia
+Bleomycin,hematologic cancer,Nausea
+Bleomycin,hematologic cancer,Pain
+Bleomycin,hematologic cancer,Vomiting
+Bleomycin,melanoma,Anorexia
+Bleomycin,melanoma,Chills
+Bleomycin,melanoma,Nausea
+Bleomycin,melanoma,Pruritus
+Bleomycin,melanoma,Vomiting
+Bleomycin,skin cancer,Nausea
+Bleomycin,skin cancer,Pain
+Bleomycin,skin cancer,Pruritus
+Bleomycin,skin cancer,Vomiting
+Bleomycin,testicular cancer,Anorexia
+Bleomycin,testicular cancer,Nausea
+Bleomycin,testicular cancer,Vomiting
+Bortezomib,hematologic cancer,Anorexia
+Bortezomib,hematologic cancer,Fatigue
+Bortezomib,hematologic cancer,Nausea
+Bortezomib,hematologic cancer,Pain
+Bortezomib,hematologic cancer,Purpura
+Bortezomib,hematologic cancer,Vomiting
+Brimonidine,glaucoma,Blindness
+Brimonidine,glaucoma,Eye Pain
+Brimonidine,glaucoma,Miosis
+Brimonidine,glaucoma,Pallor
+Brimonidine,glaucoma,Photophobia
+Brimonidine,glaucoma,Scotoma
+Brinzolamide,glaucoma,Eye Pain
+Brinzolamide,glaucoma,Photophobia
+Bromocriptine,type 2 diabetes mellitus,Acute Coronary Syndrome
+Budesonide,asthma,Chest Pain
+Budesonide,asthma,Cough
+Budesonide,asthma,Dysphonia
+Budesonide,asthma,Hoarseness
+Budesonide,asthma,Sneezing
+Budesonide,asthma,Tremor
+Budesonide,ulcerative colitis,Abdominal Pain
+Budesonide,ulcerative colitis,Arthralgia
+Budesonide,ulcerative colitis,Constipation
+Budesonide,ulcerative colitis,Dyspepsia
+Budesonide,ulcerative colitis,Flatulence
+Budesonide,ulcerative colitis,Nausea
+Budesonide,ulcerative colitis,Purpura
+Budesonide,ulcerative colitis,Vomiting
+Bumetanide,hypertension,Dizziness
+Bumetanide,hypertension,Headache
+Bumetanide,hypertension,Polyuria
+Busulfan,hematologic cancer,Anorexia
+Busulfan,hematologic cancer,Fatigue
+Busulfan,hematologic cancer,Nausea
+Busulfan,hematologic cancer,Pain
+Busulfan,hematologic cancer,Vomiting
+Cabazitaxel,prostate cancer,Constipation
+Cabazitaxel,prostate cancer,Dysuria
+Cabazitaxel,prostate cancer,Fatigue
+Cabazitaxel,prostate cancer,Flushing
+Cabazitaxel,prostate cancer,Nausea
+Cabazitaxel,prostate cancer,Pain
+Cabazitaxel,prostate cancer,Pelvic Pain
+Cabazitaxel,prostate cancer,Urinary Incontinence
+Calcipotriol,psoriasis,Pain
+Calcipotriol,psoriasis,Pruritus
+Calcitriol,osteoporosis,Asthenia
+Calcitriol,osteoporosis,Hypercalciuria
+Calcitriol,osteoporosis,Pain
+Calcitriol,psoriasis,Nausea
+Calcitriol,psoriasis,Pain
+Calcitriol,psoriasis,Pruritus
+Calcium Acetate,osteoporosis,Asthenia
+Calcium Acetate,osteoporosis,Pain
+Candesartan,hypertension,Albuminuria
+Candesartan,hypertension,Angina Pectoris
+Candesartan,hypertension,Dizziness
+Candesartan,hypertension,Headache
+Capecitabine,breast cancer,Anorexia
+Capecitabine,breast cancer,Arthralgia
+Capecitabine,breast cancer,Asthenia
+Capecitabine,breast cancer,Cachexia
+Capecitabine,breast cancer,Fatigue
+Capecitabine,breast cancer,Myalgia
+Capecitabine,breast cancer,Nausea
+Capecitabine,breast cancer,Neuralgia
+Capecitabine,breast cancer,Pain
+Capecitabine,breast cancer,Vomiting
+Capecitabine,colon cancer,Abdominal Pain
+Capecitabine,colon cancer,Anorexia
+Capecitabine,colon cancer,Cachexia
+Capecitabine,colon cancer,Constipation
+Capecitabine,colon cancer,Flatulence
+Capecitabine,colon cancer,Nausea
+Capecitabine,colon cancer,Vomiting
+Capecitabine,esophageal cancer,Anorexia
+Capecitabine,esophageal cancer,Aphasia
+Capecitabine,esophageal cancer,Cachexia
+Capecitabine,esophageal cancer,Chest Pain
+Capecitabine,esophageal cancer,Cough
+Capecitabine,esophageal cancer,Dyspepsia
+Capecitabine,esophageal cancer,Fatigue
+Capecitabine,esophageal cancer,Flushing
+Capecitabine,esophageal cancer,Hoarseness
+Capecitabine,esophageal cancer,Nausea
+Capecitabine,esophageal cancer,Pain
+Capecitabine,esophageal cancer,Vomiting
+Capecitabine,kidney cancer,Abdominal Pain
+Capecitabine,kidney cancer,Anorexia
+Capecitabine,kidney cancer,Asthenia
+Capecitabine,kidney cancer,Back Pain
+Capecitabine,kidney cancer,Cachexia
+Capecitabine,kidney cancer,Ecchymosis
+Capecitabine,kidney cancer,Fatigue
+Capecitabine,kidney cancer,Nausea
+Capecitabine,kidney cancer,Pain
+Capecitabine,kidney cancer,Polyuria
+Capecitabine,kidney cancer,Proteinuria
+Capecitabine,kidney cancer,Vomiting
+Capecitabine,prostate cancer,Constipation
+Capecitabine,prostate cancer,Dysuria
+Capecitabine,prostate cancer,Fatigue
+Capecitabine,prostate cancer,Flatulence
+Capecitabine,prostate cancer,Flushing
+Capecitabine,prostate cancer,Nausea
+Capecitabine,prostate cancer,Nocturia
+Capecitabine,prostate cancer,Pain
+Capecitabine,prostate cancer,Urinary Incontinence
+Capecitabine,stomach cancer,Abdominal Pain
+Capecitabine,stomach cancer,Anorexia
+Capecitabine,stomach cancer,Asthenia
+Capecitabine,stomach cancer,Cachexia
+Capecitabine,stomach cancer,Constipation
+Capecitabine,stomach cancer,Dyspepsia
+Capecitabine,stomach cancer,Fatigue
+Capecitabine,stomach cancer,Flatulence
+Capecitabine,stomach cancer,Nausea
+Capecitabine,stomach cancer,Vomiting
+Captopril,coronary artery disease,Angina Pectoris
+Captopril,coronary artery disease,Chest Pain
+Captopril,hypertension,Angina Pectoris
+Captopril,hypertension,Dizziness
+Captopril,hypertension,Headache
+Captopril,hypertension,Oliguria
+Captopril,hypertension,Polyuria
+Captopril,hypertension,Proteinuria
+Captopril,systemic scleroderma,Arthralgia
+Captopril,systemic scleroderma,Constipation
+Captopril,systemic scleroderma,Dyspepsia
+Captopril,systemic scleroderma,Fatigue
+Captopril,systemic scleroderma,Oliguria
+Captopril,systemic scleroderma,Proteinuria
+Captopril,systemic scleroderma,Pruritus
+Carbamazepine,epilepsy syndrome,Amnesia
+Carbamazepine,epilepsy syndrome,Ataxia
+Carbamazepine,epilepsy syndrome,Coma
+Carbamazepine,epilepsy syndrome,Lethargy
+Carbamazepine,epilepsy syndrome,Myoclonus
+Carbamazepine,epilepsy syndrome,Paresis
+Carbamazepine,epilepsy syndrome,Syncope
+Carboplatin,bone cancer,Pain
+Carboplatin,breast cancer,Pain
+Carboplatin,esophageal cancer,Pain
+Carboplatin,uterine cancer,Pain
+Carmustine,brain cancer,Amnesia
+Carmustine,brain cancer,Aphasia
+Carmustine,brain cancer,Ataxia
+Carmustine,brain cancer,Coma
+Carmustine,brain cancer,Diplopia
+Carmustine,brain cancer,Dizziness
+Carmustine,brain cancer,Facial Paralysis
+Carmustine,brain cancer,Headache
+Carmustine,brain cancer,Hemiplegia
+Carmustine,brain cancer,Nausea
+Carmustine,brain cancer,Scotoma
+Carmustine,brain cancer,Vomiting
+Carmustine,hematologic cancer,Anorexia
+Carmustine,hematologic cancer,Nausea
+Carmustine,hematologic cancer,Pain
+Carmustine,hematologic cancer,Vomiting
+Carmustine,malignant glioma,Amnesia
+Carmustine,malignant glioma,Aphasia
+Carmustine,malignant glioma,Ataxia
+Carmustine,malignant glioma,Back Pain
+Carmustine,malignant glioma,Diplopia
+Carmustine,malignant glioma,Dizziness
+Carmustine,malignant glioma,Facial Paralysis
+Carmustine,malignant glioma,Headache
+Carmustine,malignant glioma,Hemiplegia
+Carmustine,malignant glioma,Nausea
+Carmustine,malignant glioma,Neck Pain
+Carmustine,malignant glioma,Vomiting
+Carmustine,melanoma,Abdominal Pain
+Carmustine,melanoma,Anorexia
+Carmustine,melanoma,Diplopia
+Carmustine,melanoma,Eye Pain
+Carmustine,melanoma,Nausea
+Carmustine,melanoma,Scotoma
+Carmustine,melanoma,Vomiting
+Carteolol,glaucoma,Photophobia
+Carvedilol,hypertension,Albuminuria
+Carvedilol,hypertension,Angina Pectoris
+Carvedilol,hypertension,Dizziness
+Carvedilol,hypertension,Headache
+Cetirizine,allergic rhinitis,Cough
+Cetirizine,allergic rhinitis,Headache
+Cetirizine,allergic rhinitis,Pruritus
+Chenodeoxycholic acid,primary biliary cirrhosis,Fatigue
+Chenodeoxycholic acid,primary biliary cirrhosis,Jaundice
+Chenodeoxycholic acid,primary biliary cirrhosis,Pruritus
+Chlorambucil,breast cancer,Anorexia
+Chlorambucil,breast cancer,Asthenia
+Chlorambucil,breast cancer,Fatigue
+Chlorambucil,breast cancer,Nausea
+Chlorambucil,breast cancer,Pain
+Chlorambucil,breast cancer,Vomiting
+Chlorambucil,hematologic cancer,Anorexia
+Chlorambucil,hematologic cancer,Fatigue
+Chlorambucil,hematologic cancer,Nausea
+Chlorambucil,hematologic cancer,Pain
+Chlorambucil,hematologic cancer,Vomiting
+Chlorambucil,ovarian cancer,Abdominal Pain
+Chlorambucil,ovarian cancer,Anorexia
+Chlorambucil,ovarian cancer,Fatigue
+Chlorambucil,ovarian cancer,Nausea
+Chlorambucil,ovarian cancer,Vomiting
+Chlorambucil,testicular cancer,Abdominal Pain
+Chlorambucil,testicular cancer,Anorexia
+Chlorambucil,testicular cancer,Nausea
+Chlorambucil,testicular cancer,Vomiting
+Chlorothiazide,hypertension,Dizziness
+Chlorothiazide,hypertension,Headache
+Chlorthalidone,hypertension,Dizziness
+Chlorthalidone,hypertension,Headache
+Ciclesonide,asthma,Chest Pain
+Ciclesonide,asthma,Cough
+Ciclesonide,asthma,Dysphonia
+Ciclesonide,asthma,Hoarseness
+Cisplatin,bone cancer,Blindness
+Cisplatin,bone cancer,Pain
+Cisplatin,bone cancer,Tinnitus
+Cisplatin,esophageal cancer,Anorexia
+Cisplatin,esophageal cancer,Flushing
+Cisplatin,esophageal cancer,Nausea
+Cisplatin,esophageal cancer,Pain
+Cisplatin,esophageal cancer,Vomiting
+Cisplatin,germ cell cancer,Amnesia
+Cisplatin,germ cell cancer,Blindness
+Cisplatin,germ cell cancer,Deafness
+Cisplatin,germ cell cancer,Dysarthria
+Cisplatin,germ cell cancer,Flushing
+Cisplatin,germ cell cancer,Nausea
+Cisplatin,germ cell cancer,Polyuria
+Cisplatin,germ cell cancer,Tinnitus
+Cisplatin,germ cell cancer,Vomiting
+Cisplatin,hematologic cancer,Anorexia
+Cisplatin,hematologic cancer,Nausea
+Cisplatin,hematologic cancer,Pain
+Cisplatin,hematologic cancer,Vomiting
+Cisplatin,lung cancer,Anorexia
+Cisplatin,lung cancer,Asthenia
+Cisplatin,lung cancer,Nausea
+Cisplatin,lung cancer,Pain
+Cisplatin,lung cancer,Vomiting
+Cisplatin,peripheral nervous system neoplasm,Ageusia
+Cisplatin,peripheral nervous system neoplasm,Blindness
+Cisplatin,peripheral nervous system neoplasm,Deafness
+Cisplatin,peripheral nervous system neoplasm,Tinnitus
+Cisplatin,testicular cancer,Anorexia
+Cisplatin,testicular cancer,Nausea
+Cisplatin,testicular cancer,Vomiting
+Cisplatin,urinary bladder cancer,Anorexia
+Cisplatin,urinary bladder cancer,Flatulence
+Cisplatin,urinary bladder cancer,Nausea
+Cisplatin,urinary bladder cancer,Polyuria
+Cisplatin,urinary bladder cancer,Vomiting
+Citalopram,alcohol dependence,Amblyopia
+Citalopram,alcohol dependence,Amnesia
+Citalopram,alcohol dependence,Asthenia
+Citalopram,alcohol dependence,Ataxia
+Citalopram,alcohol dependence,Coma
+Citalopram,alcohol dependence,Delirium
+Citalopram,alcohol dependence,Flushing
+Citalopram,alcohol dependence,Hyperphagia
+Citalopram,alcohol dependence,Jaundice
+Citalopram,alcohol dependence,Tremor
+Citalopram,alcohol dependence,Vomiting
+Cladribine,hematologic cancer,Anorexia
+Cladribine,hematologic cancer,Fatigue
+Cladribine,hematologic cancer,Nausea
+Cladribine,hematologic cancer,Pain
+Cladribine,hematologic cancer,Purpura
+Cladribine,hematologic cancer,Vomiting
+Cladribine,multiple sclerosis,Ataxia
+Cladribine,multiple sclerosis,Constipation
+Cladribine,multiple sclerosis,Dizziness
+Cladribine,multiple sclerosis,Fatigue
+Cladribine,multiple sclerosis,Pain
+Cladribine,multiple sclerosis,Paralysis
+Clindamycin,malaria,Jaundice
+Clindamycin,malaria,Oliguria
+Clindamycin,malaria,Pruritus
+Clindamycin,malaria,Vomiting
+Clobazam,epilepsy syndrome,Amnesia
+Clobazam,epilepsy syndrome,Ataxia
+Clobazam,epilepsy syndrome,Lethargy
+Clobetasol propionate,psoriasis,Pain
+Clobetasol propionate,psoriasis,Pruritus
+Clobetasol propionate,psoriasis,Purpura
+Clofarabine,hematologic cancer,Anorexia
+Clofarabine,hematologic cancer,Fatigue
+Clofarabine,hematologic cancer,Nausea
+Clofarabine,hematologic cancer,Pain
+Clofarabine,hematologic cancer,Vomiting
+Clonazepam,epilepsy syndrome,Amnesia
+Clonazepam,epilepsy syndrome,Ataxia
+Clonazepam,epilepsy syndrome,Chorea
+Clonazepam,epilepsy syndrome,Coma
+Clonazepam,epilepsy syndrome,Lethargy
+Clonazepam,epilepsy syndrome,Paresis
+Clonidine,glaucoma,Pallor
+Clonidine,hypertension,Dizziness
+Clonidine,hypertension,Headache
+Clonidine,hypertension,Nocturia
+Clopidogrel,coronary artery disease,Angina Pectoris
+Clopidogrel,coronary artery disease,Chest Pain
+Clopidogrel,coronary artery disease,Intermittent Claudication
+Colchicine,gout,Arthralgia
+Colchicine,primary biliary cirrhosis,Fatigue
+Conjugated Estrogens,osteoporosis,Arthralgia
+Conjugated Estrogens,osteoporosis,Asthenia
+Conjugated Estrogens,osteoporosis,Back Pain
+Conjugated Estrogens,osteoporosis,Musculoskeletal Pain
+Conjugated Estrogens,osteoporosis,Pain
+Conjugated Estrogens,osteoporosis,Tetany
+Conjugated Estrogens,prostate cancer,Constipation
+Conjugated Estrogens,prostate cancer,Dysuria
+Conjugated Estrogens,prostate cancer,Fatigue
+Conjugated Estrogens,prostate cancer,Flatulence
+Conjugated Estrogens,prostate cancer,Nausea
+Conjugated Estrogens,prostate cancer,Pain
+Conjugated Estrogens,prostate cancer,Pelvic Pain
+Crizotinib,lung cancer,Asthenia
+Crizotinib,lung cancer,Constipation
+Crizotinib,lung cancer,Dysgeusia
+Crizotinib,lung cancer,Fatigue
+Crizotinib,lung cancer,Nausea
+Crizotinib,lung cancer,Vomiting
+Cromoglicic acid,asthma,Chest Pain
+Cromoglicic acid,asthma,Cough
+Cromoglicic acid,asthma,Dysphonia
+Cromoglicic acid,asthma,Hoarseness
+Cromoglicic acid,asthma,Sneezing
+Cyclosporine,psoriasis,Arthralgia
+Cyclosporine,psoriasis,Chills
+Cyclosporine,psoriasis,Fatigue
+Cyclosporine,psoriasis,Flushing
+Cyclosporine,psoriasis,Nausea
+Cyclosporine,psoriasis,Pain
+Cyclosporine,psoriasis,Pruritus
+Cyclosporine,psoriasis,Purpura
+Cyclosporine,rheumatoid arthritis,Arthralgia
+Cyclosporine,rheumatoid arthritis,Dyspepsia
+Cyclosporine,rheumatoid arthritis,Fatigue
+Cyclosporine,rheumatoid arthritis,Nausea
+Cyclosporine,rheumatoid arthritis,Pain
+Cyclosporine,rheumatoid arthritis,Purpura
+Cyclosporine,systemic lupus erythematosus,Abdominal Pain
+Cyclosporine,systemic lupus erythematosus,Arthralgia
+Cyclosporine,systemic lupus erythematosus,Chest Pain
+Cyclosporine,systemic lupus erythematosus,Fatigue
+Cyclosporine,systemic lupus erythematosus,Headache
+Cyclosporine,systemic lupus erythematosus,Purpura
+Cyproheptadine,allergic rhinitis,Headache
+Dactinomycin,germ cell cancer,Abdominal Pain
+Dactinomycin,germ cell cancer,Flushing
+Dactinomycin,germ cell cancer,Nausea
+Dactinomycin,germ cell cancer,Vomiting
+Dactinomycin,kidney cancer,Abdominal Pain
+Dactinomycin,kidney cancer,Anorexia
+Dactinomycin,kidney cancer,Asthenia
+Dactinomycin,kidney cancer,Fatigue
+Dactinomycin,kidney cancer,Nausea
+Dactinomycin,kidney cancer,Pain
+Dactinomycin,kidney cancer,Vomiting
+Dactinomycin,melanoma,Abdominal Pain
+Dactinomycin,melanoma,Anorexia
+Dactinomycin,melanoma,Chills
+Dactinomycin,melanoma,Fatigue
+Dactinomycin,melanoma,Nausea
+Dactinomycin,melanoma,Vomiting
+Dactinomycin,muscle cancer,Pain
+Dactinomycin,sarcoma,Abdominal Pain
+Dactinomycin,sarcoma,Anorexia
+Dactinomycin,sarcoma,Nausea
+Dactinomycin,sarcoma,Pain
+Dactinomycin,sarcoma,Vomiting
+Dactinomycin,skin cancer,Nausea
+Dactinomycin,skin cancer,Pain
+Dactinomycin,skin cancer,Vomiting
+Dactinomycin,testicular cancer,Abdominal Pain
+Dactinomycin,testicular cancer,Anorexia
+Dactinomycin,testicular cancer,Nausea
+Dactinomycin,testicular cancer,Vomiting
+Dactinomycin,uterine cancer,Abdominal Pain
+Dactinomycin,uterine cancer,Anorexia
+Dactinomycin,uterine cancer,Nausea
+Dactinomycin,uterine cancer,Pain
+Dactinomycin,uterine cancer,Vomiting
+Dapsone,malaria,Vomiting
+Dapsone,systemic lupus erythematosus,Abdominal Pain
+Dapsone,systemic lupus erythematosus,Albuminuria
+Dapsone,systemic lupus erythematosus,Headache
+Dapsone,systemic lupus erythematosus,Proteinuria
+Dasatinib,hematologic cancer,Anorexia
+Dasatinib,hematologic cancer,Fatigue
+Dasatinib,hematologic cancer,Nausea
+Dasatinib,hematologic cancer,Pain
+Dasatinib,hematologic cancer,Vomiting
+Daunorubicin,hematologic cancer,Anorexia
+Daunorubicin,hematologic cancer,Fatigue
+Daunorubicin,hematologic cancer,Nausea
+Daunorubicin,hematologic cancer,Pain
+Daunorubicin,hematologic cancer,Vomiting
+Degarelix,prostate cancer,Constipation
+Degarelix,prostate cancer,Dysuria
+Degarelix,prostate cancer,Fatigue
+Degarelix,prostate cancer,Nausea
+Degarelix,prostate cancer,Nocturia
+Degarelix,prostate cancer,Pain
+Degarelix,prostate cancer,Pelvic Pain
+Delavirdine,acquired immunodeficiency syndrome,Abdominal Pain
+Delavirdine,acquired immunodeficiency syndrome,Anorexia
+Delavirdine,acquired immunodeficiency syndrome,Cough
+Delavirdine,acquired immunodeficiency syndrome,Nausea
+Delavirdine,acquired immunodeficiency syndrome,Pain
+Delavirdine,acquired immunodeficiency syndrome,Pruritus
+Desloratadine,allergic rhinitis,Cough
+Desloratadine,allergic rhinitis,Headache
+Desloratadine,allergic rhinitis,Pruritus
+Desonide,atopic dermatitis,Pruritus
+Dexamethasone,allergic rhinitis,Headache
+Dexamethasone,allergic rhinitis,Pruritus
+Dexamethasone,ankylosing spondylitis,Dizziness
+Dexamethasone,ankylosing spondylitis,Fatigue
+Dexamethasone,ankylosing spondylitis,Pain
+Dexamethasone,ankylosing spondylitis,Paraplegia
+Dexamethasone,ankylosing spondylitis,Vertigo
+Dexamethasone,atopic dermatitis,Pruritus
+Dexamethasone,hematologic cancer,Anorexia
+Dexamethasone,hematologic cancer,Fatigue
+Dexamethasone,hematologic cancer,Nausea
+Dexamethasone,hematologic cancer,Pain
+Dexamethasone,hematologic cancer,Vomiting
+Dexamethasone,multiple sclerosis,Blindness
+Dexamethasone,multiple sclerosis,Dizziness
+Dexamethasone,multiple sclerosis,Fatigue
+Dexamethasone,multiple sclerosis,Pain
+Dexamethasone,multiple sclerosis,Paraplegia
+Dexamethasone,multiple sclerosis,Vertigo
+Dexamethasone,psoriasis,Fatigue
+Dexamethasone,psoriasis,Nausea
+Dexamethasone,psoriasis,Pain
+Dexamethasone,psoriasis,Pruritus
+Dexamethasone,psoriatic arthritis,Fatigue
+Dexamethasone,psoriatic arthritis,Pain
+Dexamethasone,rheumatoid arthritis,Dyspepsia
+Dexamethasone,rheumatoid arthritis,Fatigue
+Dexamethasone,rheumatoid arthritis,Nausea
+Dexamethasone,rheumatoid arthritis,Pain
+Dexamethasone,systemic lupus erythematosus,Abdominal Pain
+Dexamethasone,systemic lupus erythematosus,Ecchymosis
+Dexamethasone,systemic lupus erythematosus,Fatigue
+Dexamethasone,systemic lupus erythematosus,Headache
+Dexamethasone,ulcerative colitis,Abdominal Pain
+Dexamethasone,ulcerative colitis,Dyspepsia
+Dexamethasone,ulcerative colitis,Nausea
+Dexamethasone,ulcerative colitis,Vomiting
+Dextrothyroxine,hypothyroidism,Angina Pectoris
+Dextrothyroxine,hypothyroidism,Asthenia
+Dextrothyroxine,hypothyroidism,Coma
+Dextrothyroxine,hypothyroidism,Fatigue
+Diazepam,epilepsy syndrome,Amnesia
+Diazepam,epilepsy syndrome,Ataxia
+Diazepam,epilepsy syndrome,Hyperventilation
+Diazepam,epilepsy syndrome,Lethargy
+Diazepam,epilepsy syndrome,Stupor
+Diazepam,epilepsy syndrome,Syncope
+Didanosine,acquired immunodeficiency syndrome,Abdominal Pain
+Didanosine,acquired immunodeficiency syndrome,Anorexia
+Didanosine,acquired immunodeficiency syndrome,Nausea
+Didanosine,acquired immunodeficiency syndrome,Pain
+Didanosine,acquired immunodeficiency syndrome,Pruritus
+Diltiazem,hypertension,Albuminuria
+Diltiazem,hypertension,Dizziness
+Diltiazem,hypertension,Headache
+Diltiazem,hypertension,Nocturia
+Diltiazem,hypertension,Polyuria
+Dimenhydrinate,allergic rhinitis,Headache
+Diphenhydramine,allergic rhinitis,Headache
+Dipivefrin,glaucoma,Mydriasis
+Disulfiram,alcohol dependence,Asthenia
+Disulfiram,alcohol dependence,Jaundice
+Docetaxel,breast cancer,Anorexia
+Docetaxel,breast cancer,Arthralgia
+Docetaxel,breast cancer,Asthenia
+Docetaxel,breast cancer,Fatigue
+Docetaxel,breast cancer,Myalgia
+Docetaxel,breast cancer,Nausea
+Docetaxel,breast cancer,Neuralgia
+Docetaxel,breast cancer,Pain
+Docetaxel,breast cancer,Vomiting
+Docetaxel,head and neck cancer,Anorexia
+Docetaxel,head and neck cancer,Chest Pain
+Docetaxel,head and neck cancer,Cough
+Docetaxel,head and neck cancer,Deafness
+Docetaxel,head and neck cancer,Dizziness
+Docetaxel,head and neck cancer,Dysgeusia
+Docetaxel,head and neck cancer,Dyspepsia
+Docetaxel,head and neck cancer,Flushing
+Docetaxel,head and neck cancer,Headache
+Docetaxel,head and neck cancer,Heartburn
+Docetaxel,head and neck cancer,Nausea
+Docetaxel,head and neck cancer,Neuralgia
+Docetaxel,head and neck cancer,Pain
+Docetaxel,head and neck cancer,Syncope
+Docetaxel,head and neck cancer,Vomiting
+Docetaxel,lung cancer,Anorexia
+Docetaxel,lung cancer,Asthenia
+Docetaxel,lung cancer,Back Pain
+Docetaxel,lung cancer,Chest Pain
+Docetaxel,lung cancer,Constipation
+Docetaxel,lung cancer,Cough
+Docetaxel,lung cancer,Dysgeusia
+Docetaxel,lung cancer,Fatigue
+Docetaxel,lung cancer,Nausea
+Docetaxel,lung cancer,Pain
+Docetaxel,lung cancer,Vomiting
+Docetaxel,melanoma,Abdominal Pain
+Docetaxel,melanoma,Anorexia
+Docetaxel,melanoma,Chills
+Docetaxel,melanoma,Fatigue
+Docetaxel,melanoma,Nausea
+Docetaxel,melanoma,Pruritus
+Docetaxel,melanoma,Scotoma
+Docetaxel,melanoma,Vomiting
+Docetaxel,ovarian cancer,Abdominal Pain
+Docetaxel,ovarian cancer,Anorexia
+Docetaxel,ovarian cancer,Constipation
+Docetaxel,ovarian cancer,Fatigue
+Docetaxel,ovarian cancer,Nausea
+Docetaxel,ovarian cancer,Vomiting
+Docetaxel,pancreatic cancer,Abdominal Pain
+Docetaxel,pancreatic cancer,Anorexia
+Docetaxel,pancreatic cancer,Back Pain
+Docetaxel,pancreatic cancer,Dyspepsia
+Docetaxel,pancreatic cancer,Jaundice
+Docetaxel,pancreatic cancer,Nausea
+Docetaxel,pancreatic cancer,Pain
+Docetaxel,pancreatic cancer,Vomiting
+Docetaxel,prostate cancer,Constipation
+Docetaxel,prostate cancer,Fatigue
+Docetaxel,prostate cancer,Flushing
+Docetaxel,prostate cancer,Nausea
+Docetaxel,prostate cancer,Pain
+Docetaxel,skin cancer,Deafness
+Docetaxel,skin cancer,Nausea
+Docetaxel,skin cancer,Pain
+Docetaxel,skin cancer,Pruritus
+Docetaxel,skin cancer,Vomiting
+Docetaxel,stomach cancer,Abdominal Pain
+Docetaxel,stomach cancer,Anorexia
+Docetaxel,stomach cancer,Asthenia
+Docetaxel,stomach cancer,Constipation
+Docetaxel,stomach cancer,Dyspepsia
+Docetaxel,stomach cancer,Fatigue
+Docetaxel,stomach cancer,Heartburn
+Docetaxel,stomach cancer,Nausea
+Docetaxel,stomach cancer,Vomiting
+Donepezil,Alzheimer's disease,Aphasia
+Dorzolamide,glaucoma,Eye Pain
+Dorzolamide,glaucoma,Photophobia
+Dorzolamide,glaucoma,Scotoma
+Doxazosin,hypertension,Angina Pectoris
+Doxazosin,hypertension,Dizziness
+Doxazosin,hypertension,Headache
+Doxazosin,hypertension,Intermittent Claudication
+Doxazosin,hypertension,Nocturia
+Doxazosin,hypertension,Oliguria
+Doxazosin,hypertension,Polyuria
+Doxorubicin,bone cancer,Amblyopia
+Doxorubicin,bone cancer,Arthralgia
+Doxorubicin,bone cancer,Back Pain
+Doxorubicin,bone cancer,Blindness
+Doxorubicin,bone cancer,Diplopia
+Doxorubicin,bone cancer,Ecchymosis
+Doxorubicin,bone cancer,Eye Pain
+Doxorubicin,bone cancer,Headache
+Doxorubicin,bone cancer,Musculoskeletal Pain
+Doxorubicin,bone cancer,Neck Pain
+Doxorubicin,bone cancer,Neuralgia
+Doxorubicin,bone cancer,Pain
+Doxorubicin,bone cancer,Paralysis
+Doxorubicin,bone cancer,Tinnitus
+Doxorubicin,breast cancer,Anorexia
+Doxorubicin,breast cancer,Arthralgia
+Doxorubicin,breast cancer,Asthenia
+Doxorubicin,breast cancer,Cachexia
+Doxorubicin,breast cancer,Fatigue
+Doxorubicin,breast cancer,Musculoskeletal Pain
+Doxorubicin,breast cancer,Myalgia
+Doxorubicin,breast cancer,Nausea
+Doxorubicin,breast cancer,Neuralgia
+Doxorubicin,breast cancer,Pain
+Doxorubicin,breast cancer,Vomiting
+Doxorubicin,hematologic cancer,Anorexia
+Doxorubicin,hematologic cancer,Fatigue
+Doxorubicin,hematologic cancer,Nausea
+Doxorubicin,hematologic cancer,Pain
+Doxorubicin,hematologic cancer,Purpura
+Doxorubicin,hematologic cancer,Vomiting
+Doxorubicin,kidney cancer,Abdominal Pain
+Doxorubicin,kidney cancer,Anorexia
+Doxorubicin,kidney cancer,Asthenia
+Doxorubicin,kidney cancer,Back Pain
+Doxorubicin,kidney cancer,Cachexia
+Doxorubicin,kidney cancer,Ecchymosis
+Doxorubicin,kidney cancer,Fatigue
+Doxorubicin,kidney cancer,Nausea
+Doxorubicin,kidney cancer,Oliguria
+Doxorubicin,kidney cancer,Pain
+Doxorubicin,kidney cancer,Vomiting
+Doxorubicin,liver cancer,Abdominal Pain
+Doxorubicin,liver cancer,Anorexia
+Doxorubicin,liver cancer,Cachexia
+Doxorubicin,liver cancer,Ecchymosis
+Doxorubicin,liver cancer,Flushing
+Doxorubicin,liver cancer,Jaundice
+Doxorubicin,liver cancer,Nausea
+Doxorubicin,liver cancer,Purpura
+Doxorubicin,liver cancer,Vomiting
+Doxorubicin,lung cancer,Anorexia
+Doxorubicin,lung cancer,Asthenia
+Doxorubicin,lung cancer,Back Pain
+Doxorubicin,lung cancer,Cachexia
+Doxorubicin,lung cancer,Chest Pain
+Doxorubicin,lung cancer,Constipation
+Doxorubicin,lung cancer,Cough
+Doxorubicin,lung cancer,Dysgeusia
+Doxorubicin,lung cancer,Fatigue
+Doxorubicin,lung cancer,Nausea
+Doxorubicin,lung cancer,Pain
+Doxorubicin,lung cancer,Paralysis
+Doxorubicin,lung cancer,Vomiting
+Doxorubicin,muscle cancer,Back Pain
+Doxorubicin,muscle cancer,Diplopia
+Doxorubicin,muscle cancer,Neuralgia
+Doxorubicin,muscle cancer,Pain
+Doxorubicin,muscle cancer,Paralysis
+Doxorubicin,muscle cancer,Pelvic Pain
+Doxorubicin,ovarian cancer,Abdominal Pain
+Doxorubicin,ovarian cancer,Anorexia
+Doxorubicin,ovarian cancer,Cachexia
+Doxorubicin,ovarian cancer,Constipation
+Doxorubicin,ovarian cancer,Fatigue
+Doxorubicin,ovarian cancer,Flatulence
+Doxorubicin,ovarian cancer,Nausea
+Doxorubicin,ovarian cancer,Pelvic Pain
+Doxorubicin,ovarian cancer,Vomiting
+Doxorubicin,pancreatic cancer,Abdominal Pain
+Doxorubicin,pancreatic cancer,Anorexia
+Doxorubicin,pancreatic cancer,Back Pain
+Doxorubicin,pancreatic cancer,Cachexia
+Doxorubicin,pancreatic cancer,Dyspepsia
+Doxorubicin,pancreatic cancer,Jaundice
+Doxorubicin,pancreatic cancer,Nausea
+Doxorubicin,pancreatic cancer,Pain
+Doxorubicin,pancreatic cancer,Vomiting
+Doxorubicin,peripheral nervous system neoplasm,Ageusia
+Doxorubicin,peripheral nervous system neoplasm,Back Pain
+Doxorubicin,peripheral nervous system neoplasm,Blindness
+Doxorubicin,peripheral nervous system neoplasm,Diplopia
+Doxorubicin,peripheral nervous system neoplasm,Dizziness
+Doxorubicin,peripheral nervous system neoplasm,Headache
+Doxorubicin,peripheral nervous system neoplasm,Neuralgia
+Doxorubicin,peripheral nervous system neoplasm,Paralysis
+Doxorubicin,peripheral nervous system neoplasm,Tinnitus
+Doxorubicin,peripheral nervous system neoplasm,Vertigo
+Doxorubicin,prostate cancer,Constipation
+Doxorubicin,prostate cancer,Dysuria
+Doxorubicin,prostate cancer,Fatigue
+Doxorubicin,prostate cancer,Flatulence
+Doxorubicin,prostate cancer,Flushing
+Doxorubicin,prostate cancer,Nausea
+Doxorubicin,prostate cancer,Nocturia
+Doxorubicin,prostate cancer,Pain
+Doxorubicin,prostate cancer,Pelvic Pain
+Doxorubicin,sarcoma,Abdominal Pain
+Doxorubicin,sarcoma,Anorexia
+Doxorubicin,sarcoma,Back Pain
+Doxorubicin,sarcoma,Cachexia
+Doxorubicin,sarcoma,Chest Pain
+Doxorubicin,sarcoma,Cough
+Doxorubicin,sarcoma,Diplopia
+Doxorubicin,sarcoma,Dysuria
+Doxorubicin,sarcoma,Ecchymosis
+Doxorubicin,sarcoma,Nausea
+Doxorubicin,sarcoma,Neck Pain
+Doxorubicin,sarcoma,Pain
+Doxorubicin,sarcoma,Paralysis
+Doxorubicin,sarcoma,Pelvic Pain
+Doxorubicin,sarcoma,Purpura
+Doxorubicin,sarcoma,Syncope
+Doxorubicin,sarcoma,Vomiting
+Doxorubicin,stomach cancer,Abdominal Pain
+Doxorubicin,stomach cancer,Anorexia
+Doxorubicin,stomach cancer,Asthenia
+Doxorubicin,stomach cancer,Cachexia
+Doxorubicin,stomach cancer,Constipation
+Doxorubicin,stomach cancer,Dyspepsia
+Doxorubicin,stomach cancer,Eructation
+Doxorubicin,stomach cancer,Fatigue
+Doxorubicin,stomach cancer,Flatulence
+Doxorubicin,stomach cancer,Nausea
+Doxorubicin,stomach cancer,Vomiting
+Doxorubicin,testicular cancer,Abdominal Pain
+Doxorubicin,testicular cancer,Anorexia
+Doxorubicin,testicular cancer,Back Pain
+Doxorubicin,testicular cancer,Cachexia
+Doxorubicin,testicular cancer,Nausea
+Doxorubicin,testicular cancer,Vomiting
+Doxorubicin,thyroid cancer,Dysphonia
+Doxorubicin,thyroid cancer,Neck Pain
+Doxorubicin,thyroid cancer,Paralysis
+Doxorubicin,urinary bladder cancer,Abdominal Pain
+Doxorubicin,urinary bladder cancer,Anorexia
+Doxorubicin,urinary bladder cancer,Dysuria
+Doxorubicin,urinary bladder cancer,Flatulence
+Doxorubicin,urinary bladder cancer,Nausea
+Doxorubicin,urinary bladder cancer,Pelvic Pain
+Doxorubicin,urinary bladder cancer,Vomiting
+Doxorubicin,uterine cancer,Abdominal Pain
+Doxorubicin,uterine cancer,Anorexia
+Doxorubicin,uterine cancer,Constipation
+Doxorubicin,uterine cancer,Nausea
+Doxorubicin,uterine cancer,Pain
+Doxorubicin,uterine cancer,Pelvic Pain
+Doxorubicin,uterine cancer,Vomiting
+Efavirenz,acquired immunodeficiency syndrome,Abdominal Pain
+Efavirenz,acquired immunodeficiency syndrome,Anorexia
+Efavirenz,acquired immunodeficiency syndrome,Cachexia
+Efavirenz,acquired immunodeficiency syndrome,Cough
+Efavirenz,acquired immunodeficiency syndrome,Delirium
+Efavirenz,acquired immunodeficiency syndrome,Nausea
+Efavirenz,acquired immunodeficiency syndrome,Neuralgia
+Efavirenz,acquired immunodeficiency syndrome,Pain
+Efavirenz,acquired immunodeficiency syndrome,Pruritus
+Enalapril,coronary artery disease,Acute Coronary Syndrome
+Enalapril,coronary artery disease,Angina Pectoris
+Enalapril,coronary artery disease,Chest Pain
+Enalapril,hypertension,Angina Pectoris
+Enalapril,hypertension,Dizziness
+Enalapril,hypertension,Headache
+Enalapril,hypertension,Oliguria
+Enalapril,hypertension,Polyuria
+Enalapril,hypertension,Proteinuria
+Epirubicin,bone cancer,Amblyopia
+Epirubicin,bone cancer,Arthralgia
+Epirubicin,bone cancer,Back Pain
+Epirubicin,bone cancer,Blindness
+Epirubicin,bone cancer,Diplopia
+Epirubicin,bone cancer,Ecchymosis
+Epirubicin,bone cancer,Eye Pain
+Epirubicin,bone cancer,Headache
+Epirubicin,bone cancer,Musculoskeletal Pain
+Epirubicin,bone cancer,Neck Pain
+Epirubicin,bone cancer,Neuralgia
+Epirubicin,bone cancer,Pain
+Epirubicin,bone cancer,Paralysis
+Epirubicin,bone cancer,Tinnitus
+Epirubicin,breast cancer,Anorexia
+Epirubicin,breast cancer,Arthralgia
+Epirubicin,breast cancer,Asthenia
+Epirubicin,breast cancer,Cachexia
+Epirubicin,breast cancer,Fatigue
+Epirubicin,breast cancer,Musculoskeletal Pain
+Epirubicin,breast cancer,Myalgia
+Epirubicin,breast cancer,Nausea
+Epirubicin,breast cancer,Neuralgia
+Epirubicin,breast cancer,Pain
+Epirubicin,breast cancer,Vomiting
+Epirubicin,hematologic cancer,Anorexia
+Epirubicin,hematologic cancer,Fatigue
+Epirubicin,hematologic cancer,Nausea
+Epirubicin,hematologic cancer,Pain
+Epirubicin,hematologic cancer,Purpura
+Epirubicin,hematologic cancer,Vomiting
+Epirubicin,liver cancer,Abdominal Pain
+Epirubicin,liver cancer,Anorexia
+Epirubicin,liver cancer,Cachexia
+Epirubicin,liver cancer,Ecchymosis
+Epirubicin,liver cancer,Flushing
+Epirubicin,liver cancer,Jaundice
+Epirubicin,liver cancer,Nausea
+Epirubicin,liver cancer,Purpura
+Epirubicin,liver cancer,Vomiting
+Epirubicin,ovarian cancer,Abdominal Pain
+Epirubicin,ovarian cancer,Anorexia
+Epirubicin,ovarian cancer,Cachexia
+Epirubicin,ovarian cancer,Constipation
+Epirubicin,ovarian cancer,Fatigue
+Epirubicin,ovarian cancer,Flatulence
+Epirubicin,ovarian cancer,Nausea
+Epirubicin,ovarian cancer,Pelvic Pain
+Epirubicin,ovarian cancer,Vomiting
+Epirubicin,pancreatic cancer,Abdominal Pain
+Epirubicin,pancreatic cancer,Anorexia
+Epirubicin,pancreatic cancer,Back Pain
+Epirubicin,pancreatic cancer,Cachexia
+Epirubicin,pancreatic cancer,Dyspepsia
+Epirubicin,pancreatic cancer,Jaundice
+Epirubicin,pancreatic cancer,Nausea
+Epirubicin,pancreatic cancer,Pain
+Epirubicin,pancreatic cancer,Vomiting
+Epirubicin,peripheral nervous system neoplasm,Ageusia
+Epirubicin,peripheral nervous system neoplasm,Back Pain
+Epirubicin,peripheral nervous system neoplasm,Blindness
+Epirubicin,peripheral nervous system neoplasm,Diplopia
+Epirubicin,peripheral nervous system neoplasm,Dizziness
+Epirubicin,peripheral nervous system neoplasm,Headache
+Epirubicin,peripheral nervous system neoplasm,Neuralgia
+Epirubicin,peripheral nervous system neoplasm,Paralysis
+Epirubicin,peripheral nervous system neoplasm,Tinnitus
+Epirubicin,peripheral nervous system neoplasm,Vertigo
+Epirubicin,prostate cancer,Constipation
+Epirubicin,prostate cancer,Dysuria
+Epirubicin,prostate cancer,Fatigue
+Epirubicin,prostate cancer,Flatulence
+Epirubicin,prostate cancer,Flushing
+Epirubicin,prostate cancer,Nausea
+Epirubicin,prostate cancer,Nocturia
+Epirubicin,prostate cancer,Pain
+Epirubicin,prostate cancer,Pelvic Pain
+Epirubicin,sarcoma,Abdominal Pain
+Epirubicin,sarcoma,Anorexia
+Epirubicin,sarcoma,Back Pain
+Epirubicin,sarcoma,Cachexia
+Epirubicin,sarcoma,Chest Pain
+Epirubicin,sarcoma,Cough
+Epirubicin,sarcoma,Diplopia
+Epirubicin,sarcoma,Dysuria
+Epirubicin,sarcoma,Ecchymosis
+Epirubicin,sarcoma,Nausea
+Epirubicin,sarcoma,Neck Pain
+Epirubicin,sarcoma,Pain
+Epirubicin,sarcoma,Paralysis
+Epirubicin,sarcoma,Pelvic Pain
+Epirubicin,sarcoma,Purpura
+Epirubicin,sarcoma,Syncope
+Epirubicin,sarcoma,Vomiting
+Epirubicin,stomach cancer,Abdominal Pain
+Epirubicin,stomach cancer,Anorexia
+Epirubicin,stomach cancer,Asthenia
+Epirubicin,stomach cancer,Cachexia
+Epirubicin,stomach cancer,Constipation
+Epirubicin,stomach cancer,Dyspepsia
+Epirubicin,stomach cancer,Eructation
+Epirubicin,stomach cancer,Fatigue
+Epirubicin,stomach cancer,Flatulence
+Epirubicin,stomach cancer,Nausea
+Epirubicin,stomach cancer,Vomiting
+Epirubicin,testicular cancer,Abdominal Pain
+Epirubicin,testicular cancer,Anorexia
+Epirubicin,testicular cancer,Back Pain
+Epirubicin,testicular cancer,Cachexia
+Epirubicin,testicular cancer,Nausea
+Epirubicin,testicular cancer,Vomiting
+Epirubicin,thyroid cancer,Dysphonia
+Epirubicin,thyroid cancer,Neck Pain
+Epirubicin,thyroid cancer,Paralysis
+Epirubicin,urinary bladder cancer,Abdominal Pain
+Epirubicin,urinary bladder cancer,Anorexia
+Epirubicin,urinary bladder cancer,Dysuria
+Epirubicin,urinary bladder cancer,Flatulence
+Epirubicin,urinary bladder cancer,Nausea
+Epirubicin,urinary bladder cancer,Pelvic Pain
+Epirubicin,urinary bladder cancer,Vomiting
+Epirubicin,uterine cancer,Abdominal Pain
+Epirubicin,uterine cancer,Anorexia
+Epirubicin,uterine cancer,Constipation
+Epirubicin,uterine cancer,Nausea
+Epirubicin,uterine cancer,Pain
+Epirubicin,uterine cancer,Pelvic Pain
+Epirubicin,uterine cancer,Vomiting
+Eplerenone,coronary artery disease,Acute Coronary Syndrome
+Eplerenone,coronary artery disease,Angina Pectoris
+Eplerenone,coronary artery disease,Chest Pain
+Eplerenone,hypertension,Albuminuria
+Eplerenone,hypertension,Angina Pectoris
+Eplerenone,hypertension,Dizziness
+Eplerenone,hypertension,Headache
+Eplerenone,hypertension,Proteinuria
+Eprosartan,hypertension,Albuminuria
+Eprosartan,hypertension,Angina Pectoris
+Eprosartan,hypertension,Dizziness
+Eprosartan,hypertension,Headache
+Eprosartan,hypertension,Polyuria
+Ergocalciferol,osteoporosis,Asthenia
+Ergocalciferol,osteoporosis,Hypercalciuria
+Ergocalciferol,osteoporosis,Pain
+Ergocalciferol,rheumatoid arthritis,Nausea
+Ergocalciferol,rheumatoid arthritis,Pain
+Erlotinib,kidney cancer,Abdominal Pain
+Erlotinib,kidney cancer,Anorexia
+Erlotinib,kidney cancer,Asthenia
+Erlotinib,kidney cancer,Back Pain
+Erlotinib,kidney cancer,Fatigue
+Erlotinib,kidney cancer,Nausea
+Erlotinib,kidney cancer,Pain
+Erlotinib,kidney cancer,Proteinuria
+Erlotinib,kidney cancer,Vomiting
+Erlotinib,lung cancer,Anorexia
+Erlotinib,lung cancer,Asthenia
+Erlotinib,lung cancer,Back Pain
+Erlotinib,lung cancer,Chest Pain
+Erlotinib,lung cancer,Constipation
+Erlotinib,lung cancer,Cough
+Erlotinib,lung cancer,Fatigue
+Erlotinib,lung cancer,Nausea
+Erlotinib,lung cancer,Pain
+Erlotinib,lung cancer,Vomiting
+Erlotinib,pancreatic cancer,Abdominal Pain
+Erlotinib,pancreatic cancer,Anorexia
+Erlotinib,pancreatic cancer,Back Pain
+Erlotinib,pancreatic cancer,Dyspepsia
+Erlotinib,pancreatic cancer,Nausea
+Erlotinib,pancreatic cancer,Pain
+Erlotinib,pancreatic cancer,Vomiting
+Esmolol,hypertension,Angina Pectoris
+Esmolol,hypertension,Dizziness
+Esmolol,hypertension,Headache
+Esmolol,hypertension,Oliguria
+Esomeprazole,Barrett's esophagus,Chest Pain
+Esomeprazole,Barrett's esophagus,Dyspepsia
+Estradiol,osteoporosis,Arthralgia
+Estradiol,osteoporosis,Asthenia
+Estradiol,osteoporosis,Back Pain
+Estradiol,osteoporosis,Musculoskeletal Pain
+Estradiol,osteoporosis,Pain
+Estradiol,prostate cancer,Constipation
+Estradiol,prostate cancer,Fatigue
+Estradiol,prostate cancer,Flatulence
+Estradiol,prostate cancer,Flushing
+Estradiol,prostate cancer,Nausea
+Estradiol,prostate cancer,Pain
+Estradiol,prostate cancer,Pelvic Pain
+Estradiol,prostate cancer,Urinary Incontinence
+Estradiol valerate/Dienogest,prostate cancer,Fatigue
+Estradiol valerate/Dienogest,prostate cancer,Flatulence
+Estradiol valerate/Dienogest,prostate cancer,Nausea
+Estradiol valerate/Dienogest,prostate cancer,Pain
+Estramustine,prostate cancer,Flatulence
+Estramustine,prostate cancer,Flushing
+Estramustine,prostate cancer,Nausea
+Estrone,prostate cancer,Flatulence
+Estrone,prostate cancer,Nausea
+Estrone,prostate cancer,Pain
+Estropipate,osteoporosis,Arthralgia
+Estropipate,osteoporosis,Asthenia
+Estropipate,osteoporosis,Back Pain
+Estropipate,osteoporosis,Musculoskeletal Pain
+Estropipate,osteoporosis,Pain
+Ethacrynic acid,hypertension,Headache
+Ethinyl Estradiol,osteoporosis,Asthenia
+Ethinyl Estradiol,osteoporosis,Back Pain
+Ethinyl Estradiol,prostate cancer,Constipation
+Ethinyl Estradiol,prostate cancer,Dysuria
+Ethinyl Estradiol,prostate cancer,Fatigue
+Ethinyl Estradiol,prostate cancer,Nausea
+Ethinyl Estradiol,prostate cancer,Pelvic Pain
+Etidronic acid,osteoporosis,Arthralgia
+Etoposide,brain cancer,Dizziness
+Etoposide,brain cancer,Headache
+Etoposide,brain cancer,Nausea
+Etoposide,brain cancer,Vertigo
+Etoposide,brain cancer,Vomiting
+Etoposide,germ cell cancer,Abdominal Pain
+Etoposide,germ cell cancer,Back Pain
+Etoposide,germ cell cancer,Chest Pain
+Etoposide,germ cell cancer,Constipation
+Etoposide,germ cell cancer,Cyanosis
+Etoposide,germ cell cancer,Dizziness
+Etoposide,germ cell cancer,Flushing
+Etoposide,germ cell cancer,Headache
+Etoposide,germ cell cancer,Nausea
+Etoposide,germ cell cancer,Vertigo
+Etoposide,germ cell cancer,Vomiting
+Etoposide,hematologic cancer,Anorexia
+Etoposide,hematologic cancer,Fatigue
+Etoposide,hematologic cancer,Nausea
+Etoposide,hematologic cancer,Pain
+Etoposide,hematologic cancer,Vomiting
+Etoposide,lung cancer,Anorexia
+Etoposide,lung cancer,Asthenia
+Etoposide,lung cancer,Back Pain
+Etoposide,lung cancer,Chest Pain
+Etoposide,lung cancer,Constipation
+Etoposide,lung cancer,Cough
+Etoposide,lung cancer,Cyanosis
+Etoposide,lung cancer,Dysgeusia
+Etoposide,lung cancer,Fatigue
+Etoposide,lung cancer,Nausea
+Etoposide,lung cancer,Pain
+Etoposide,lung cancer,Vomiting
+Etoposide,muscle cancer,Back Pain
+Etoposide,muscle cancer,Pain
+Etoposide,peripheral nervous system neoplasm,Back Pain
+Etoposide,peripheral nervous system neoplasm,Dizziness
+Etoposide,peripheral nervous system neoplasm,Headache
+Etoposide,peripheral nervous system neoplasm,Vertigo
+Etoposide,prostate cancer,Constipation
+Etoposide,prostate cancer,Fatigue
+Etoposide,prostate cancer,Flushing
+Etoposide,prostate cancer,Nausea
+Etoposide,prostate cancer,Pain
+Etoposide,sarcoma,Abdominal Pain
+Etoposide,sarcoma,Anorexia
+Etoposide,sarcoma,Back Pain
+Etoposide,sarcoma,Chest Pain
+Etoposide,sarcoma,Cough
+Etoposide,sarcoma,Nausea
+Etoposide,sarcoma,Pain
+Etoposide,sarcoma,Vomiting
+Etoposide,testicular cancer,Abdominal Pain
+Etoposide,testicular cancer,Anorexia
+Etoposide,testicular cancer,Back Pain
+Etoposide,testicular cancer,Nausea
+Etoposide,testicular cancer,Vomiting
+Etoposide,urinary bladder cancer,Abdominal Pain
+Etoposide,urinary bladder cancer,Anorexia
+Etoposide,urinary bladder cancer,Nausea
+Etoposide,urinary bladder cancer,Vomiting
+Etoposide,uterine cancer,Abdominal Pain
+Etoposide,uterine cancer,Anorexia
+Etoposide,uterine cancer,Constipation
+Etoposide,uterine cancer,Nausea
+Etoposide,uterine cancer,Pain
+Etoposide,uterine cancer,Vomiting
+Everolimus,kidney cancer,Abdominal Pain
+Everolimus,kidney cancer,Anorexia
+Everolimus,kidney cancer,Asthenia
+Everolimus,kidney cancer,Back Pain
+Everolimus,kidney cancer,Fatigue
+Everolimus,kidney cancer,Nausea
+Everolimus,kidney cancer,Pain
+Everolimus,kidney cancer,Polyuria
+Everolimus,kidney cancer,Proteinuria
+Everolimus,kidney cancer,Vomiting
+Exemestane,breast cancer,Anorexia
+Exemestane,breast cancer,Arthralgia
+Exemestane,breast cancer,Asthenia
+Exemestane,breast cancer,Fatigue
+Exemestane,breast cancer,Musculoskeletal Pain
+Exemestane,breast cancer,Myalgia
+Exemestane,breast cancer,Nausea
+Exemestane,breast cancer,Pain
+Exemestane,breast cancer,Vomiting
+Ezetimibe,coronary artery disease,Chest Pain
+Felbamate,epilepsy syndrome,Ataxia
+Felbamate,epilepsy syndrome,Coma
+Felbamate,epilepsy syndrome,Stupor
+Felodipine,hypertension,Angina Pectoris
+Felodipine,hypertension,Dizziness
+Felodipine,hypertension,Headache
+Felodipine,hypertension,Polyuria
+Fenofibrate,coronary artery disease,Acute Coronary Syndrome
+Fenofibrate,coronary artery disease,Angina Pectoris
+Fenofibrate,coronary artery disease,Chest Pain
+Fenoldopam,hypertension,Angina Pectoris
+Fenoldopam,hypertension,Dizziness
+Fenoldopam,hypertension,Headache
+Fenoldopam,hypertension,Oliguria
+Fingolimod,multiple sclerosis,Dizziness
+Fingolimod,multiple sclerosis,Fatigue
+Floxuridine,stomach cancer,Abdominal Pain
+Floxuridine,stomach cancer,Anorexia
+Floxuridine,stomach cancer,Asthenia
+Floxuridine,stomach cancer,Nausea
+Floxuridine,stomach cancer,Vomiting
+Fludarabine,hematologic cancer,Anorexia
+Fludarabine,hematologic cancer,Fatigue
+Fludarabine,hematologic cancer,Nausea
+Fludarabine,hematologic cancer,Pain
+Fludarabine,hematologic cancer,Vomiting
+Flunisolide,allergic rhinitis,Cough
+Flunisolide,allergic rhinitis,Headache
+Flunisolide,allergic rhinitis,Pruritus
+Flunisolide,allergic rhinitis,Sneezing
+Flunisolide,asthma,Chest Pain
+Flunisolide,asthma,Cough
+Flunisolide,asthma,Dysphonia
+Flunisolide,asthma,Hoarseness
+Flunisolide,asthma,Sneezing
+Flunisolide,asthma,Tremor
+Fluocinolone Acetonide,atopic dermatitis,Pruritus
+Fluocinolone Acetonide,psoriasis,Arthralgia
+Fluocinolone Acetonide,psoriasis,Back Pain
+Fluocinolone Acetonide,psoriasis,Nausea
+Fluocinolone Acetonide,psoriasis,Neck Pain
+Fluocinolone Acetonide,psoriasis,Pain
+Fluocinolone Acetonide,psoriasis,Pruritus
+Fluocinonide,atopic dermatitis,Pruritus
+Fluocinonide,psoriasis,Pain
+Fluocinonide,psoriasis,Pruritus
+Fluorouracil,breast cancer,Anorexia
+Fluorouracil,breast cancer,Myalgia
+Fluorouracil,breast cancer,Nausea
+Fluorouracil,breast cancer,Pain
+Fluorouracil,breast cancer,Vomiting
+Fluorouracil,colon cancer,Anorexia
+Fluorouracil,colon cancer,Nausea
+Fluorouracil,colon cancer,Vomiting
+Fluorouracil,head and neck cancer,Anorexia
+Fluorouracil,head and neck cancer,Chest Pain
+Fluorouracil,head and neck cancer,Dizziness
+Fluorouracil,head and neck cancer,Dyspepsia
+Fluorouracil,head and neck cancer,Headache
+Fluorouracil,head and neck cancer,Heartburn
+Fluorouracil,head and neck cancer,Nausea
+Fluorouracil,head and neck cancer,Pain
+Fluorouracil,head and neck cancer,Vomiting
+Fluorouracil,pancreatic cancer,Anorexia
+Fluorouracil,pancreatic cancer,Dyspepsia
+Fluorouracil,pancreatic cancer,Nausea
+Fluorouracil,pancreatic cancer,Pain
+Fluorouracil,pancreatic cancer,Vomiting
+Fluorouracil,skin cancer,Nausea
+Fluorouracil,skin cancer,Pain
+Fluorouracil,skin cancer,Pruritus
+Fluorouracil,skin cancer,Vomiting
+Fluorouracil,stomach cancer,Anorexia
+Fluorouracil,stomach cancer,Dyspepsia
+Fluorouracil,stomach cancer,Heartburn
+Fluorouracil,stomach cancer,Nausea
+Fluorouracil,stomach cancer,Vomiting
+Fluorouracil,urinary bladder cancer,Anorexia
+Fluorouracil,urinary bladder cancer,Nausea
+Fluorouracil,urinary bladder cancer,Vomiting
+Fluoxymesterone,breast cancer,Nausea
+Flutamide,prostate cancer,Constipation
+Flutamide,prostate cancer,Fatigue
+Flutamide,prostate cancer,Nausea
+Fluticasone Propionate,asthma,Chest Pain
+Fluticasone Propionate,asthma,Cough
+Fluticasone Propionate,asthma,Dysphonia
+Fluticasone Propionate,asthma,Hoarseness
+Fluticasone Propionate,asthma,Sneezing
+Fluticasone Propionate,asthma,Tremor
+Fluticasone furoate,asthma,Cough
+Fluticasone furoate,asthma,Dysphonia
+Fluticasone furoate,asthma,Tremor
+Formoterol,asthma,Chest Pain
+Formoterol,asthma,Cough
+Formoterol,asthma,Dysphonia
+Formoterol,asthma,Tremor
+Formoterol,chronic obstructive pulmonary disease,Cough
+Formoterol,chronic obstructive pulmonary disease,Fatigue
+Fosinopril,hypertension,Angina Pectoris
+Fosinopril,hypertension,Dizziness
+Fosinopril,hypertension,Headache
+Fosinopril,hypertension,Intermittent Claudication
+Fosinopril,hypertension,Oliguria
+Fosinopril,hypertension,Polyuria
+Fosinopril,hypertension,Proteinuria
+Fosphenytoin,epilepsy syndrome,Amnesia
+Fosphenytoin,epilepsy syndrome,Aphasia
+Fosphenytoin,epilepsy syndrome,Ataxia
+Fosphenytoin,epilepsy syndrome,Coma
+Fosphenytoin,epilepsy syndrome,Hemiplegia
+Fosphenytoin,epilepsy syndrome,Hyperventilation
+Fosphenytoin,epilepsy syndrome,Myoclonus
+Fosphenytoin,epilepsy syndrome,Stupor
+Fosphenytoin,epilepsy syndrome,Syncope
+Fulvestrant,breast cancer,Anorexia
+Fulvestrant,breast cancer,Arthralgia
+Fulvestrant,breast cancer,Asthenia
+Fulvestrant,breast cancer,Fatigue
+Fulvestrant,breast cancer,Musculoskeletal Pain
+Fulvestrant,breast cancer,Myalgia
+Fulvestrant,breast cancer,Nausea
+Fulvestrant,breast cancer,Pain
+Fulvestrant,breast cancer,Vomiting
+Furosemide,hypertension,Dizziness
+Furosemide,hypertension,Headache
+Furosemide,hypertension,Polyuria
+Gabapentin,epilepsy syndrome,Amnesia
+Gabapentin,epilepsy syndrome,Aphasia
+Gabapentin,epilepsy syndrome,Ataxia
+Gabapentin,epilepsy syndrome,Hemiplegia
+Gabapentin,epilepsy syndrome,Hyperventilation
+Gabapentin,epilepsy syndrome,Lethargy
+Gabapentin,epilepsy syndrome,Myoclonus
+Gabapentin,epilepsy syndrome,Paresis
+Gabapentin,epilepsy syndrome,Somnambulism
+Gabapentin,epilepsy syndrome,Stupor
+Gabapentin,epilepsy syndrome,Syncope
+Gabapentin,migraine,Amnesia
+Gabapentin,migraine,Aphasia
+Gabapentin,migraine,Ataxia
+Gabapentin,migraine,Dizziness
+Gabapentin,migraine,Headache
+Gabapentin,migraine,Hemiplegia
+Gabapentin,migraine,Hyperventilation
+Gabapentin,migraine,Miosis
+Gabapentin,migraine,Nausea
+Gabapentin,migraine,Neck Pain
+Gabapentin,migraine,Pain
+Gabapentin,migraine,Paresis
+Gabapentin,migraine,Photophobia
+Gabapentin,migraine,Scotoma
+Gabapentin,migraine,Somnambulism
+Gabapentin,migraine,Syncope
+Gabapentin,migraine,Vertigo
+Gabapentin,migraine,Vomiting
+Galantamine,Alzheimer's disease,Aphasia
+Galantamine,Alzheimer's disease,Delirium
+Gefitinib,lung cancer,Anorexia
+Gefitinib,lung cancer,Asthenia
+Gefitinib,lung cancer,Constipation
+Gefitinib,lung cancer,Cough
+Gefitinib,lung cancer,Fatigue
+Gefitinib,lung cancer,Nausea
+Gefitinib,lung cancer,Pain
+Gefitinib,lung cancer,Vomiting
+Gemcitabine,breast cancer,Anorexia
+Gemcitabine,breast cancer,Arthralgia
+Gemcitabine,breast cancer,Asthenia
+Gemcitabine,breast cancer,Fatigue
+Gemcitabine,breast cancer,Myalgia
+Gemcitabine,breast cancer,Nausea
+Gemcitabine,breast cancer,Pain
+Gemcitabine,breast cancer,Vomiting
+Gemcitabine,hematologic cancer,Anorexia
+Gemcitabine,hematologic cancer,Fatigue
+Gemcitabine,hematologic cancer,Nausea
+Gemcitabine,hematologic cancer,Pain
+Gemcitabine,hematologic cancer,Vomiting
+Gemcitabine,kidney cancer,Anorexia
+Gemcitabine,kidney cancer,Asthenia
+Gemcitabine,kidney cancer,Back Pain
+Gemcitabine,kidney cancer,Fatigue
+Gemcitabine,kidney cancer,Nausea
+Gemcitabine,kidney cancer,Pain
+Gemcitabine,kidney cancer,Proteinuria
+Gemcitabine,kidney cancer,Vomiting
+Gemcitabine,lung cancer,Anorexia
+Gemcitabine,lung cancer,Asthenia
+Gemcitabine,lung cancer,Back Pain
+Gemcitabine,lung cancer,Chest Pain
+Gemcitabine,lung cancer,Constipation
+Gemcitabine,lung cancer,Cough
+Gemcitabine,lung cancer,Fatigue
+Gemcitabine,lung cancer,Nausea
+Gemcitabine,lung cancer,Pain
+Gemcitabine,lung cancer,Vomiting
+Gemcitabine,pancreatic cancer,Anorexia
+Gemcitabine,pancreatic cancer,Back Pain
+Gemcitabine,pancreatic cancer,Nausea
+Gemcitabine,pancreatic cancer,Pain
+Gemcitabine,pancreatic cancer,Vomiting
+Gemcitabine,urinary bladder cancer,Anorexia
+Gemcitabine,urinary bladder cancer,Nausea
+Gemcitabine,urinary bladder cancer,Proteinuria
+Gemcitabine,urinary bladder cancer,Vomiting
+Gemfibrozil,coronary artery disease,Chest Pain
+Gliclazide,type 2 diabetes mellitus,Acute Coronary Syndrome
+Gliclazide,type 2 diabetes mellitus,Albuminuria
+Gliclazide,type 2 diabetes mellitus,Flushing
+Glipizide,type 2 diabetes mellitus,Flushing
+Goserelin,breast cancer,Anorexia
+Goserelin,breast cancer,Arthralgia
+Goserelin,breast cancer,Asthenia
+Goserelin,breast cancer,Fatigue
+Goserelin,breast cancer,Myalgia
+Goserelin,breast cancer,Nausea
+Goserelin,breast cancer,Pain
+Goserelin,breast cancer,Vomiting
+Goserelin,prostate cancer,Constipation
+Goserelin,prostate cancer,Dysuria
+Goserelin,prostate cancer,Fatigue
+Goserelin,prostate cancer,Flatulence
+Goserelin,prostate cancer,Lower Urinary Tract Symptoms
+Goserelin,prostate cancer,Nausea
+Goserelin,prostate cancer,Nocturia
+Goserelin,prostate cancer,Pain
+Goserelin,prostate cancer,Pelvic Pain
+Goserelin,prostate cancer,Urinary Incontinence
+Guanabenz,hypertension,Dizziness
+Guanabenz,hypertension,Headache
+Guanabenz,hypertension,Oliguria
+Guanfacine,hypertension,Dizziness
+Guanfacine,hypertension,Headache
+Guanfacine,hypertension,Nocturia
+Hydralazine,hypertension,Angina Pectoris
+Hydralazine,hypertension,Dizziness
+Hydralazine,hypertension,Headache
+Hydralazine,hypertension,Proteinuria
+Hydrochlorothiazide,hypertension,Angina Pectoris
+Hydrochlorothiazide,hypertension,Dizziness
+Hydrochlorothiazide,hypertension,Headache
+Hydrochlorothiazide,hypertension,Nocturia
+Hydrochlorothiazide,hypertension,Polyuria
+Hydrochlorothiazide,nephrolithiasis,Abdominal Pain
+Hydrochlorothiazide,nephrolithiasis,Back Pain
+Hydrochlorothiazide,nephrolithiasis,Pain
+Hydrochlorothiazide,nephrolithiasis,Polyuria
+Hydrocortisone,allergic rhinitis,Headache
+Hydrocortisone,allergic rhinitis,Pruritus
+Hydrocortisone,atopic dermatitis,Pruritus
+Hydrocortisone,gout,Pain
+Hydrocortisone,psoriasis,Fatigue
+Hydrocortisone,psoriasis,Nausea
+Hydrocortisone,psoriasis,Pain
+Hydrocortisone,psoriasis,Pruritus
+Hydrocortisone,rheumatoid arthritis,Dyspepsia
+Hydrocortisone,rheumatoid arthritis,Fatigue
+Hydrocortisone,rheumatoid arthritis,Nausea
+Hydrocortisone,rheumatoid arthritis,Pain
+Hydrocortisone,systemic lupus erythematosus,Abdominal Pain
+Hydrocortisone,systemic lupus erythematosus,Ecchymosis
+Hydrocortisone,systemic lupus erythematosus,Fatigue
+Hydrocortisone,systemic lupus erythematosus,Headache
+Hydrocortisone,ulcerative colitis,Abdominal Pain
+Hydrocortisone,ulcerative colitis,Dyspepsia
+Hydrocortisone,ulcerative colitis,Nausea
+Hydrocortisone,ulcerative colitis,Vomiting
+Hydroflumethiazide,hypertension,Dizziness
+Hydroflumethiazide,hypertension,Headache
+Hydroxyurea,brain cancer,Dizziness
+Hydroxyurea,brain cancer,Headache
+Hydroxyurea,brain cancer,Nausea
+Hydroxyurea,brain cancer,Vomiting
+Hydroxyurea,head and neck cancer,Anorexia
+Hydroxyurea,head and neck cancer,Dizziness
+Hydroxyurea,head and neck cancer,Dyspepsia
+Hydroxyurea,head and neck cancer,Headache
+Hydroxyurea,head and neck cancer,Nausea
+Hydroxyurea,head and neck cancer,Pain
+Hydroxyurea,head and neck cancer,Vomiting
+Hydroxyurea,hematologic cancer,Anorexia
+Hydroxyurea,hematologic cancer,Fatigue
+Hydroxyurea,hematologic cancer,Nausea
+Hydroxyurea,hematologic cancer,Pain
+Hydroxyurea,hematologic cancer,Vomiting
+Hydroxyurea,psoriasis,Chills
+Hydroxyurea,psoriasis,Fatigue
+Hydroxyurea,psoriasis,Nausea
+Hydroxyurea,psoriasis,Pain
+Hyoscyamine,pancreatitis,Abdominal Pain
+Hyoscyamine,pancreatitis,Dyspepsia
+Hyoscyamine,pancreatitis,Pain
+Hyoscyamine,pancreatitis,Vomiting
+Ibandronate,osteoporosis,Arthralgia
+Ibandronate,osteoporosis,Asthenia
+Ibandronate,osteoporosis,Back Pain
+Ibandronate,osteoporosis,Musculoskeletal Pain
+Ibandronate,osteoporosis,Pain
+Idarubicin,breast cancer,Anorexia
+Idarubicin,breast cancer,Nausea
+Idarubicin,breast cancer,Vomiting
+Idarubicin,hematologic cancer,Anorexia
+Idarubicin,hematologic cancer,Nausea
+Idarubicin,hematologic cancer,Vomiting
+Ifosfamide,germ cell cancer,Abdominal Pain
+Ifosfamide,germ cell cancer,Amnesia
+Ifosfamide,germ cell cancer,Chest Pain
+Ifosfamide,germ cell cancer,Constipation
+Ifosfamide,germ cell cancer,Deafness
+Ifosfamide,germ cell cancer,Dizziness
+Ifosfamide,germ cell cancer,Dysarthria
+Ifosfamide,germ cell cancer,Flushing
+Ifosfamide,germ cell cancer,Mutism
+Ifosfamide,germ cell cancer,Nausea
+Ifosfamide,germ cell cancer,Neuralgia
+Ifosfamide,germ cell cancer,Polyuria
+Ifosfamide,germ cell cancer,Tinnitus
+Ifosfamide,germ cell cancer,Vertigo
+Ifosfamide,germ cell cancer,Vomiting
+Ifosfamide,hematologic cancer,Anorexia
+Ifosfamide,hematologic cancer,Fatigue
+Ifosfamide,hematologic cancer,Fever of Unknown Origin
+Ifosfamide,hematologic cancer,Nausea
+Ifosfamide,hematologic cancer,Pain
+Ifosfamide,hematologic cancer,Vomiting
+Ifosfamide,testicular cancer,Abdominal Pain
+Ifosfamide,testicular cancer,Anorexia
+Ifosfamide,testicular cancer,Nausea
+Ifosfamide,testicular cancer,Vomiting
+Imatinib,hematologic cancer,Anorexia
+Imatinib,hematologic cancer,Fatigue
+Imatinib,hematologic cancer,Nausea
+Imatinib,hematologic cancer,Pain
+Imatinib,hematologic cancer,Purpura
+Imatinib,hematologic cancer,Vomiting
+Imiquimod,skin cancer,Nausea
+Imiquimod,skin cancer,Pain
+Imiquimod,skin cancer,Pruritus
+Imiquimod,skin cancer,Purpura
+Imiquimod,skin cancer,Vomiting
+Indacaterol,asthma,Chest Pain
+Indacaterol,asthma,Cough
+Indacaterol,asthma,Tremor
+Indapamide,hypertension,Angina Pectoris
+Indapamide,hypertension,Dizziness
+Indapamide,hypertension,Headache
+Indapamide,hypertension,Nocturia
+Indapamide,hypertension,Oliguria
+Indapamide,hypertension,Polyuria
+Indinavir,acquired immunodeficiency syndrome,Abdominal Pain
+Indinavir,acquired immunodeficiency syndrome,Anorexia
+Indinavir,acquired immunodeficiency syndrome,Cough
+Indinavir,acquired immunodeficiency syndrome,Nausea
+Indinavir,acquired immunodeficiency syndrome,Neuralgia
+Indinavir,acquired immunodeficiency syndrome,Pain
+Indinavir,acquired immunodeficiency syndrome,Pruritus
+Indomethacin,gout,Pain
+Ipratropium bromide,asthma,Chest Pain
+Ipratropium bromide,asthma,Cough
+Ipratropium bromide,asthma,Dysphonia
+Ipratropium bromide,asthma,Hoarseness
+Ipratropium bromide,asthma,Tremor
+Irbesartan,hypertension,Angina Pectoris
+Irbesartan,hypertension,Dizziness
+Irbesartan,hypertension,Headache
+Irbesartan,hypertension,Proteinuria
+Irbesartan,type 2 diabetes mellitus,Acute Coronary Syndrome
+Irbesartan,type 2 diabetes mellitus,Flushing
+Irbesartan,type 2 diabetes mellitus,Proteinuria
+Irinotecan,breast cancer,Anorexia
+Irinotecan,breast cancer,Asthenia
+Irinotecan,breast cancer,Fatigue
+Irinotecan,breast cancer,Nausea
+Irinotecan,breast cancer,Pain
+Irinotecan,breast cancer,Vomiting
+Irinotecan,colon cancer,Abdominal Pain
+Irinotecan,colon cancer,Anorexia
+Irinotecan,colon cancer,Constipation
+Irinotecan,colon cancer,Flatulence
+Irinotecan,colon cancer,Nausea
+Irinotecan,colon cancer,Vomiting
+Irinotecan,hematologic cancer,Anorexia
+Irinotecan,hematologic cancer,Fatigue
+Irinotecan,hematologic cancer,Nausea
+Irinotecan,hematologic cancer,Pain
+Irinotecan,hematologic cancer,Vomiting
+Irinotecan,lung cancer,Anorexia
+Irinotecan,lung cancer,Asthenia
+Irinotecan,lung cancer,Back Pain
+Irinotecan,lung cancer,Constipation
+Irinotecan,lung cancer,Cough
+Irinotecan,lung cancer,Fatigue
+Irinotecan,lung cancer,Nausea
+Irinotecan,lung cancer,Pain
+Irinotecan,lung cancer,Vomiting
+Irinotecan,pancreatic cancer,Abdominal Pain
+Irinotecan,pancreatic cancer,Anorexia
+Irinotecan,pancreatic cancer,Back Pain
+Irinotecan,pancreatic cancer,Dyspepsia
+Irinotecan,pancreatic cancer,Jaundice
+Irinotecan,pancreatic cancer,Nausea
+Irinotecan,pancreatic cancer,Pain
+Irinotecan,pancreatic cancer,Vomiting
+Irinotecan,stomach cancer,Abdominal Pain
+Irinotecan,stomach cancer,Anorexia
+Irinotecan,stomach cancer,Asthenia
+Irinotecan,stomach cancer,Constipation
+Irinotecan,stomach cancer,Dyspepsia
+Irinotecan,stomach cancer,Fatigue
+Irinotecan,stomach cancer,Flatulence
+Irinotecan,stomach cancer,Nausea
+Irinotecan,stomach cancer,Vomiting
+Isoprenaline,asthma,Tremor
+Isotretinoin,peripheral nervous system neoplasm,Back Pain
+Isotretinoin,peripheral nervous system neoplasm,Blindness
+Isotretinoin,peripheral nervous system neoplasm,Deafness
+Isotretinoin,peripheral nervous system neoplasm,Dizziness
+Isotretinoin,peripheral nervous system neoplasm,Facial Paralysis
+Isotretinoin,peripheral nervous system neoplasm,Headache
+Isotretinoin,peripheral nervous system neoplasm,Hoarseness
+Isotretinoin,peripheral nervous system neoplasm,Ophthalmoplegia
+Isotretinoin,peripheral nervous system neoplasm,Tinnitus
+Isradipine,hypertension,Angina Pectoris
+Isradipine,hypertension,Dizziness
+Isradipine,hypertension,Headache
+Isradipine,hypertension,Nocturia
+Isradipine,hypertension,Polyuria
+Ixabepilone,breast cancer,Anorexia
+Ixabepilone,breast cancer,Arthralgia
+Ixabepilone,breast cancer,Asthenia
+Ixabepilone,breast cancer,Fatigue
+Ixabepilone,breast cancer,Musculoskeletal Pain
+Ixabepilone,breast cancer,Myalgia
+Ixabepilone,breast cancer,Nausea
+Ixabepilone,breast cancer,Neuralgia
+Ixabepilone,breast cancer,Pain
+Ixabepilone,breast cancer,Vomiting
+Labetalol,hypertension,Angina Pectoris
+Labetalol,hypertension,Dizziness
+Labetalol,hypertension,Headache
+Labetalol,hypertension,Intermittent Claudication
+Lacosamide,epilepsy syndrome,Ataxia
+Lacosamide,epilepsy syndrome,Syncope
+Lamivudine,acquired immunodeficiency syndrome,Abdominal Pain
+Lamivudine,acquired immunodeficiency syndrome,Anorexia
+Lamivudine,acquired immunodeficiency syndrome,Cough
+Lamivudine,acquired immunodeficiency syndrome,Nausea
+Lamivudine,acquired immunodeficiency syndrome,Pain
+Lamivudine,acquired immunodeficiency syndrome,Pruritus
+Lamivudine,hepatitis B,Jaundice
+Lamotrigine,epilepsy syndrome,Amnesia
+Lamotrigine,epilepsy syndrome,Aphasia
+Lamotrigine,epilepsy syndrome,Ataxia
+Lamotrigine,epilepsy syndrome,Coma
+Lamotrigine,epilepsy syndrome,Hemiplegia
+Lamotrigine,epilepsy syndrome,Hyperventilation
+Lamotrigine,epilepsy syndrome,Myoclonus
+Lamotrigine,epilepsy syndrome,Stupor
+Lamotrigine,epilepsy syndrome,Syncope
+Lapatinib,breast cancer,Anorexia
+Lapatinib,breast cancer,Arthralgia
+Lapatinib,breast cancer,Asthenia
+Lapatinib,breast cancer,Fatigue
+Lapatinib,breast cancer,Myalgia
+Lapatinib,breast cancer,Nausea
+Lapatinib,breast cancer,Vomiting
+Latanoprost,glaucoma,Eye Pain
+Latanoprost,glaucoma,Photophobia
+Leflunomide,rheumatoid arthritis,Arthralgia
+Leflunomide,rheumatoid arthritis,Back Pain
+Leflunomide,rheumatoid arthritis,Dyspepsia
+Leflunomide,rheumatoid arthritis,Fatigue
+Leflunomide,rheumatoid arthritis,Nausea
+Leflunomide,rheumatoid arthritis,Neck Pain
+Leflunomide,rheumatoid arthritis,Neuralgia
+Leflunomide,rheumatoid arthritis,Pain
+Leflunomide,systemic lupus erythematosus,Abdominal Pain
+Leflunomide,systemic lupus erythematosus,Albuminuria
+Leflunomide,systemic lupus erythematosus,Arthralgia
+Leflunomide,systemic lupus erythematosus,Chest Pain
+Leflunomide,systemic lupus erythematosus,Ecchymosis
+Leflunomide,systemic lupus erythematosus,Fatigue
+Leflunomide,systemic lupus erythematosus,Headache
+Leflunomide,systemic scleroderma,Arthralgia
+Leflunomide,systemic scleroderma,Constipation
+Leflunomide,systemic scleroderma,Dyspepsia
+Leflunomide,systemic scleroderma,Fatigue
+Leflunomide,systemic scleroderma,Pain
+Leflunomide,systemic scleroderma,Pruritus
+Lenalidomide,hematologic cancer,Anorexia
+Lenalidomide,hematologic cancer,Fatigue
+Lenalidomide,hematologic cancer,Nausea
+Lenalidomide,hematologic cancer,Pain
+Lenalidomide,hematologic cancer,Vomiting
+Letrozole,breast cancer,Anorexia
+Letrozole,breast cancer,Arthralgia
+Letrozole,breast cancer,Asthenia
+Letrozole,breast cancer,Fatigue
+Letrozole,breast cancer,Musculoskeletal Pain
+Letrozole,breast cancer,Myalgia
+Letrozole,breast cancer,Nausea
+Letrozole,breast cancer,Pain
+Letrozole,breast cancer,Vomiting
+Levetiracetam,epilepsy syndrome,Amnesia
+Levetiracetam,epilepsy syndrome,Ataxia
+Levetiracetam,epilepsy syndrome,Lethargy
+Levothyroxine,hypothyroidism,Angina Pectoris
+Levothyroxine,hypothyroidism,Asthenia
+Levothyroxine,hypothyroidism,Coma
+Levothyroxine,hypothyroidism,Fatigue
+Liothyronine,hypothyroidism,Angina Pectoris
+Liotrix,hypothyroidism,Angina Pectoris
+Liotrix,hypothyroidism,Asthenia
+Liotrix,hypothyroidism,Coma
+Liotrix,hypothyroidism,Constipation
+Liotrix,hypothyroidism,Fatigue
+Liotrix,hypothyroidism,Tetany
+Lisinopril,coronary artery disease,Acute Coronary Syndrome
+Lisinopril,coronary artery disease,Angina Pectoris
+Lisinopril,coronary artery disease,Chest Pain
+Lisinopril,dilated cardiomyopathy,Angina Pectoris
+Lisinopril,dilated cardiomyopathy,Chest Pain
+Lisinopril,dilated cardiomyopathy,Syncope
+Lisinopril,hypertension,Angina Pectoris
+Lisinopril,hypertension,Dizziness
+Lisinopril,hypertension,Headache
+Lisinopril,hypertension,Oliguria
+Lisinopril,hypertension,Proteinuria
+Lisinopril,systemic scleroderma,Arthralgia
+Lisinopril,systemic scleroderma,Constipation
+Lisinopril,systemic scleroderma,Dyspepsia
+Lisinopril,systemic scleroderma,Fatigue
+Lisinopril,systemic scleroderma,Heartburn
+Lisinopril,systemic scleroderma,Oliguria
+Lisinopril,systemic scleroderma,Pain
+Lisinopril,systemic scleroderma,Proteinuria
+Lisinopril,systemic scleroderma,Pruritus
+Lomustine,brain cancer,Ataxia
+Lomustine,brain cancer,Blindness
+Lomustine,brain cancer,Dysarthria
+Lomustine,brain cancer,Lethargy
+Lomustine,brain cancer,Nausea
+Lomustine,brain cancer,Vomiting
+Lomustine,hematologic cancer,Anorexia
+Lomustine,hematologic cancer,Nausea
+Lomustine,hematologic cancer,Vomiting
+Loratadine,allergic rhinitis,Cough
+Loratadine,allergic rhinitis,Headache
+Loratadine,asthma,Chest Pain
+Loratadine,asthma,Cough
+Losartan,coronary artery disease,Angina Pectoris
+Losartan,coronary artery disease,Chest Pain
+Losartan,hypertension,Angina Pectoris
+Losartan,hypertension,Dizziness
+Losartan,hypertension,Headache
+Losartan,hypertension,Nocturia
+Losartan,type 2 diabetes mellitus,Flushing
+Lovastatin,coronary artery disease,Chest Pain
+Mecamylamine,hypertension,Dizziness
+Mechlorethamine,hematologic cancer,Anorexia
+Mechlorethamine,hematologic cancer,Nausea
+Mechlorethamine,hematologic cancer,Vomiting
+Medroxyprogesterone Acetate,uterine cancer,Abdominal Pain
+Medroxyprogesterone Acetate,uterine cancer,Anorexia
+Medroxyprogesterone Acetate,uterine cancer,Constipation
+Medroxyprogesterone Acetate,uterine cancer,Nausea
+Medroxyprogesterone Acetate,uterine cancer,Pelvic Pain
+Medroxyprogesterone Acetate,uterine cancer,Vomiting
+Melphalan,breast cancer,Anorexia
+Melphalan,breast cancer,Asthenia
+Melphalan,breast cancer,Fatigue
+Melphalan,breast cancer,Myalgia
+Melphalan,breast cancer,Nausea
+Melphalan,breast cancer,Pain
+Melphalan,breast cancer,Vomiting
+Melphalan,hematologic cancer,Anorexia
+Melphalan,hematologic cancer,Fatigue
+Melphalan,hematologic cancer,Nausea
+Melphalan,hematologic cancer,Pain
+Melphalan,hematologic cancer,Vomiting
+Melphalan,ovarian cancer,Anorexia
+Melphalan,ovarian cancer,Fatigue
+Melphalan,ovarian cancer,Nausea
+Melphalan,ovarian cancer,Vomiting
+Memantine,Alzheimer's disease,Amnesia
+Memantine,Alzheimer's disease,Aphasia
+Memantine,Alzheimer's disease,Delirium
+Memantine,Alzheimer's disease,Myoclonus
+Mercaptopurine,Crohn's disease,Arthralgia
+Mercaptopurine,Crohn's disease,Nausea
+Mercaptopurine,Crohn's disease,Vomiting
+Mercaptopurine,hematologic cancer,Anorexia
+Mercaptopurine,hematologic cancer,Nausea
+Mercaptopurine,hematologic cancer,Vomiting
+Mercaptopurine,ulcerative colitis,Arthralgia
+Mercaptopurine,ulcerative colitis,Nausea
+Mercaptopurine,ulcerative colitis,Vomiting
+Mesalazine,Crohn's disease,Abdominal Pain
+Mesalazine,Crohn's disease,Arthralgia
+Mesalazine,Crohn's disease,Constipation
+Mesalazine,Crohn's disease,Dyspepsia
+Mesalazine,Crohn's disease,Eructation
+Mesalazine,Crohn's disease,Nausea
+Mesalazine,Crohn's disease,Pain
+Mesalazine,Crohn's disease,Vomiting
+Mesalazine,ulcerative colitis,Abdominal Pain
+Mesalazine,ulcerative colitis,Arthralgia
+Mesalazine,ulcerative colitis,Constipation
+Mesalazine,ulcerative colitis,Dyspepsia
+Mesalazine,ulcerative colitis,Flatulence
+Mesalazine,ulcerative colitis,Jaundice
+Mesalazine,ulcerative colitis,Nausea
+Mesalazine,ulcerative colitis,Vomiting
+Metformin,type 2 diabetes mellitus,Flushing
+Methotrexate,ankylosing spondylitis,Arthralgia
+Methotrexate,ankylosing spondylitis,Back Pain
+Methotrexate,ankylosing spondylitis,Dizziness
+Methotrexate,ankylosing spondylitis,Fatigue
+Methotrexate,ankylosing spondylitis,Pain
+Methotrexate,ankylosing spondylitis,Paralysis
+Methotrexate,ankylosing spondylitis,Paraplegia
+Methotrexate,ankylosing spondylitis,Vertigo
+Methotrexate,bone cancer,Arthralgia
+Methotrexate,bone cancer,Back Pain
+Methotrexate,bone cancer,Ecchymosis
+Methotrexate,bone cancer,Headache
+Methotrexate,bone cancer,Pain
+Methotrexate,bone cancer,Paralysis
+Methotrexate,bone cancer,Paraplegia
+Methotrexate,bone cancer,Paresis
+Methotrexate,bone cancer,Tinnitus
+Methotrexate,breast cancer,Anorexia
+Methotrexate,breast cancer,Arthralgia
+Methotrexate,breast cancer,Asthenia
+Methotrexate,breast cancer,Fatigue
+Methotrexate,breast cancer,Myalgia
+Methotrexate,breast cancer,Nausea
+Methotrexate,breast cancer,Pain
+Methotrexate,breast cancer,Vomiting
+Methotrexate,colon cancer,Abdominal Pain
+Methotrexate,colon cancer,Anorexia
+Methotrexate,colon cancer,Nausea
+Methotrexate,colon cancer,Vomiting
+Methotrexate,esophageal cancer,Anorexia
+Methotrexate,esophageal cancer,Aphasia
+Methotrexate,esophageal cancer,Chest Pain
+Methotrexate,esophageal cancer,Cough
+Methotrexate,esophageal cancer,Dyspepsia
+Methotrexate,esophageal cancer,Fatigue
+Methotrexate,esophageal cancer,Nausea
+Methotrexate,esophageal cancer,Pain
+Methotrexate,esophageal cancer,Vomiting
+Methotrexate,germ cell cancer,Abdominal Pain
+Methotrexate,germ cell cancer,Aphasia
+Methotrexate,germ cell cancer,Ataxia
+Methotrexate,germ cell cancer,Back Pain
+Methotrexate,germ cell cancer,Chest Pain
+Methotrexate,germ cell cancer,Cyanosis
+Methotrexate,germ cell cancer,Dizziness
+Methotrexate,germ cell cancer,Dysarthria
+Methotrexate,germ cell cancer,Ecchymosis
+Methotrexate,germ cell cancer,Headache
+Methotrexate,germ cell cancer,Meningism
+Methotrexate,germ cell cancer,Nausea
+Methotrexate,germ cell cancer,Paralysis
+Methotrexate,germ cell cancer,Paraplegia
+Methotrexate,germ cell cancer,Paresis
+Methotrexate,germ cell cancer,Polyuria
+Methotrexate,germ cell cancer,Tinnitus
+Methotrexate,germ cell cancer,Vertigo
+Methotrexate,germ cell cancer,Vomiting
+Methotrexate,hematologic cancer,Anorexia
+Methotrexate,hematologic cancer,Fatigue
+Methotrexate,hematologic cancer,Nausea
+Methotrexate,hematologic cancer,Pain
+Methotrexate,hematologic cancer,Vomiting
+Methotrexate,lung cancer,Anorexia
+Methotrexate,lung cancer,Asthenia
+Methotrexate,lung cancer,Back Pain
+Methotrexate,lung cancer,Chest Pain
+Methotrexate,lung cancer,Cough
+Methotrexate,lung cancer,Cyanosis
+Methotrexate,lung cancer,Dysgeusia
+Methotrexate,lung cancer,Fatigue
+Methotrexate,lung cancer,Nausea
+Methotrexate,lung cancer,Pain
+Methotrexate,lung cancer,Paralysis
+Methotrexate,lung cancer,Vomiting
+Methotrexate,multiple sclerosis,Aphasia
+Methotrexate,multiple sclerosis,Ataxia
+Methotrexate,multiple sclerosis,Dizziness
+Methotrexate,multiple sclerosis,Dysarthria
+Methotrexate,multiple sclerosis,Fatigue
+Methotrexate,multiple sclerosis,Pain
+Methotrexate,multiple sclerosis,Paralysis
+Methotrexate,multiple sclerosis,Paraplegia
+Methotrexate,multiple sclerosis,Paresis
+Methotrexate,multiple sclerosis,Vertigo
+Methotrexate,muscle cancer,Back Pain
+Methotrexate,muscle cancer,Pain
+Methotrexate,muscle cancer,Paralysis
+Methotrexate,muscle cancer,Paresis
+Methotrexate,psoriasis,Arthralgia
+Methotrexate,psoriasis,Back Pain
+Methotrexate,psoriasis,Chills
+Methotrexate,psoriasis,Fatigue
+Methotrexate,psoriasis,Nausea
+Methotrexate,psoriasis,Pain
+Methotrexate,psoriasis,Pruritus
+Methotrexate,psoriatic arthritis,Arthralgia
+Methotrexate,psoriatic arthritis,Back Pain
+Methotrexate,psoriatic arthritis,Fatigue
+Methotrexate,psoriatic arthritis,Pain
+Methotrexate,rheumatoid arthritis,Arthralgia
+Methotrexate,rheumatoid arthritis,Ataxia
+Methotrexate,rheumatoid arthritis,Back Pain
+Methotrexate,rheumatoid arthritis,Dyspepsia
+Methotrexate,rheumatoid arthritis,Fatigue
+Methotrexate,rheumatoid arthritis,Nausea
+Methotrexate,rheumatoid arthritis,Pain
+Methotrexate,rheumatoid arthritis,Paralysis
+Methotrexate,rheumatoid arthritis,Proteinuria
+Methotrexate,stomach cancer,Abdominal Pain
+Methotrexate,stomach cancer,Anorexia
+Methotrexate,stomach cancer,Asthenia
+Methotrexate,stomach cancer,Dyspepsia
+Methotrexate,stomach cancer,Fatigue
+Methotrexate,stomach cancer,Nausea
+Methotrexate,stomach cancer,Vomiting
+Methotrexate,systemic lupus erythematosus,Abdominal Pain
+Methotrexate,systemic lupus erythematosus,Arthralgia
+Methotrexate,systemic lupus erythematosus,Chest Pain
+Methotrexate,systemic lupus erythematosus,Ecchymosis
+Methotrexate,systemic lupus erythematosus,Fatigue
+Methotrexate,systemic lupus erythematosus,Headache
+Methotrexate,systemic lupus erythematosus,Proteinuria
+Methotrexate,systemic scleroderma,Arthralgia
+Methotrexate,systemic scleroderma,Cyanosis
+Methotrexate,systemic scleroderma,Dyspepsia
+Methotrexate,systemic scleroderma,Fatigue
+Methotrexate,systemic scleroderma,Oliguria
+Methotrexate,systemic scleroderma,Pain
+Methotrexate,systemic scleroderma,Proteinuria
+Methotrexate,systemic scleroderma,Pruritus
+Methotrexate,testicular cancer,Abdominal Pain
+Methotrexate,testicular cancer,Anorexia
+Methotrexate,testicular cancer,Back Pain
+Methotrexate,testicular cancer,Nausea
+Methotrexate,testicular cancer,Paraplegia
+Methotrexate,testicular cancer,Vomiting
+Methotrexate,urinary bladder cancer,Abdominal Pain
+Methotrexate,urinary bladder cancer,Anorexia
+Methotrexate,urinary bladder cancer,Dysuria
+Methotrexate,urinary bladder cancer,Nausea
+Methotrexate,urinary bladder cancer,Paraplegia
+Methotrexate,urinary bladder cancer,Polyuria
+Methotrexate,urinary bladder cancer,Proteinuria
+Methotrexate,urinary bladder cancer,Vomiting
+Methoxsalen,hematologic cancer,Nausea
+Methoxsalen,psoriasis,Nausea
+Methoxsalen,psoriasis,Pruritus
+Methoxsalen,vitiligo,Pruritus
+Methyldopa,hypertension,Angina Pectoris
+Methyldopa,hypertension,Dizziness
+Methyldopa,hypertension,Headache
+Methylprednisolone,allergic rhinitis,Headache
+Methylprednisolone,allergic rhinitis,Pruritus
+Methylprednisolone,ankylosing spondylitis,Arthralgia
+Methylprednisolone,ankylosing spondylitis,Dizziness
+Methylprednisolone,ankylosing spondylitis,Fatigue
+Methylprednisolone,ankylosing spondylitis,Paraplegia
+Methylprednisolone,ankylosing spondylitis,Vertigo
+Methylprednisolone,atopic dermatitis,Pruritus
+Methylprednisolone,gout,Arthralgia
+Methylprednisolone,multiple sclerosis,Blindness
+Methylprednisolone,multiple sclerosis,Dizziness
+Methylprednisolone,multiple sclerosis,Fatigue
+Methylprednisolone,multiple sclerosis,Paraplegia
+Methylprednisolone,multiple sclerosis,Vertigo
+Methylprednisolone,psoriatic arthritis,Arthralgia
+Methylprednisolone,psoriatic arthritis,Fatigue
+Methylprednisolone,rheumatoid arthritis,Arthralgia
+Methylprednisolone,rheumatoid arthritis,Dyspepsia
+Methylprednisolone,rheumatoid arthritis,Fatigue
+Methylprednisolone,rheumatoid arthritis,Nausea
+Methylprednisolone,systemic lupus erythematosus,Abdominal Pain
+Methylprednisolone,systemic lupus erythematosus,Arthralgia
+Methylprednisolone,systemic lupus erythematosus,Ecchymosis
+Methylprednisolone,systemic lupus erythematosus,Fatigue
+Methylprednisolone,systemic lupus erythematosus,Headache
+Methylprednisolone,ulcerative colitis,Abdominal Pain
+Methylprednisolone,ulcerative colitis,Arthralgia
+Methylprednisolone,ulcerative colitis,Dyspepsia
+Methylprednisolone,ulcerative colitis,Nausea
+Methylprednisolone,ulcerative colitis,Vomiting
+Metipranolol,glaucoma,Photophobia
+Metolazone,hypertension,Dizziness
+Metolazone,hypertension,Headache
+Metolazone,hypertension,Nocturia
+Metoprolol,hypertension,Angina Pectoris
+Metoprolol,hypertension,Dizziness
+Metoprolol,hypertension,Headache
+Metoprolol,hypertension,Intermittent Claudication
+Midazolam,epilepsy syndrome,Ataxia
+Midazolam,epilepsy syndrome,Athetosis
+Midazolam,epilepsy syndrome,Hyperventilation
+Midazolam,epilepsy syndrome,Lethargy
+Midazolam,epilepsy syndrome,Syncope
+Mitomycin,stomach cancer,Anorexia
+Mitomycin,stomach cancer,Asthenia
+Mitomycin,stomach cancer,Fatigue
+Mitomycin,stomach cancer,Nausea
+Mitomycin,stomach cancer,Vomiting
+Mitomycin,urinary bladder cancer,Anorexia
+Mitomycin,urinary bladder cancer,Nausea
+Mitomycin,urinary bladder cancer,Vomiting
+Mitoxantrone,breast cancer,Anorexia
+Mitoxantrone,breast cancer,Arthralgia
+Mitoxantrone,breast cancer,Asthenia
+Mitoxantrone,breast cancer,Fatigue
+Mitoxantrone,breast cancer,Myalgia
+Mitoxantrone,breast cancer,Nausea
+Mitoxantrone,breast cancer,Pain
+Mitoxantrone,breast cancer,Vomiting
+Mitoxantrone,hematologic cancer,Anorexia
+Mitoxantrone,hematologic cancer,Fatigue
+Mitoxantrone,hematologic cancer,Nausea
+Mitoxantrone,hematologic cancer,Pain
+Mitoxantrone,hematologic cancer,Vomiting
+Mitoxantrone,multiple sclerosis,Constipation
+Mitoxantrone,multiple sclerosis,Fatigue
+Mitoxantrone,multiple sclerosis,Pain
+Mitoxantrone,prostate cancer,Constipation
+Mitoxantrone,prostate cancer,Fatigue
+Mitoxantrone,prostate cancer,Nausea
+Mitoxantrone,prostate cancer,Pain
+Mitoxantrone,sarcoma,Abdominal Pain
+Mitoxantrone,sarcoma,Anorexia
+Mitoxantrone,sarcoma,Back Pain
+Mitoxantrone,sarcoma,Chest Pain
+Mitoxantrone,sarcoma,Cough
+Mitoxantrone,sarcoma,Ecchymosis
+Mitoxantrone,sarcoma,Nausea
+Mitoxantrone,sarcoma,Pain
+Mitoxantrone,sarcoma,Vomiting
+Mometasone,asthma,Chest Pain
+Mometasone,asthma,Cough
+Mometasone,asthma,Dysphonia
+Mometasone,atopic dermatitis,Pruritus
+Mometasone,systemic scleroderma,Arthralgia
+Mometasone,systemic scleroderma,Dyspepsia
+Mometasone,systemic scleroderma,Fatigue
+Mometasone,systemic scleroderma,Pain
+Mometasone,systemic scleroderma,Pruritus
+Montelukast,allergic rhinitis,Cough
+Montelukast,allergic rhinitis,Headache
+Montelukast,allergic rhinitis,Pruritus
+Montelukast,asthma,Cough
+Montelukast,asthma,Tremor
+Montelukast,chronic obstructive pulmonary disease,Cough
+Montelukast,chronic obstructive pulmonary disease,Fatigue
+Mycophenolate mofetil,psoriasis,Arthralgia
+Mycophenolate mofetil,psoriasis,Back Pain
+Mycophenolate mofetil,psoriasis,Chills
+Mycophenolate mofetil,psoriasis,Nausea
+Mycophenolate mofetil,psoriasis,Neck Pain
+Mycophenolate mofetil,psoriasis,Pain
+Mycophenolate mofetil,psoriasis,Pruritus
+Mycophenolate mofetil,systemic lupus erythematosus,Abdominal Pain
+Mycophenolate mofetil,systemic lupus erythematosus,Albuminuria
+Mycophenolate mofetil,systemic lupus erythematosus,Arthralgia
+Mycophenolate mofetil,systemic lupus erythematosus,Catatonia
+Mycophenolate mofetil,systemic lupus erythematosus,Chest Pain
+Mycophenolate mofetil,systemic lupus erythematosus,Diplopia
+Mycophenolate mofetil,systemic lupus erythematosus,Ecchymosis
+Mycophenolate mofetil,systemic lupus erythematosus,Headache
+Mycophenolate mofetil,systemic lupus erythematosus,Hemiplegia
+Mycophenolate mofetil,systemic lupus erythematosus,Vocal Cord Paralysis
+Mycophenolate mofetil,systemic scleroderma,Arthralgia
+Mycophenolate mofetil,systemic scleroderma,Constipation
+Mycophenolate mofetil,systemic scleroderma,Cyanosis
+Mycophenolate mofetil,systemic scleroderma,Dyspepsia
+Mycophenolate mofetil,systemic scleroderma,Oliguria
+Mycophenolate mofetil,systemic scleroderma,Pain
+Mycophenolate mofetil,systemic scleroderma,Pruritus
+Mycophenolic acid,psoriasis,Arthralgia
+Mycophenolic acid,psoriasis,Back Pain
+Mycophenolic acid,psoriasis,Chills
+Mycophenolic acid,psoriasis,Fatigue
+Mycophenolic acid,psoriasis,Nausea
+Mycophenolic acid,psoriasis,Neck Pain
+Mycophenolic acid,psoriasis,Pain
+Mycophenolic acid,psoriasis,Pruritus
+Mycophenolic acid,systemic scleroderma,Arthralgia
+Mycophenolic acid,systemic scleroderma,Constipation
+Mycophenolic acid,systemic scleroderma,Dyspepsia
+Mycophenolic acid,systemic scleroderma,Fatigue
+Mycophenolic acid,systemic scleroderma,Oliguria
+Mycophenolic acid,systemic scleroderma,Pain
+Mycophenolic acid,systemic scleroderma,Pruritus
+Nadolol,hypertension,Dizziness
+Nadolol,hypertension,Intermittent Claudication
+Naltrexone,alcohol dependence,Asthenia
+Naltrexone,alcohol dependence,Delirium
+Naltrexone,alcohol dependence,Tremor
+Naltrexone,alcohol dependence,Vomiting
+Naproxen,gout,Arthralgia
+Naproxen,gout,Pain
+Nebivolol,hypertension,Dizziness
+Nebivolol,hypertension,Headache
+Nebivolol,hypertension,Intermittent Claudication
+Nedocromil,asthma,Chest Pain
+Nedocromil,asthma,Cough
+Nedocromil,asthma,Dysphonia
+Nedocromil,asthma,Tremor
+Nelarabine,hematologic cancer,Anorexia
+Nelarabine,hematologic cancer,Fatigue
+Nelarabine,hematologic cancer,Nausea
+Nelarabine,hematologic cancer,Pain
+Nelarabine,hematologic cancer,Vomiting
+Nelfinavir,acquired immunodeficiency syndrome,Abdominal Pain
+Nelfinavir,acquired immunodeficiency syndrome,Anorexia
+Nelfinavir,acquired immunodeficiency syndrome,Nausea
+Nelfinavir,acquired immunodeficiency syndrome,Pain
+Nelfinavir,acquired immunodeficiency syndrome,Pruritus
+Nevirapine,acquired immunodeficiency syndrome,Abdominal Pain
+Nevirapine,acquired immunodeficiency syndrome,Anorexia
+Nevirapine,acquired immunodeficiency syndrome,Nausea
+Nevirapine,acquired immunodeficiency syndrome,Pain
+Nevirapine,acquired immunodeficiency syndrome,Pruritus
+Niacin,atherosclerosis,Angina Pectoris
+Niacin,coronary artery disease,Angina Pectoris
+Nicardipine,hypertension,Angina Pectoris
+Nicardipine,hypertension,Dizziness
+Nicardipine,hypertension,Headache
+Nicardipine,hypertension,Nocturia
+Nicardipine,hypertension,Polyuria
+Nicotine,ulcerative colitis,Abdominal Pain
+Nicotine,ulcerative colitis,Arthralgia
+Nicotine,ulcerative colitis,Constipation
+Nicotine,ulcerative colitis,Dyspepsia
+Nicotine,ulcerative colitis,Flatulence
+Nicotine,ulcerative colitis,Nausea
+Nicotine,ulcerative colitis,Vomiting
+Nifedipine,hypertension,Angina Pectoris
+Nifedipine,hypertension,Dizziness
+Nifedipine,hypertension,Headache
+Nifedipine,hypertension,Nocturia
+Nifedipine,hypertension,Oliguria
+Nifedipine,hypertension,Polyuria
+Nilotinib,hematologic cancer,Anorexia
+Nilotinib,hematologic cancer,Fatigue
+Nilotinib,hematologic cancer,Nausea
+Nilotinib,hematologic cancer,Pain
+Nilotinib,hematologic cancer,Vomiting
+Nilutamide,prostate cancer,Constipation
+Nilutamide,prostate cancer,Nausea
+Nilutamide,prostate cancer,Nocturia
+Nilutamide,prostate cancer,Pain
+Nisoldipine,hypertension,Dizziness
+Nisoldipine,hypertension,Headache
+Nisoldipine,hypertension,Nocturia
+Octreotide,thymus cancer,Chest Pain
+Octreotide,thymus cancer,Cough
+Olmesartan,coronary artery disease,Angina Pectoris
+Olmesartan,coronary artery disease,Chest Pain
+Olmesartan,hypertension,Angina Pectoris
+Olmesartan,hypertension,Dizziness
+Olmesartan,hypertension,Headache
+Olopatadine,allergic rhinitis,Cough
+Olopatadine,allergic rhinitis,Headache
+Olopatadine,allergic rhinitis,Pruritus
+Omeprazole,Barrett's esophagus,Chest Pain
+Omeprazole,Barrett's esophagus,Dyspepsia
+Orciprenaline,asthma,Chest Pain
+Orciprenaline,asthma,Cough
+Orciprenaline,asthma,Tremor
+Orlistat,obesity,Obesity
+Orlistat,type 2 diabetes mellitus,Obesity
+Oxcarbazepine,epilepsy syndrome,Amnesia
+Oxcarbazepine,epilepsy syndrome,Aphasia
+Oxcarbazepine,epilepsy syndrome,Ataxia
+Oxcarbazepine,epilepsy syndrome,Hemiplegia
+Oxcarbazepine,epilepsy syndrome,Lethargy
+Oxcarbazepine,epilepsy syndrome,Stupor
+Oxcarbazepine,epilepsy syndrome,Syncope
+Oxcarbazepine,epilepsy syndrome,Tetany
+Paclitaxel,breast cancer,Anorexia
+Paclitaxel,breast cancer,Arthralgia
+Paclitaxel,breast cancer,Asthenia
+Paclitaxel,breast cancer,Fatigue
+Paclitaxel,breast cancer,Musculoskeletal Pain
+Paclitaxel,breast cancer,Myalgia
+Paclitaxel,breast cancer,Nausea
+Paclitaxel,breast cancer,Neuralgia
+Paclitaxel,breast cancer,Pain
+Paclitaxel,breast cancer,Vomiting
+Paclitaxel,kidney cancer,Abdominal Pain
+Paclitaxel,kidney cancer,Anorexia
+Paclitaxel,kidney cancer,Asthenia
+Paclitaxel,kidney cancer,Back Pain
+Paclitaxel,kidney cancer,Fatigue
+Paclitaxel,kidney cancer,Flank Pain
+Paclitaxel,kidney cancer,Nausea
+Paclitaxel,kidney cancer,Pain
+Paclitaxel,kidney cancer,Polyuria
+Paclitaxel,kidney cancer,Vomiting
+Paclitaxel,lung cancer,Anorexia
+Paclitaxel,lung cancer,Asthenia
+Paclitaxel,lung cancer,Back Pain
+Paclitaxel,lung cancer,Chest Pain
+Paclitaxel,lung cancer,Constipation
+Paclitaxel,lung cancer,Cough
+Paclitaxel,lung cancer,Dysgeusia
+Paclitaxel,lung cancer,Fatigue
+Paclitaxel,lung cancer,Hoarseness
+Paclitaxel,lung cancer,Nausea
+Paclitaxel,lung cancer,Pain
+Paclitaxel,lung cancer,Vomiting
+Paclitaxel,ovarian cancer,Abdominal Pain
+Paclitaxel,ovarian cancer,Anorexia
+Paclitaxel,ovarian cancer,Constipation
+Paclitaxel,ovarian cancer,Fatigue
+Paclitaxel,ovarian cancer,Flatulence
+Paclitaxel,ovarian cancer,Nausea
+Paclitaxel,ovarian cancer,Vomiting
+Pamidronate,Paget's disease of bone,Back Pain
+Pamidronate,Paget's disease of bone,Dizziness
+Pamidronate,Paget's disease of bone,Pain
+Pamidronate,Paget's disease of bone,Tetany
+Pamidronate,osteoporosis,Arthralgia
+Pamidronate,osteoporosis,Asthenia
+Pamidronate,osteoporosis,Back Pain
+Pamidronate,osteoporosis,Musculoskeletal Pain
+Pamidronate,osteoporosis,Pain
+Pamidronate,osteoporosis,Tetany
+Pazopanib,kidney cancer,Abdominal Pain
+Pazopanib,kidney cancer,Anorexia
+Pazopanib,kidney cancer,Asthenia
+Pazopanib,kidney cancer,Fatigue
+Pazopanib,kidney cancer,Nausea
+Pazopanib,kidney cancer,Pain
+Pazopanib,kidney cancer,Proteinuria
+Pazopanib,kidney cancer,Vomiting
+Pemetrexed,lung cancer,Anorexia
+Pemetrexed,lung cancer,Asthenia
+Pemetrexed,lung cancer,Chest Pain
+Pemetrexed,lung cancer,Constipation
+Pemetrexed,lung cancer,Dysgeusia
+Pemetrexed,lung cancer,Fatigue
+Pemetrexed,lung cancer,Nausea
+Pemetrexed,lung cancer,Pain
+Pemetrexed,lung cancer,Vomiting
+Penbutolol,hypertension,Dizziness
+Penbutolol,hypertension,Headache
+Penicillamine,rheumatoid arthritis,Arthralgia
+Penicillamine,rheumatoid arthritis,Nausea
+Penicillamine,rheumatoid arthritis,Proteinuria
+Pentostatin,hematologic cancer,Anorexia
+Pentostatin,hematologic cancer,Fatigue
+Pentostatin,hematologic cancer,Nausea
+Pentostatin,hematologic cancer,Pain
+Pentostatin,hematologic cancer,Vomiting
+Pentoxifylline,malaria,Jaundice
+Pentoxifylline,malaria,Pruritus
+Pentoxifylline,malaria,Purpura
+Pentoxifylline,malaria,Vomiting
+Pentoxifylline,systemic scleroderma,Constipation
+Pentoxifylline,systemic scleroderma,Dyspepsia
+Pentoxifylline,systemic scleroderma,Heartburn
+Pentoxifylline,systemic scleroderma,Pruritus
+Pentoxifylline,systemic scleroderma,Purpura
+Perindopril,coronary artery disease,Acute Coronary Syndrome
+Perindopril,coronary artery disease,Angina Pectoris
+Perindopril,coronary artery disease,Chest Pain
+Perindopril,coronary artery disease,Intermittent Claudication
+Perindopril,hypertension,Angina Pectoris
+Perindopril,hypertension,Dizziness
+Perindopril,hypertension,Headache
+Perindopril,hypertension,Intermittent Claudication
+Perindopril,hypertension,Nocturia
+Perindopril,hypertension,Oliguria
+Perindopril,hypertension,Polyuria
+Perindopril,hypertension,Proteinuria
+Phenobarbital,epilepsy syndrome,Ataxia
+Phenobarbital,epilepsy syndrome,Coma
+Phenobarbital,epilepsy syndrome,Lethargy
+Phenobarbital,epilepsy syndrome,Syncope
+Phenytoin,epilepsy syndrome,Amnesia
+Phenytoin,epilepsy syndrome,Aphasia
+Phenytoin,epilepsy syndrome,Ataxia
+Phenytoin,epilepsy syndrome,Chorea
+Phenytoin,epilepsy syndrome,Coma
+Phenytoin,epilepsy syndrome,Hemiplegia
+Phenytoin,epilepsy syndrome,Hyperventilation
+Phenytoin,epilepsy syndrome,Myoclonus
+Phenytoin,epilepsy syndrome,Stupor
+Phenytoin,epilepsy syndrome,Stuttering
+Phenytoin,epilepsy syndrome,Syncope
+Pilocarpine,glaucoma,Amblyopia
+Pilocarpine,glaucoma,Eye Pain
+Pimecrolimus,atopic dermatitis,Pruritus
+Pindolol,hypertension,Dizziness
+Pindolol,hypertension,Headache
+Pindolol,hypertension,Intermittent Claudication
+Pioglitazone,type 2 diabetes mellitus,Acute Coronary Syndrome
+Pioglitazone,type 2 diabetes mellitus,Proteinuria
+Pirbuterol,asthma,Chest Pain
+Pirbuterol,asthma,Cough
+Pirbuterol,asthma,Dysphonia
+Pirbuterol,asthma,Hoarseness
+Pirbuterol,asthma,Tremor
+Pravastatin,atherosclerosis,Acute Coronary Syndrome
+Pravastatin,atherosclerosis,Angina Pectoris
+Pravastatin,coronary artery disease,Acute Coronary Syndrome
+Pravastatin,coronary artery disease,Angina Pectoris
+Pravastatin,coronary artery disease,Chest Pain
+Prazosin,hypertension,Angina Pectoris
+Prazosin,hypertension,Dizziness
+Prazosin,hypertension,Headache
+Prednisolone,allergic rhinitis,Headache
+Prednisolone,ankylosing spondylitis,Dizziness
+Prednisolone,ankylosing spondylitis,Pain
+Prednisolone,ankylosing spondylitis,Paraplegia
+Prednisolone,ankylosing spondylitis,Vertigo
+Prednisolone,gout,Pain
+Prednisolone,hematologic cancer,Nausea
+Prednisolone,hematologic cancer,Pain
+Prednisolone,multiple sclerosis,Dizziness
+Prednisolone,multiple sclerosis,Pain
+Prednisolone,multiple sclerosis,Paraplegia
+Prednisolone,multiple sclerosis,Vertigo
+Prednisolone,psoriasis,Nausea
+Prednisolone,psoriasis,Pain
+Prednisolone,psoriatic arthritis,Pain
+Prednisolone,rheumatoid arthritis,Nausea
+Prednisolone,rheumatoid arthritis,Pain
+Prednisolone,systemic lupus erythematosus,Ecchymosis
+Prednisolone,systemic lupus erythematosus,Headache
+Prednisolone,ulcerative colitis,Nausea
+Prednisone,Crohn's disease,Abdominal Pain
+Prednisone,Crohn's disease,Arthralgia
+Prednisone,Crohn's disease,Constipation
+Prednisone,Crohn's disease,Dyspepsia
+Prednisone,Crohn's disease,Nausea
+Prednisone,Crohn's disease,Vomiting
+Prednisone,ankylosing spondylitis,Arthralgia
+Prednisone,ankylosing spondylitis,Dizziness
+Prednisone,ankylosing spondylitis,Fatigue
+Prednisone,ankylosing spondylitis,Paraplegia
+Prednisone,ankylosing spondylitis,Vertigo
+Prednisone,atopic dermatitis,Pruritus
+Prednisone,chronic obstructive pulmonary disease,Fatigue
+Prednisone,gout,Arthralgia
+Prednisone,hematologic cancer,Anorexia
+Prednisone,hematologic cancer,Fatigue
+Prednisone,hematologic cancer,Nausea
+Prednisone,hematologic cancer,Purpura
+Prednisone,hematologic cancer,Vomiting
+Prednisone,multiple sclerosis,Constipation
+Prednisone,multiple sclerosis,Dizziness
+Prednisone,multiple sclerosis,Fatigue
+Prednisone,multiple sclerosis,Paraplegia
+Prednisone,multiple sclerosis,Vertigo
+Prednisone,prostate cancer,Constipation
+Prednisone,prostate cancer,Fatigue
+Prednisone,prostate cancer,Flushing
+Prednisone,prostate cancer,Nausea
+Prednisone,prostate cancer,Paraplegia
+Prednisone,psoriasis,Arthralgia
+Prednisone,psoriasis,Fatigue
+Prednisone,psoriasis,Flushing
+Prednisone,psoriasis,Nausea
+Prednisone,psoriasis,Pruritus
+Prednisone,psoriasis,Purpura
+Prednisone,psoriatic arthritis,Arthralgia
+Prednisone,psoriatic arthritis,Fatigue
+Prednisone,rheumatoid arthritis,Arthralgia
+Prednisone,rheumatoid arthritis,Dyspepsia
+Prednisone,rheumatoid arthritis,Fatigue
+Prednisone,rheumatoid arthritis,Nausea
+Prednisone,rheumatoid arthritis,Purpura
+Prednisone,systemic lupus erythematosus,Abdominal Pain
+Prednisone,systemic lupus erythematosus,Arthralgia
+Prednisone,systemic lupus erythematosus,Ecchymosis
+Prednisone,systemic lupus erythematosus,Fatigue
+Prednisone,systemic lupus erythematosus,Headache
+Prednisone,systemic lupus erythematosus,Purpura
+Prednisone,systemic scleroderma,Arthralgia
+Prednisone,systemic scleroderma,Constipation
+Prednisone,systemic scleroderma,Dyspepsia
+Prednisone,systemic scleroderma,Fatigue
+Prednisone,systemic scleroderma,Pruritus
+Prednisone,systemic scleroderma,Purpura
+Prednisone,ulcerative colitis,Abdominal Pain
+Prednisone,ulcerative colitis,Arthralgia
+Prednisone,ulcerative colitis,Constipation
+Prednisone,ulcerative colitis,Dyspepsia
+Prednisone,ulcerative colitis,Nausea
+Prednisone,ulcerative colitis,Purpura
+Prednisone,ulcerative colitis,Vomiting
+Pregabalin,epilepsy syndrome,Amnesia
+Pregabalin,epilepsy syndrome,Aphasia
+Pregabalin,epilepsy syndrome,Ataxia
+Pregabalin,epilepsy syndrome,Coma
+Pregabalin,epilepsy syndrome,Hemiplegia
+Pregabalin,epilepsy syndrome,Hyperventilation
+Pregabalin,epilepsy syndrome,Lethargy
+Pregabalin,epilepsy syndrome,Myoclonus
+Pregabalin,epilepsy syndrome,Stupor
+Pregabalin,epilepsy syndrome,Syncope
+Primidone,epilepsy syndrome,Ataxia
+Probenecid,gout,Pain
+Procarbazine,brain cancer,Ataxia
+Procarbazine,brain cancer,Coma
+Procarbazine,brain cancer,Deafness
+Procarbazine,brain cancer,Diplopia
+Procarbazine,brain cancer,Dizziness
+Procarbazine,brain cancer,Dysarthria
+Procarbazine,brain cancer,Headache
+Procarbazine,brain cancer,Lethargy
+Procarbazine,brain cancer,Nausea
+Procarbazine,brain cancer,Vomiting
+Procarbazine,hematologic cancer,Anorexia
+Procarbazine,hematologic cancer,Fatigue
+Procarbazine,hematologic cancer,Nausea
+Procarbazine,hematologic cancer,Pain
+Procarbazine,hematologic cancer,Purpura
+Procarbazine,hematologic cancer,Vomiting
+Progesterone,uterine cancer,Abdominal Pain
+Progesterone,uterine cancer,Anorexia
+Progesterone,uterine cancer,Constipation
+Progesterone,uterine cancer,Nausea
+Progesterone,uterine cancer,Pain
+Progesterone,uterine cancer,Vomiting
+Proguanil,malaria,Vomiting
+Propantheline,pancreatitis,Vomiting
+Propofol,epilepsy syndrome,Hyperventilation
+Propofol,epilepsy syndrome,Syncope
+Propranolol,hypertension,Dizziness
+Propranolol,migraine,Amnesia
+Propranolol,migraine,Dizziness
+Propranolol,migraine,Nausea
+Propranolol,migraine,Pain
+Propranolol,migraine,Vertigo
+Propranolol,migraine,Vomiting
+Pyrimethamine,malaria,Vomiting
+Quinapril,hypertension,Angina Pectoris
+Quinapril,hypertension,Dizziness
+Quinapril,hypertension,Headache
+Quinidine,malaria,Chills
+Quinidine,malaria,Coma
+Quinidine,malaria,Jaundice
+Quinidine,malaria,Oliguria
+Quinidine,malaria,Pruritus
+Quinidine,malaria,Purpura
+Quinidine,malaria,Vomiting
+Quinidine barbiturate,malaria,Chills
+Quinidine barbiturate,malaria,Coma
+Quinidine barbiturate,malaria,Jaundice
+Quinidine barbiturate,malaria,Oliguria
+Quinidine barbiturate,malaria,Pruritus
+Quinidine barbiturate,malaria,Purpura
+Quinidine barbiturate,malaria,Vomiting
+Quinine,malaria,Chills
+Quinine,malaria,Coma
+Quinine,malaria,Jaundice
+Quinine,malaria,Oliguria
+Quinine,malaria,Pruritus
+Quinine,malaria,Purpura
+Quinine,malaria,Vomiting
+Raloxifene,breast cancer,Arthralgia
+Raloxifene,breast cancer,Myalgia
+Raloxifene,breast cancer,Nausea
+Raloxifene,breast cancer,Neuralgia
+Raloxifene,breast cancer,Pain
+Raloxifene,breast cancer,Vomiting
+Raloxifene,osteoporosis,Arthralgia
+Raloxifene,osteoporosis,Pain
+Ramipril,coronary artery disease,Acute Coronary Syndrome
+Ramipril,coronary artery disease,Angina Pectoris
+Ramipril,coronary artery disease,Chest Pain
+Ramipril,hypertension,Angina Pectoris
+Ramipril,hypertension,Dizziness
+Ramipril,hypertension,Headache
+Ramipril,hypertension,Polyuria
+Ramipril,hypertension,Proteinuria
+Ramipril,type 1 diabetes mellitus,Deafness
+Ramipril,type 1 diabetes mellitus,Dyspepsia
+Ramipril,type 1 diabetes mellitus,Polyuria
+Ramipril,type 1 diabetes mellitus,Proteinuria
+Ramipril,type 2 diabetes mellitus,Acute Coronary Syndrome
+Ramipril,type 2 diabetes mellitus,Flushing
+Ramipril,type 2 diabetes mellitus,Proteinuria
+Repaglinide,type 2 diabetes mellitus,Acute Coronary Syndrome
+Reserpine,hypertension,Angina Pectoris
+Reserpine,hypertension,Dizziness
+Reserpine,hypertension,Headache
+Riluzole,amyotrophic lateral sclerosis,Ataxia
+Riluzole,amyotrophic lateral sclerosis,Cough
+Riluzole,amyotrophic lateral sclerosis,Dysarthria
+Riluzole,amyotrophic lateral sclerosis,Hypoventilation
+Riluzole,amyotrophic lateral sclerosis,Muscle Spasticity
+Risedronate,Paget's disease of bone,Back Pain
+Risedronate,Paget's disease of bone,Dizziness
+Risedronate,Paget's disease of bone,Pain
+Risedronate,Paget's disease of bone,Sciatica
+Risedronate,Paget's disease of bone,Tinnitus
+Risedronate,Paget's disease of bone,Vertigo
+Risedronate,osteoporosis,Arthralgia
+Risedronate,osteoporosis,Asthenia
+Risedronate,osteoporosis,Back Pain
+Risedronate,osteoporosis,Hypercalciuria
+Risedronate,osteoporosis,Musculoskeletal Pain
+Risedronate,osteoporosis,Pain
+Ritonavir,acquired immunodeficiency syndrome,Abdominal Pain
+Ritonavir,acquired immunodeficiency syndrome,Anorexia
+Ritonavir,acquired immunodeficiency syndrome,Cachexia
+Ritonavir,acquired immunodeficiency syndrome,Cough
+Ritonavir,acquired immunodeficiency syndrome,Nausea
+Ritonavir,acquired immunodeficiency syndrome,Neuralgia
+Ritonavir,acquired immunodeficiency syndrome,Pain
+Ritonavir,acquired immunodeficiency syndrome,Pruritus
+Rivastigmine,Alzheimer's disease,Amnesia
+Rivastigmine,Alzheimer's disease,Aphasia
+Rivastigmine,Alzheimer's disease,Delirium
+Rivastigmine,Alzheimer's disease,Muscle Rigidity
+Rivastigmine,Alzheimer's disease,Myoclonus
+Roflumilast,chronic obstructive pulmonary disease,Fatigue
+Rosiglitazone,type 2 diabetes mellitus,Acute Coronary Syndrome
+Rufinamide,epilepsy syndrome,Ataxia
+Ruxolitinib,hematologic cancer,Fatigue
+Salbutamol,asthma,Chest Pain
+Salbutamol,asthma,Cough
+Salbutamol,asthma,Dysphonia
+Salbutamol,asthma,Hoarseness
+Salbutamol,asthma,Hyperventilation
+Salbutamol,asthma,Tremor
+Salbutamol,chronic obstructive pulmonary disease,Cough
+Salbutamol,chronic obstructive pulmonary disease,Fatigue
+Salbutamol,chronic obstructive pulmonary disease,Hyperventilation
+Salmeterol,asthma,Chest Pain
+Salmeterol,asthma,Cough
+Salmeterol,asthma,Dysphonia
+Salmeterol,asthma,Hoarseness
+Salmeterol,asthma,Sneezing
+Salmeterol,asthma,Tremor
+Saquinavir,acquired immunodeficiency syndrome,Abdominal Pain
+Saquinavir,acquired immunodeficiency syndrome,Anorexia
+Saquinavir,acquired immunodeficiency syndrome,Cachexia
+Saquinavir,acquired immunodeficiency syndrome,Cough
+Saquinavir,acquired immunodeficiency syndrome,Nausea
+Saquinavir,acquired immunodeficiency syndrome,Pain
+Saquinavir,acquired immunodeficiency syndrome,Pruritus
+Simvastatin,coronary artery disease,Chest Pain
+Sorafenib,kidney cancer,Abdominal Pain
+Sorafenib,kidney cancer,Anorexia
+Sorafenib,kidney cancer,Asthenia
+Sorafenib,kidney cancer,Fatigue
+Sorafenib,kidney cancer,Nausea
+Sorafenib,kidney cancer,Pain
+Sorafenib,kidney cancer,Proteinuria
+Sorafenib,kidney cancer,Vomiting
+Sorafenib,liver cancer,Abdominal Pain
+Sorafenib,liver cancer,Anorexia
+Sorafenib,liver cancer,Flushing
+Sorafenib,liver cancer,Jaundice
+Sorafenib,liver cancer,Nausea
+Sorafenib,liver cancer,Vomiting
+Sorafenib,thyroid cancer,Dysphonia
+Sorafenib,thyroid cancer,Hoarseness
+Spironolactone,hypertension,Dizziness
+Spironolactone,hypertension,Headache
+Stavudine,acquired immunodeficiency syndrome,Abdominal Pain
+Stavudine,acquired immunodeficiency syndrome,Anorexia
+Stavudine,acquired immunodeficiency syndrome,Cough
+Stavudine,acquired immunodeficiency syndrome,Nausea
+Stavudine,acquired immunodeficiency syndrome,Pain
+Stavudine,acquired immunodeficiency syndrome,Pruritus
+Sulfadiazine,malaria,Chills
+Sulfadiazine,malaria,Oliguria
+Sulfadiazine,malaria,Pruritus
+Sulfadiazine,malaria,Purpura
+Sulfadiazine,malaria,Vomiting
+Sunitinib,kidney cancer,Abdominal Pain
+Sunitinib,kidney cancer,Anorexia
+Sunitinib,kidney cancer,Asthenia
+Sunitinib,kidney cancer,Back Pain
+Sunitinib,kidney cancer,Fatigue
+Sunitinib,kidney cancer,Flank Pain
+Sunitinib,kidney cancer,Nausea
+Sunitinib,kidney cancer,Pain
+Sunitinib,kidney cancer,Proteinuria
+Sunitinib,kidney cancer,Vomiting
+Sunitinib,pancreatic cancer,Abdominal Pain
+Sunitinib,pancreatic cancer,Anorexia
+Sunitinib,pancreatic cancer,Back Pain
+Sunitinib,pancreatic cancer,Dyspepsia
+Sunitinib,pancreatic cancer,Nausea
+Sunitinib,pancreatic cancer,Pain
+Sunitinib,pancreatic cancer,Vomiting
+Tacrolimus,atopic dermatitis,Pruritus
+Tamoxifen,breast cancer,Anorexia
+Tamoxifen,breast cancer,Arthralgia
+Tamoxifen,breast cancer,Asthenia
+Tamoxifen,breast cancer,Fatigue
+Tamoxifen,breast cancer,Musculoskeletal Pain
+Tamoxifen,breast cancer,Myalgia
+Tamoxifen,breast cancer,Nausea
+Tamoxifen,breast cancer,Pain
+Tamoxifen,breast cancer,Vomiting
+Tamoxifen,pancreatic cancer,Abdominal Pain
+Tamoxifen,pancreatic cancer,Anorexia
+Tamoxifen,pancreatic cancer,Back Pain
+Tamoxifen,pancreatic cancer,Dyspepsia
+Tamoxifen,pancreatic cancer,Nausea
+Tamoxifen,pancreatic cancer,Pain
+Tamoxifen,pancreatic cancer,Vomiting
+Tazarotene,psoriasis,Facial Pain
+Tazarotene,psoriasis,Pain
+Tazarotene,psoriasis,Pruritus
+Telmisartan,coronary artery disease,Acute Coronary Syndrome
+Telmisartan,coronary artery disease,Angina Pectoris
+Telmisartan,coronary artery disease,Chest Pain
+Telmisartan,coronary artery disease,Intermittent Claudication
+Telmisartan,hypertension,Angina Pectoris
+Telmisartan,hypertension,Dizziness
+Telmisartan,hypertension,Headache
+Telmisartan,hypertension,Intermittent Claudication
+Temozolomide,brain cancer,Amnesia
+Temozolomide,brain cancer,Aphasia
+Temozolomide,brain cancer,Ataxia
+Temozolomide,brain cancer,Deafness
+Temozolomide,brain cancer,Diplopia
+Temozolomide,brain cancer,Dizziness
+Temozolomide,brain cancer,Headache
+Temozolomide,brain cancer,Hemiplegia
+Temozolomide,brain cancer,Nausea
+Temozolomide,brain cancer,Paresis
+Temozolomide,brain cancer,Scotoma
+Temozolomide,brain cancer,Tinnitus
+Temozolomide,brain cancer,Vertigo
+Temozolomide,brain cancer,Vomiting
+Temozolomide,malignant glioma,Amnesia
+Temozolomide,malignant glioma,Aphasia
+Temozolomide,malignant glioma,Ataxia
+Temozolomide,malignant glioma,Back Pain
+Temozolomide,malignant glioma,Diplopia
+Temozolomide,malignant glioma,Dizziness
+Temozolomide,malignant glioma,Headache
+Temozolomide,malignant glioma,Hemiplegia
+Temozolomide,malignant glioma,Nausea
+Temozolomide,malignant glioma,Paresis
+Temozolomide,malignant glioma,Vertigo
+Temozolomide,malignant glioma,Vomiting
+Temozolomide,melanoma,Abdominal Pain
+Temozolomide,melanoma,Anorexia
+Temozolomide,melanoma,Chills
+Temozolomide,melanoma,Diplopia
+Temozolomide,melanoma,Eye Pain
+Temozolomide,melanoma,Fatigue
+Temozolomide,melanoma,Nausea
+Temozolomide,melanoma,Paresis
+Temozolomide,melanoma,Pruritus
+Temozolomide,melanoma,Scotoma
+Temozolomide,melanoma,Vomiting
+Temozolomide,skin cancer,Deafness
+Temozolomide,skin cancer,Nausea
+Temozolomide,skin cancer,Pain
+Temozolomide,skin cancer,Pruritus
+Temozolomide,skin cancer,Purpura
+Temozolomide,skin cancer,Vomiting
+Temsirolimus,kidney cancer,Abdominal Pain
+Temsirolimus,kidney cancer,Anorexia
+Temsirolimus,kidney cancer,Asthenia
+Temsirolimus,kidney cancer,Back Pain
+Temsirolimus,kidney cancer,Ecchymosis
+Temsirolimus,kidney cancer,Fatigue
+Temsirolimus,kidney cancer,Nausea
+Temsirolimus,kidney cancer,Pain
+Temsirolimus,kidney cancer,Vomiting
+Teniposide,hematologic cancer,Anorexia
+Teniposide,hematologic cancer,Nausea
+Teniposide,hematologic cancer,Vomiting
+Teniposide,lung cancer,Anorexia
+Teniposide,lung cancer,Asthenia
+Teniposide,lung cancer,Chest Pain
+Teniposide,lung cancer,Cyanosis
+Teniposide,lung cancer,Nausea
+Teniposide,lung cancer,Vomiting
+Terazosin,hypertension,Angina Pectoris
+Terazosin,hypertension,Dizziness
+Terazosin,hypertension,Headache
+Terbutaline,asthma,Chest Pain
+Terbutaline,asthma,Tremor
+Thalidomide,hematologic cancer,Anorexia
+Thalidomide,hematologic cancer,Fatigue
+Thalidomide,hematologic cancer,Nausea
+Thalidomide,hematologic cancer,Pain
+Thalidomide,hematologic cancer,Purpura
+Thalidomide,hematologic cancer,Vomiting
+Thalidomide,leprosy,Neuralgia
+Theophylline,asthma,Tremor
+Thiotepa,breast cancer,Anorexia
+Thiotepa,breast cancer,Arthralgia
+Thiotepa,breast cancer,Asthenia
+Thiotepa,breast cancer,Fatigue
+Thiotepa,breast cancer,Myalgia
+Thiotepa,breast cancer,Nausea
+Thiotepa,breast cancer,Pain
+Thiotepa,breast cancer,Vomiting
+Thiotepa,hematologic cancer,Anorexia
+Thiotepa,hematologic cancer,Fatigue
+Thiotepa,hematologic cancer,Nausea
+Thiotepa,hematologic cancer,Pain
+Thiotepa,hematologic cancer,Vomiting
+Thiotepa,sarcoma,Abdominal Pain
+Thiotepa,sarcoma,Anorexia
+Thiotepa,sarcoma,Back Pain
+Thiotepa,sarcoma,Cough
+Thiotepa,sarcoma,Dysuria
+Thiotepa,sarcoma,Nausea
+Thiotepa,sarcoma,Pain
+Thiotepa,sarcoma,Paresis
+Thiotepa,sarcoma,Vomiting
+Thiotepa,urinary bladder cancer,Abdominal Pain
+Thiotepa,urinary bladder cancer,Anorexia
+Thiotepa,urinary bladder cancer,Dysuria
+Thiotepa,urinary bladder cancer,Nausea
+Thiotepa,urinary bladder cancer,Vomiting
+Ticagrelor,coronary artery disease,Chest Pain
+Tiludronate,Paget's disease of bone,Back Pain
+Tiludronate,Paget's disease of bone,Dizziness
+Tiludronate,Paget's disease of bone,Pain
+Tiludronate,Paget's disease of bone,Vertigo
+Timolol,coronary artery disease,Angina Pectoris
+Timolol,coronary artery disease,Chest Pain
+Timolol,coronary artery disease,Intermittent Claudication
+Timolol,glaucoma,Eye Pain
+Timolol,glaucoma,Photophobia
+Timolol,hypertension,Angina Pectoris
+Timolol,hypertension,Dizziness
+Timolol,hypertension,Headache
+Timolol,hypertension,Intermittent Claudication
+Timolol,migraine,Amnesia
+Timolol,migraine,Dizziness
+Timolol,migraine,Headache
+Timolol,migraine,Nausea
+Timolol,migraine,Pain
+Timolol,migraine,Photophobia
+Timolol,migraine,Syncope
+Timolol,migraine,Vertigo
+Timolol,migraine,Vomiting
+Tioguanine,hematologic cancer,Anorexia
+Tioguanine,hematologic cancer,Nausea
+Tioguanine,hematologic cancer,Vomiting
+Tiotropium,asthma,Chest Pain
+Tiotropium,asthma,Cough
+Tiotropium,asthma,Dysphonia
+Tiotropium,asthma,Hoarseness
+Tiotropium,chronic obstructive pulmonary disease,Cough
+Topiramate,epilepsy syndrome,Amnesia
+Topiramate,epilepsy syndrome,Aphasia
+Topiramate,epilepsy syndrome,Ataxia
+Topiramate,epilepsy syndrome,Lethargy
+Topiramate,epilepsy syndrome,Stupor
+Topiramate,epilepsy syndrome,Syncope
+Topiramate,migraine,Amnesia
+Topiramate,migraine,Aphasia
+Topiramate,migraine,Ataxia
+Topiramate,migraine,Dizziness
+Topiramate,migraine,Headache
+Topiramate,migraine,Mydriasis
+Topiramate,migraine,Nausea
+Topiramate,migraine,Pain
+Topiramate,migraine,Photophobia
+Topiramate,migraine,Scotoma
+Topiramate,migraine,Syncope
+Topiramate,migraine,Toothache
+Topiramate,migraine,Vertigo
+Topiramate,migraine,Vomiting
+Topiramate,obesity,Obesity
+Topotecan,cervical cancer,Abdominal Pain
+Topotecan,cervical cancer,Anorexia
+Topotecan,cervical cancer,Constipation
+Topotecan,cervical cancer,Nausea
+Topotecan,cervical cancer,Pain
+Topotecan,cervical cancer,Pelvic Pain
+Topotecan,cervical cancer,Vomiting
+Topotecan,lung cancer,Anorexia
+Topotecan,lung cancer,Asthenia
+Topotecan,lung cancer,Back Pain
+Topotecan,lung cancer,Chest Pain
+Topotecan,lung cancer,Constipation
+Topotecan,lung cancer,Cough
+Topotecan,lung cancer,Fatigue
+Topotecan,lung cancer,Nausea
+Topotecan,lung cancer,Pain
+Topotecan,lung cancer,Vomiting
+Topotecan,ovarian cancer,Abdominal Pain
+Topotecan,ovarian cancer,Anorexia
+Topotecan,ovarian cancer,Constipation
+Topotecan,ovarian cancer,Fatigue
+Topotecan,ovarian cancer,Nausea
+Topotecan,ovarian cancer,Pelvic Pain
+Topotecan,ovarian cancer,Vomiting
+Topotecan,peripheral nervous system neoplasm,Back Pain
+Topotecan,peripheral nervous system neoplasm,Dizziness
+Topotecan,peripheral nervous system neoplasm,Headache
+Topotecan,peripheral nervous system neoplasm,Neuralgia
+Topotecan,peripheral nervous system neoplasm,Paresis
+Torasemide,hypertension,Dizziness
+Torasemide,hypertension,Headache
+Toremifene,breast cancer,Anorexia
+Toremifene,breast cancer,Asthenia
+Toremifene,breast cancer,Fatigue
+Toremifene,breast cancer,Nausea
+Toremifene,breast cancer,Pain
+Toremifene,breast cancer,Vomiting
+Trandolapril,coronary artery disease,Acute Coronary Syndrome
+Trandolapril,coronary artery disease,Angina Pectoris
+Trandolapril,coronary artery disease,Chest Pain
+Trandolapril,coronary artery disease,Intermittent Claudication
+Trandolapril,hypertension,Angina Pectoris
+Trandolapril,hypertension,Dizziness
+Trandolapril,hypertension,Headache
+Trandolapril,hypertension,Intermittent Claudication
+Trandolapril,hypertension,Polyuria
+Travoprost,glaucoma,Eye Pain
+Travoprost,glaucoma,Mydriasis
+Travoprost,glaucoma,Photophobia
+Travoprost,glaucoma,Scotoma
+Tretinoin,peripheral nervous system neoplasm,Back Pain
+Tretinoin,peripheral nervous system neoplasm,Blindness
+Tretinoin,peripheral nervous system neoplasm,Deafness
+Tretinoin,peripheral nervous system neoplasm,Dizziness
+Tretinoin,peripheral nervous system neoplasm,Facial Paralysis
+Tretinoin,peripheral nervous system neoplasm,Headache
+Tretinoin,peripheral nervous system neoplasm,Hoarseness
+Tretinoin,peripheral nervous system neoplasm,Ophthalmoplegia
+Tretinoin,peripheral nervous system neoplasm,Tinnitus
+Triamcinolone,allergic rhinitis,Cough
+Triamcinolone,allergic rhinitis,Headache
+Triamcinolone,allergic rhinitis,Pruritus
+Triamcinolone,allergic rhinitis,Sneezing
+Triamcinolone,alopecia areata,Pruritus
+Triamcinolone,ankylosing spondylitis,Back Pain
+Triamcinolone,ankylosing spondylitis,Dizziness
+Triamcinolone,ankylosing spondylitis,Fatigue
+Triamcinolone,ankylosing spondylitis,Pain
+Triamcinolone,ankylosing spondylitis,Paraplegia
+Triamcinolone,ankylosing spondylitis,Vertigo
+Triamcinolone,asthma,Cough
+Triamcinolone,asthma,Sneezing
+Triamcinolone,atopic dermatitis,Pruritus
+Triamcinolone,hematologic cancer,Fatigue
+Triamcinolone,hematologic cancer,Nausea
+Triamcinolone,hematologic cancer,Pain
+Triamcinolone,hematologic cancer,Purpura
+Triamcinolone,hematologic cancer,Vomiting
+Triamcinolone,multiple sclerosis,Blindness
+Triamcinolone,multiple sclerosis,Dizziness
+Triamcinolone,multiple sclerosis,Fatigue
+Triamcinolone,multiple sclerosis,Pain
+Triamcinolone,multiple sclerosis,Paraplegia
+Triamcinolone,multiple sclerosis,Vertigo
+Triamcinolone,psoriasis,Back Pain
+Triamcinolone,psoriasis,Fatigue
+Triamcinolone,psoriasis,Nausea
+Triamcinolone,psoriasis,Pain
+Triamcinolone,psoriasis,Pruritus
+Triamcinolone,psoriasis,Purpura
+Triamcinolone,psoriatic arthritis,Back Pain
+Triamcinolone,psoriatic arthritis,Fatigue
+Triamcinolone,psoriatic arthritis,Pain
+Triamcinolone,rheumatoid arthritis,Back Pain
+Triamcinolone,rheumatoid arthritis,Dyspepsia
+Triamcinolone,rheumatoid arthritis,Fatigue
+Triamcinolone,rheumatoid arthritis,Nausea
+Triamcinolone,rheumatoid arthritis,Pain
+Triamcinolone,rheumatoid arthritis,Purpura
+Triamcinolone,systemic lupus erythematosus,Ecchymosis
+Triamcinolone,systemic lupus erythematosus,Fatigue
+Triamcinolone,systemic lupus erythematosus,Headache
+Triamcinolone,systemic lupus erythematosus,Purpura
+Triamcinolone,ulcerative colitis,Dyspepsia
+Triamcinolone,ulcerative colitis,Nausea
+Triamcinolone,ulcerative colitis,Purpura
+Triamcinolone,ulcerative colitis,Vomiting
+Triamterene,hypertension,Dizziness
+Triamterene,hypertension,Headache
+Ursodeoxycholic acid,primary biliary cirrhosis,Fatigue
+Ursodeoxycholic acid,primary biliary cirrhosis,Jaundice
+Ursodeoxycholic acid,primary biliary cirrhosis,Pruritus
+Valproic Acid,epilepsy syndrome,Amnesia
+Valproic Acid,epilepsy syndrome,Ataxia
+Valproic Acid,epilepsy syndrome,Coma
+Valproic Acid,epilepsy syndrome,Lethargy
+Valproic Acid,epilepsy syndrome,Stupor
+Valproic Acid,migraine,Amnesia
+Valproic Acid,migraine,Ataxia
+Valproic Acid,migraine,Dizziness
+Valproic Acid,migraine,Headache
+Valproic Acid,migraine,Nausea
+Valproic Acid,migraine,Neck Pain
+Valproic Acid,migraine,Pain
+Valproic Acid,migraine,Photophobia
+Valproic Acid,migraine,Vertigo
+Valproic Acid,migraine,Vomiting
+Valrubicin,urinary bladder cancer,Abdominal Pain
+Valrubicin,urinary bladder cancer,Dysuria
+Valrubicin,urinary bladder cancer,Flatulence
+Valrubicin,urinary bladder cancer,Nausea
+Valrubicin,urinary bladder cancer,Pelvic Pain
+Valrubicin,urinary bladder cancer,Urinary Incontinence
+Valrubicin,urinary bladder cancer,Vomiting
+Valsartan,coronary artery disease,Chest Pain
+Valsartan,hypertension,Dizziness
+Valsartan,hypertension,Headache
+Vemurafenib,melanoma,Chills
+Vemurafenib,melanoma,Fatigue
+Vemurafenib,melanoma,Nausea
+Vemurafenib,melanoma,Pruritus
+Vemurafenib,melanoma,Vomiting
+Vemurafenib,skin cancer,Nausea
+Vemurafenib,skin cancer,Pruritus
+Vemurafenib,skin cancer,Vomiting
+Verapamil,hypertension,Angina Pectoris
+Verapamil,hypertension,Dizziness
+Verapamil,hypertension,Headache
+Verapamil,hypertension,Intermittent Claudication
+Verapamil,migraine,Dizziness
+Verapamil,migraine,Headache
+Verapamil,migraine,Nausea
+Verapamil,migraine,Pain
+Verapamil,migraine,Syncope
+Verapamil,migraine,Vertigo
+Verapamil,migraine,Vomiting
+Vigabatrin,epilepsy syndrome,Amnesia
+Vigabatrin,epilepsy syndrome,Ataxia
+Vigabatrin,epilepsy syndrome,Lethargy
+Vigabatrin,epilepsy syndrome,Myoclonus
+Vigabatrin,epilepsy syndrome,Stupor
+Vinblastine,breast cancer,Anorexia
+Vinblastine,breast cancer,Asthenia
+Vinblastine,breast cancer,Nausea
+Vinblastine,breast cancer,Pain
+Vinblastine,breast cancer,Vomiting
+Vinblastine,germ cell cancer,Abdominal Pain
+Vinblastine,germ cell cancer,Constipation
+Vinblastine,germ cell cancer,Deafness
+Vinblastine,germ cell cancer,Dizziness
+Vinblastine,germ cell cancer,Headache
+Vinblastine,germ cell cancer,Nausea
+Vinblastine,germ cell cancer,Vertigo
+Vinblastine,germ cell cancer,Vomiting
+Vinblastine,head and neck cancer,Anorexia
+Vinblastine,head and neck cancer,Deafness
+Vinblastine,head and neck cancer,Dizziness
+Vinblastine,head and neck cancer,Headache
+Vinblastine,head and neck cancer,Nausea
+Vinblastine,head and neck cancer,Pain
+Vinblastine,head and neck cancer,Vertigo
+Vinblastine,head and neck cancer,Vomiting
+Vinblastine,hematologic cancer,Anorexia
+Vinblastine,hematologic cancer,Nausea
+Vinblastine,hematologic cancer,Pain
+Vinblastine,hematologic cancer,Vomiting
+Vinblastine,kidney cancer,Abdominal Pain
+Vinblastine,kidney cancer,Anorexia
+Vinblastine,kidney cancer,Asthenia
+Vinblastine,kidney cancer,Nausea
+Vinblastine,kidney cancer,Pain
+Vinblastine,kidney cancer,Vomiting
+Vinblastine,lung cancer,Anorexia
+Vinblastine,lung cancer,Asthenia
+Vinblastine,lung cancer,Constipation
+Vinblastine,lung cancer,Nausea
+Vinblastine,lung cancer,Pain
+Vinblastine,lung cancer,Vomiting
+Vinblastine,testicular cancer,Abdominal Pain
+Vinblastine,testicular cancer,Anorexia
+Vinblastine,testicular cancer,Nausea
+Vinblastine,testicular cancer,Vomiting
+Vincristine,colon cancer,Abdominal Pain
+Vincristine,colon cancer,Anorexia
+Vincristine,colon cancer,Constipation
+Vincristine,colon cancer,Nausea
+Vincristine,colon cancer,Vomiting
+Vincristine,hematologic cancer,Anorexia
+Vincristine,hematologic cancer,Fatigue
+Vincristine,hematologic cancer,Nausea
+Vincristine,hematologic cancer,Pain
+Vincristine,hematologic cancer,Vomiting
+Vincristine,kidney cancer,Abdominal Pain
+Vincristine,kidney cancer,Anorexia
+Vincristine,kidney cancer,Asthenia
+Vincristine,kidney cancer,Back Pain
+Vincristine,kidney cancer,Fatigue
+Vincristine,kidney cancer,Nausea
+Vincristine,kidney cancer,Pain
+Vincristine,kidney cancer,Polyuria
+Vincristine,kidney cancer,Vomiting
+Vincristine,muscle cancer,Back Pain
+Vincristine,muscle cancer,Facial Paralysis
+Vincristine,muscle cancer,Pain
+Vincristine,muscle cancer,Paralysis
+Vincristine,muscle cancer,Paresis
+Vincristine,peripheral nervous system neoplasm,Back Pain
+Vincristine,peripheral nervous system neoplasm,Blindness
+Vincristine,peripheral nervous system neoplasm,Deafness
+Vincristine,peripheral nervous system neoplasm,Dizziness
+Vincristine,peripheral nervous system neoplasm,Facial Paralysis
+Vincristine,peripheral nervous system neoplasm,Headache
+Vincristine,peripheral nervous system neoplasm,Paralysis
+Vincristine,peripheral nervous system neoplasm,Paresis
+Vincristine,peripheral nervous system neoplasm,Vertigo
+Vincristine,peripheral nervous system neoplasm,Vocal Cord Paralysis
+Vincristine,sarcoma,Abdominal Pain
+Vincristine,sarcoma,Anorexia
+Vincristine,sarcoma,Back Pain
+Vincristine,sarcoma,Dysuria
+Vincristine,sarcoma,Facial Paralysis
+Vincristine,sarcoma,Nausea
+Vincristine,sarcoma,Pain
+Vincristine,sarcoma,Paralysis
+Vincristine,sarcoma,Paresis
+Vincristine,sarcoma,Vomiting
+Vinorelbine,breast cancer,Anorexia
+Vinorelbine,breast cancer,Arthralgia
+Vinorelbine,breast cancer,Asthenia
+Vinorelbine,breast cancer,Fatigue
+Vinorelbine,breast cancer,Myalgia
+Vinorelbine,breast cancer,Nausea
+Vinorelbine,breast cancer,Pain
+Vinorelbine,breast cancer,Vomiting
+Vinorelbine,hematologic cancer,Anorexia
+Vinorelbine,hematologic cancer,Fatigue
+Vinorelbine,hematologic cancer,Nausea
+Vinorelbine,hematologic cancer,Pain
+Vinorelbine,hematologic cancer,Vomiting
+Vinorelbine,lung cancer,Anorexia
+Vinorelbine,lung cancer,Asthenia
+Vinorelbine,lung cancer,Back Pain
+Vinorelbine,lung cancer,Chest Pain
+Vinorelbine,lung cancer,Constipation
+Vinorelbine,lung cancer,Cough
+Vinorelbine,lung cancer,Fatigue
+Vinorelbine,lung cancer,Nausea
+Vinorelbine,lung cancer,Pain
+Vinorelbine,lung cancer,Vomiting
+Vinorelbine,ovarian cancer,Abdominal Pain
+Vinorelbine,ovarian cancer,Anorexia
+Vinorelbine,ovarian cancer,Constipation
+Vinorelbine,ovarian cancer,Fatigue
+Vinorelbine,ovarian cancer,Nausea
+Vinorelbine,ovarian cancer,Vomiting
+Vismodegib,skin cancer,Nausea
+Vismodegib,skin cancer,Pain
+Vismodegib,skin cancer,Pruritus
+Vismodegib,skin cancer,Vomiting
+Vorinostat,hematologic cancer,Anorexia
+Vorinostat,hematologic cancer,Fatigue
+Vorinostat,hematologic cancer,Nausea
+Vorinostat,hematologic cancer,Vomiting
+Zidovudine,acquired immunodeficiency syndrome,Abdominal Pain
+Zidovudine,acquired immunodeficiency syndrome,Anorexia
+Zidovudine,acquired immunodeficiency syndrome,Cough
+Zidovudine,acquired immunodeficiency syndrome,Nausea
+Zidovudine,acquired immunodeficiency syndrome,Pain
+Zidovudine,acquired immunodeficiency syndrome,Pruritus
+Zileuton,asthma,Chest Pain
+Zoledronate,Paget's disease of bone,Back Pain
+Zoledronate,Paget's disease of bone,Dizziness
+Zoledronate,Paget's disease of bone,Pain
+Zoledronate,Paget's disease of bone,Tetany
+Zoledronate,Paget's disease of bone,Vertigo
+Zoledronate,osteoporosis,Arthralgia
+Zoledronate,osteoporosis,Asthenia
+Zoledronate,osteoporosis,Back Pain
+Zoledronate,osteoporosis,Musculoskeletal Pain
+Zoledronate,osteoporosis,Pain
+Zoledronate,osteoporosis,Tetany
+Zonisamide,epilepsy syndrome,Amnesia
+Zonisamide,epilepsy syndrome,Ataxia
+Zonisamide,epilepsy syndrome,Coma
+Zonisamide,epilepsy syndrome,Myoclonus
+Zonisamide,epilepsy syndrome,Syncope

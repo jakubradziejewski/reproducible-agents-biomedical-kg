@@ -15,6 +15,9 @@ Hetionet v1.0 on Neo4j 3.5 (neo4j.het.io); generated 2026-10-25; reproduce with 
 - 37 genes lack a chromosome, and 279 names (case-insensitive) are shared by nodes of different labels.
 - Gene interaction degree and number of binding compounds have a weak rank correlation (Spearman rho 0.13).
 - Metapath counts separate treated from untreated pairs (AUROC 0.757 for CbGaD, 0.754 for CrCtD).
+- Of the 431 TREATS edges into the 34 treated diseases that share their name with a side effect, 61 (14.2%) come from a compound also listed as causing that side effect, 1.8 times the 34.2 expected if treating compounds caused it as often as all 1,552 compounds do.
+- 29 genes have a chromosome value outside 1-22, X, Y and MT: 18 `X|Y` (0 isolated), 11 `Un` (11 isolated); the 18 `X|Y` genes lie in the pseudoautosomal regions, so an exact filter such as `chromosome = 'X'` misses them.
+- 1,463 of the 1,800 isolated genes (81.3%) are uncharacterised `LOC` placeholder records, and 94.5% of all 1,548 `LOC` genes have no edge at all.
 
 ## 1. Basic properties
 
@@ -182,3 +185,19 @@ Caveat: the AUROC describes association within the 2017 snapshot and does not va
 - **Shared names.** 279 names occur under more than one label (e.g. abdominal aortic aneurysm, abdominal pain, ache, ...), and 8 names are duplicated within their own label, so queries without a label or `DISTINCT` can return extra rows.
 - **Hub bias.** Questions about top genes (UBC, APP, PCNA, ...) return very large result sets: UBC alone has 9,372 edges against a median gene degree of 82, far beyond the row cap an agent sees.
 - **Repurposing questions.** Path counts are an informative but far from decisive signal (AUROC 0.757 for CbGaD, 0.754 for CrCtD), so agent rankings built on them are not a substitute for the gold answer; gold rankings tie-break alphabetically by name.
+
+## 5. Unexpected findings
+
+Promoted from a bounded open-ended exploration (at most 3 findings; the full probe log, including dead ends, is in `EXPLORATION.md` and `probes.jsonl`).
+
+### Drugs listed as causing the disease they treat
+
+*Classification: unexplained.* Of the 431 TREATS edges into the 34 treated diseases that share their name with a side effect, 61 (14.2%) come from a compound also listed as causing that side effect, 1.8 times the 34.2 expected if treating compounds caused it as often as all 1,552 compounds do.
+
+### Multi-valued and unplaced chromosomes
+
+*Classification: real biology.* 29 genes have a chromosome value outside 1-22, X, Y and MT: 18 `X|Y` (0 isolated), 11 `Un` (11 isolated); the 18 `X|Y` genes lie in the pseudoautosomal regions, so an exact filter such as `chromosome = 'X'` misses them.
+
+### Isolated genes are mostly LOC placeholders
+
+*Classification: modelling artefact.* 1,463 of the 1,800 isolated genes (81.3%) are uncharacterised `LOC` placeholder records, and 94.5% of all 1,548 `LOC` genes have no edge at all.

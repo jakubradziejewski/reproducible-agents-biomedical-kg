@@ -114,6 +114,24 @@ CRCTD_PATHS_Q = (
     "WHERE c <> c2 RETURN c.identifier AS compound, d.identifier AS disease, "
     "count(DISTINCT c2) AS paths ORDER BY compound, disease"
 )
+# Findings promoted from the bounded exploration (reports/eda/EXPLORATION.md).
+FINDING_DRUG_CAUSES_INDICATION_Q = (
+    "MATCH (x:Compound) WITH count(x) AS n_compounds "
+    "MATCH (d:Disease), (se:SideEffect) WHERE toLower(se.name) = d.name "
+    "OPTIONAL MATCH (c:Compound)-[:TREATS_CtD]->(d) "
+    "WITH n_compounds, d, se, count(c) AS treaters, "
+    "sum(CASE WHEN (c)-[:CAUSES_CcSE]->(se) THEN 1 ELSE 0 END) AS treaters_causing "
+    "RETURN d.identifier AS disease, d.name AS name, se.identifier AS side_effect, treaters, "
+    "treaters_causing, size((se)<-[:CAUSES_CcSE]-()) AS causers, n_compounds ORDER BY disease"
+)
+FINDING_NONSTANDARD_CHROMOSOMES_Q = (
+    "MATCH (g:Gene) RETURN g.chromosome AS chromosome, count(*) AS genes, "
+    "sum(CASE WHEN size((g)--()) = 0 THEN 1 ELSE 0 END) AS isolated ORDER BY chromosome"
+)
+FINDING_LOC_PLACEHOLDER_GENES_Q = (
+    "MATCH (g:Gene) RETURN g.name STARTS WITH 'LOC' AS loc_name, size((g)--()) = 0 AS isolated, "
+    "count(*) AS genes ORDER BY loc_name, isolated"
+)
 
 SYMMETRIC_TYPES = [
     "INTERACTS_GiG", "COVARIES_GcG", "REGULATES_GrG", "RESEMBLES_CrC", "RESEMBLES_DrD",
@@ -198,6 +216,9 @@ DATASETS: dict[str, Callable[[], pd.DataFrame]] = {
     "pharm_classes": _simple(PHARM_CLASSES_Q),
     "cbgad_paths": _simple(CBGAD_PATHS_Q),
     "crctd_paths": _simple(CRCTD_PATHS_Q),
+    "finding_drug_causes_indication": _simple(FINDING_DRUG_CAUSES_INDICATION_Q),
+    "finding_nonstandard_chromosomes": _simple(FINDING_NONSTANDARD_CHROMOSOMES_Q),
+    "finding_loc_placeholder_genes": _simple(FINDING_LOC_PLACEHOLDER_GENES_Q),
 }
 
 
