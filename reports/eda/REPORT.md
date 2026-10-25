@@ -15,8 +15,8 @@ Hetionet v1.0 on Neo4j 3.5 (neo4j.het.io); generated 2026-10-25; reproduce with 
 - 37 genes lack a chromosome, and 279 names (case-insensitive) are shared by nodes of different labels.
 - Gene interaction degree and number of binding compounds have a weak rank correlation (Spearman rho 0.13).
 - Metapath counts separate treated from untreated pairs (AUROC 0.757 for CbGaD, 0.754 for CrCtD).
-- Of the 431 TREATS edges into the 34 treated diseases that share their name with a side effect, 61 (14.2%) come from a compound also listed as causing that side effect, 1.8 times the 34.2 expected if treating compounds caused it as often as all 1,552 compounds do.
-- 29 genes have a chromosome value outside 1-22, X, Y and MT: 18 `X|Y` (0 isolated), 11 `Un` (11 isolated); the 18 `X|Y` genes lie in the pseudoautosomal regions, so an exact filter such as `chromosome = 'X'` misses them.
+- Of the 441 TREATS edges into the 36 treated diseases that share their name with a side effect, 65 (14.7%) come from a compound also listed as causing that side effect, 1.9 times the 34.3 expected if treating compounds caused it as often as all 1,552 compounds do.
+- 18 genes are listed on both chromosomes X and Y (`X|Y`), e.g. AKAP17A and ASMT, so an exact filter such as `chromosome = 'X'` misses them.
 - 1,463 of the 1,800 isolated genes (81.3%) are uncharacterised `LOC` placeholder records, and 94.5% of all 1,548 `LOC` genes have no edge at all.
 
 ## 1. Basic properties
@@ -192,11 +192,11 @@ Promoted from a bounded open-ended exploration (at most 3 findings; the full pro
 
 ### Drugs listed as causing the disease they treat
 
-*Classification: unexplained.* Of the 431 TREATS edges into the 34 treated diseases that share their name with a side effect, 61 (14.2%) come from a compound also listed as causing that side effect, 1.8 times the 34.2 expected if treating compounds caused it as often as all 1,552 compounds do.
+*Classification: unexplained.* Of the 441 TREATS edges into the 36 treated diseases that share their name with a side effect, 65 (14.7%) come from a compound also listed as causing that side effect, 1.9 times the 34.3 expected if treating compounds caused it as often as all 1,552 compounds do.
 
-### Multi-valued and unplaced chromosomes
+### Genes listed on both X and Y
 
-*Classification: real biology.* 29 genes have a chromosome value outside 1-22, X, Y and MT: 18 `X|Y` (0 isolated), 11 `Un` (11 isolated); the 18 `X|Y` genes lie in the pseudoautosomal regions, so an exact filter such as `chromosome = 'X'` misses them.
+*Classification: real biology.* 18 genes are listed on both chromosomes X and Y (`X|Y`), e.g. AKAP17A and ASMT, so an exact filter such as `chromosome = 'X'` misses them.
 
 ### Isolated genes are mostly LOC placeholders
 

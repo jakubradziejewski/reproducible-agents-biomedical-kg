@@ -117,7 +117,7 @@ CRCTD_PATHS_Q = (
 # Findings promoted from the bounded exploration (reports/eda/EXPLORATION.md).
 FINDING_DRUG_CAUSES_INDICATION_Q = (
     "MATCH (x:Compound) WITH count(x) AS n_compounds "
-    "MATCH (d:Disease), (se:SideEffect) WHERE toLower(se.name) = d.name "
+    "MATCH (d:Disease), (se:SideEffect) WHERE toLower(se.name) = toLower(d.name) "
     "OPTIONAL MATCH (c:Compound)-[:TREATS_CtD]->(d) "
     "WITH n_compounds, d, se, count(c) AS treaters, "
     "sum(CASE WHEN (c)-[:CAUSES_CcSE]->(se) THEN 1 ELSE 0 END) AS treaters_causing "
@@ -125,8 +125,8 @@ FINDING_DRUG_CAUSES_INDICATION_Q = (
     "treaters_causing, size((se)<-[:CAUSES_CcSE]-()) AS causers, n_compounds ORDER BY disease"
 )
 FINDING_NONSTANDARD_CHROMOSOMES_Q = (
-    "MATCH (g:Gene) RETURN g.chromosome AS chromosome, count(*) AS genes, "
-    "sum(CASE WHEN size((g)--()) = 0 THEN 1 ELSE 0 END) AS isolated ORDER BY chromosome"
+    "MATCH (g:Gene) WHERE g.chromosome = 'X|Y' RETURN toString(g.identifier) AS gene, "
+    "g.name AS name, g.chromosome AS chromosome, size((g)--()) AS degree ORDER BY name, gene"
 )
 FINDING_LOC_PLACEHOLDER_GENES_Q = (
     "MATCH (g:Gene) RETURN g.name STARTS WITH 'LOC' AS loc_name, size((g)--()) = 0 AS isolated, "

@@ -47,20 +47,11 @@ def _drug_causes_indication(df: pd.DataFrame) -> str:
     )
 
 
-STANDARD_CHROMOSOMES = {*map(str, range(1, 23)), "X", "Y", "MT"}
-
-
-def _nonstandard_chromosomes(df: pd.DataFrame) -> str:
-    chrom = df["chromosome"].astype("string")
-    odd = df.assign(chromosome=chrom)[chrom.notna() & ~chrom.isin(STANDARD_CHROMOSOMES)]
-    odd = odd.sort_values(["genes", "chromosome"], ascending=[False, True])
-    parts = ", ".join(f"{_n(r.genes)} `{r.chromosome}` ({_n(r.isolated)} isolated)"
-                      for r in odd.itertuples())
-    xy = int(odd.loc[odd["chromosome"] == "X|Y", "genes"].sum())
+def _x_and_y_genes(df: pd.DataFrame) -> str:
+    names = sorted(df["name"])
     return (
-        f"{_n(odd['genes'].sum())} genes have a chromosome value outside 1-22, X, Y and MT: {parts}; "
-        f"the {_n(xy)} `X|Y` genes lie in the pseudoautosomal regions, so an exact filter such as "
-        f"`chromosome = 'X'` misses them."
+        f"{_n(len(df))} genes are listed on both chromosomes X and Y (`X|Y`), e.g. "
+        f"{' and '.join(names[:2])}, so an exact filter such as `chromosome = 'X'` misses them."
     )
 
 
@@ -80,8 +71,8 @@ MAX_FINDINGS = 3
 FINDINGS: list[Finding] = [
     Finding("drug_causes_indication", "Drugs listed as causing the disease they treat", "unexplained",
             "finding_drug_causes_indication", _drug_causes_indication),
-    Finding("nonstandard_chromosomes", "Multi-valued and unplaced chromosomes", "real biology",
-            "finding_nonstandard_chromosomes", _nonstandard_chromosomes),
+    Finding("nonstandard_chromosomes", "Genes listed on both X and Y", "real biology",
+            "finding_nonstandard_chromosomes", _x_and_y_genes),
     Finding("loc_placeholder_genes", "Isolated genes are mostly LOC placeholders", "modelling artefact",
             "finding_loc_placeholder_genes", _loc_placeholder_genes),
 ]

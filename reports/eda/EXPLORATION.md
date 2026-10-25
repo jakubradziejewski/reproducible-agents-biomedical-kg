@@ -62,6 +62,11 @@ are marked *offline* and cost no probe. Exploration stopped early: the seed list
 - Result: 61 rows. E.g. Salbutamol / asthma / C0004096, Candesartan / hypertension / C0020538,
   Colchicine / gout / C0018099.
 - Verdict: *candidate* (needs a baseline, probe 9).
+- Correction (review, fix round 1): this probe matched `toLower(se.name) = d.name`, which lowercases only the
+  side-effect name, so the 14 mixed-case disease names could never match. The registered dataset
+  `finding_drug_causes_indication` now uses `toLower(se.name) = toLower(d.name)` and adds Crohn's disease
+  (1 treating compound causes it) and hepatitis B (3), giving 65 such TREATS edges instead of 61. The
+  logged probe and the numbers above are left as observed.
 
 ### 3. similar_diseases_no_genes
 - Hypothesis: 10-30% of RESEMBLES_DrD pairs share no gene and no symptom.
@@ -92,8 +97,16 @@ are marked *offline* and cost no probe. Exploration stopped early: the seed list
 - Result: 29 rows. All 18 `X|Y` genes are known PAR genes (SHOX, CSF2RA, IL3RA, CD99, ... in PAR1; VAMP7,
   SPRY3 in PAR2) with degrees 11-621. All 11 `Un` genes are degree-0 `LOC` records (e.g. LOC100288966).
 - Example by name: SHOX has chromosome `X|Y` (probe 15).
-- Verdict: *candidate* -> **promoted** as `nonstandard_chromosomes` (real biology for `X|Y`; the `Un` genes
-  are unplaced annotations and all isolated).
+- Verdict: *candidate* -> **promoted** as `nonstandard_chromosomes`, narrowed in review fix round 1 to the
+  18 `X|Y` genes. The dataset now lists those genes by name and id, and the report sentence gives the count
+  and the first two names alphabetically (AKAP17A, ASMT). The 11 `Un` genes were dropped from this
+  finding: all of them are isolated `LOC` records and belong under `loc_placeholder_genes`.
+- Classification after narrowing: *real biology* still holds. `X|Y` is Entrez Gene's annotation for genes
+  that are physically present on both sex chromosomes. Every one of the 18 genes checked by hand (SHOX,
+  CSF2RA, IL3RA, CD99, ... in PAR1; VAMP7, SPRY3 in PAR2) is a known pseudoautosomal gene, and none is
+  isolated (degrees 11-621), so these are ordinary, well-annotated genes rather than artefacts. The report
+  sentence states only what the data shows ("listed on both chromosomes X and Y"). The pseudoautosomal
+  explanation was checked by hand, not by code, so it stays here and is not in REPORT.md.
 
 ### 8. organ_cancer_localizes
 - Hypothesis: some "<organ> cancer" diseases lack a LOCALIZES edge to the same-named anatomy.
@@ -108,7 +121,15 @@ are marked *offline* and cost no probe. Exploration stopped early: the seed list
   rate: 1.8x. Strong for rare side effects (AIDS 4/14 treaters vs 18/1,552 compounds; COPD 3/9 vs 28/1,552),
   absent for common ones (hypertension 17/68 = 25% vs 453/1,552 = 29%; 29% of all compounds "cause"
   hypertension).
-- Example by name: Salbutamol TREATS asthma and CAUSES side effect `Asthma` (C0004096) (probe 15).
+- Correction (review, fix round 1): like probe 2, this probe used the asymmetric match
+  `toLower(se.name) = d.name` and so missed the mixed-case diseases Crohn's disease (6 treaters, 1 causing,
+  15 causers), hepatitis B (4 treaters, 3 causing, 16 causers) and Parkinson's disease (0 treaters, 12
+  causers). With `toLower` on both sides (the registered dataset), 53 diseases share a name with a side
+  effect, 36 of them treated; 65 of 441 TREATS edges come from a compound causing the same-named side
+  effect, against 34.3 expected: 1.9x. The figures above are left as observed.
+- Example by name: Salbutamol TREATS asthma and CAUSES side effect `Asthma` (C0004096) (probe 15). Re-checked
+  after the fix: the refreshed dataset still has asthma with side effect C0004096 and 11 of 37 treating
+  compounds causing it, so the example holds unchanged.
 - Verdict: *candidate* -> **promoted** as `drug_causes_indication`. Classified *unexplained*: the pairs mix
   plausible indication leakage from label text mining (SIDER) with real paradoxical or rebound effects
   (e.g. bronchospasm warnings for beta-agonists, rebound hypertension for guanfacine); the graph cannot
@@ -155,7 +176,7 @@ Four candidates met the quantified / not-covered / example / classification crit
 Promoted (registered as `finding_<slug>` datasets, section 5 of REPORT.md):
 
 1. `drug_causes_indication` — *unexplained*.
-2. `nonstandard_chromosomes` — *real biology*.
+2. `nonstandard_chromosomes` (the `X|Y` genes only) — *real biology*.
 3. `loc_placeholder_genes` — *modelling artefact*.
 
 Not promoted: `identical_similarity` (22 of 23 similarity-1.0 RESEMBLES_CrC edges join stereoisomers, a

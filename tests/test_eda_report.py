@@ -65,5 +65,5 @@ def test_promoted_findings_render_numbers_from_data(tiny_data, tmp_path):
     for f in eda_report.FINDINGS:
         sentence = f.summarize(tiny_data[f.dataset])
         assert re.search(r"\d", sentence) and sentence in section_5 and f.kind in section_5
-    assert "3 genes have a chromosome value outside" in section_5  # 2 X|Y + 1 Un; missing value excluded
+    assert "3 genes are listed on both chromosomes X and Y (`X|Y`), e.g. G7 and G8" in section_5
     assert "2 of the 3 isolated genes (66.7%)" in section_5

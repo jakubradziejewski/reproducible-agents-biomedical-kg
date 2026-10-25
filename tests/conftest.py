@@ -13,8 +13,7 @@ def tiny_data() -> dict[str, pd.DataFrame]:
     """Every dataset in eda_queries.DATASETS with its real columns, at toy size.
 
     Edge cases kept on purpose: a degree-0 gene, a disease with 0 treatments,
-    compound/disease pairs with 0 paths, one property that only some labels have,
-    and a missing chromosome next to multi-valued (`X|Y`) and unplaced (`Un`) ones.
+    compound/disease pairs with 0 paths, and one property that only some labels have.
     """
     data = {
         "node_counts": _df("label n_labels n", ("Compound", 1, 3), ("Disease", 1, 3), ("Gene", 1, 4)),
@@ -117,8 +116,8 @@ def tiny_data() -> dict[str, pd.DataFrame]:
             ("DOID:1", "asthma", "C1", 2, 1, 1, 3), ("DOID:3", "flu", "C3", 0, 0, 2, 3),
         ),
         "finding_nonstandard_chromosomes": _df(
-            "chromosome genes isolated",
-            ("1", 1, 0), ("2", 2, 1), ("3", 2, 0), ("Un", 1, 1), ("X", 1, 0), ("X|Y", 2, 0), (None, 1, 1),
+            "gene name chromosome degree", ("7", "G7", "X|Y", 4), ("8", "G8", "X|Y", 0),
+            ("9", "G9", "X|Y", 2),
         ),
         "finding_loc_placeholder_genes": _df(
             "loc_name isolated genes", (False, False, 5), (False, True, 1), (True, True, 2),
