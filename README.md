@@ -1,7 +1,6 @@
-@'
-# reproducible-agents-biomedical-kg
+﻿# Utilizing LLMs in Drug Repurposing
 
-An evaluation of LLM agents answering biomedical questions over the Hetionet knowledge graph, measured by correctness against verified results and by repeatability across runs.
+Deterministic text-to-Cypher pipelines over biomedical knowledge graphs to accelerate indication discovery.
 
 ## Motivation
 
@@ -55,11 +54,11 @@ All 24 relationship types, with properties, are in [`data/schema.md`](data/schem
 
 ## How to run
 
-**Requirements:** [uv](https://docs.astral.sh/uv/) and Git (uv installs Python). Optional: [Ollama](https://ollama.com) for free local models, and a free Gemini API key for a hosted model.
+**Requirements:** [uv](https://docs.astral.sh/uv/) and Git (uv installs Python), plus an API key for an OpenAI-compatible LLM endpoint (see `.env.example`).
 
 ```powershell
 # 1. Install
-git clone <repo-url>
+git clone https://github.com/jakubradziejewski/reproducible-agents-biomedical-kg.git
 cd reproducible-agents-biomedical-kg
 uv sync
 
@@ -76,8 +75,8 @@ uv run python src/build_gold.py              # writes data/questions.jsonl
 uv run python src/evaluate.py
 
 # 6. Run agents: one question first, then the whole set with repetitions
-uv run python src/run_experiments.py --models gemini-flash --only q03
-uv run python src/run_experiments.py --models gemini-flash --reps 3
+uv run python src/run_experiments.py --models qwen3.8-27b --only q01
+uv run python src/run_experiments.py --models qwen3.8-27b --reps 3
 ```
 
 | Option | Meaning |
@@ -86,3 +85,6 @@ uv run python src/run_experiments.py --models gemini-flash --reps 3
 | `--only q01,q03` | Run only these questions |
 | `--reps N` | Repeat each question N times (repeatability) |
 | `--max-steps N` | Max tool calls per run (default 6) |
+
+
+

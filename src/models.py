@@ -1,14 +1,26 @@
-﻿"""Every model is an OpenAI-compatible endpoint plus a model id."""
+﻿"""Model registry: exact model ids served by one OpenAI-compatible endpoint.
 
-HF = "https://router.huggingface.co/v1"
-OLLAMA = "http://localhost:11434/v1"
+The endpoint and key come from the environment (LLM_BASE_URL, LLM_API_KEY; see
+.env.example), so anyone can point these model ids at their own provider.
+"""
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+def _model(model_id, **extra):
+    return dict(model=model_id, base_url=os.getenv("LLM_BASE_URL"), key_env="LLM_API_KEY", **extra)
+
 
 MODELS = {
-    # Hugging Face Inference Providers (free monthly credits are tiny)
-    "hf-gpt-oss-120b": dict(base_url=HF, key_env="HF_TOKEN", model="openai/gpt-oss-120b"),
-    "hf-llama-3.3-70b": dict(base_url=HF, key_env="HF_TOKEN", model="meta-llama/Llama-3.3-70B-Instruct"),
-    # Local, fully free (needs Ollama running; pick a model that supports tool calling)
-    "ollama-qwen2.5-7b": dict(base_url=OLLAMA, key_env=None, model="qwen2.5:7b"),
-        "gemini-flash": dict(base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-                         key_env="GEMINI_API_KEY", model="gemini-3.5-flash-lite", delay=6),
+    # small
+    "bielik-11b": _model("bielik_11b"),
+    # mid
+    "qwen3.8-27b": _model("Qwen3.8-27B"),
+    "mistral-small-24b": _model("Mistral-Small-3.2:24b"),
+    # large
+    "gpt-oss-120b": _model("gpt-oss_120b"),
+    "deepseek-v4-flash": _model("DeepSeek-V4-Flash"),
 }

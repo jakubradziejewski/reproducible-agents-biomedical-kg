@@ -53,6 +53,8 @@ def run_agent(cfg, question, max_steps=6, temperature=0.0, seed=0):
         rec["seed_used"] = used
         if resp.usage:
             rec["tokens"] += resp.usage.total_tokens or 0
+            rec["prompt_tokens"] = rec.get("prompt_tokens", 0) + (resp.usage.prompt_tokens or 0)
+            rec["completion_tokens"] = rec.get("completion_tokens", 0) + (resp.usage.completion_tokens or 0)
         msg = resp.choices[0].message
         if not msg.tool_calls:
             rec["final_answer"] = msg.content
