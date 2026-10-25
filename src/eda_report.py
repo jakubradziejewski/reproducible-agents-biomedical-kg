@@ -61,8 +61,8 @@ def _loc_placeholder_genes(df: pd.DataFrame) -> str:
     loc_iso = int(iso.loc[iso["loc_name"], "genes"].sum())
     n_iso, n_loc = int(iso["genes"].sum()), int(loc["genes"].sum())
     return (
-        f"{_n(loc_iso)} of the {_n(n_iso)} isolated genes ({_pct(loc_iso / n_iso)}) are uncharacterised "
-        f"`LOC` placeholder records, and {_pct(loc_iso / n_loc)} of all {_n(n_loc)} `LOC` genes have "
+        f"{_n(loc_iso)} of the {_n(n_iso)} isolated genes ({_pct(loc_iso / n_iso)}) are genes whose "
+        f"names start with `LOC`, and {_pct(loc_iso / n_loc)} of all {_n(n_loc)} `LOC` genes have "
         f"no edge at all."
     )
 
@@ -156,6 +156,8 @@ def compute_facts(data: dict[str, pd.DataFrame]) -> dict[str, Any]:
         "top2_rel_share": float(sum(v for _, v in top2) / by_rel.sum()),
         "top2_rel_types": [k for k, _ in top2],
         "gene_gini": st.gini(gene_deg),
+        "gene_gini_rank": int((summ["gini"] > st.gini(gene_deg)).sum()) + 1,
+        "gini_label_count": int(len(summ)),
         "gene_median_degree": float(gene_deg.median()),
         "isolated_by_label": {k: int(v) for k, v in sorted(summ["isolated"].items())},
         "top_genes": hubs["name"].tolist(),
@@ -164,10 +166,11 @@ def compute_facts(data: dict[str, pd.DataFrame]) -> dict[str, Any]:
         "pct_compounds_treating": _frac(cov, "TREATS_CtD", "src_frac"),
         "n_diseases": int(len(dp)),
         "diseases_no_treatment": int(len(no_treat)),
-        "diseases_no_treatment_names": sorted(no_treat["name"]),
+        "diseases_no_treatment_names": sorted(no_treat["name"], key=str.lower),
         "treat_palliate_overlap": int((kinds > 1).sum()),
         "interacts_self_loops": int(inter["self_loops"].sum()),
         "interacts_reciprocal": int(inter["reciprocal_pairs"].sum()),
+        "regulates_reciprocal": int(sym.loc[sym["rel_type"] == "REGULATES_GrG", "reciprocal_pairs"].sum()),
         "conflicting_regulation": {
             r.source_label: int(r.pairs)
             for r in data["conflicting_regulation"].sort_values("source_label").itertuples()
@@ -178,6 +181,11 @@ def compute_facts(data: dict[str, pd.DataFrame]) -> dict[str, Any]:
         "auroc_cbgad": st.metapath_auroc(data["cbgad_paths"], tr, deg),
         "auroc_crctd": st.metapath_auroc(data["crctd_paths"], tr, deg),
     }
+
+
+def _agree(n, singular: str, plural: str) -> str:
+    """Verb form for 'N of M names <verb>' / 'N names <verb>'."""
+    return singular if int(n) == 1 else plural
 
 
 def _strength(rho: float) -> str:
@@ -194,20 +202,22 @@ def takeaways(f: dict[str, Any]) -> list[str]:
         f"{_n(f['n_edges'])} edges in {f['n_rel_types']} relationship types.",
         f"The two largest relationship types ({', '.join(f['top2_rel_types'])}) hold "
         f"{_pct(f['top2_rel_share'])} of all edges.",
-        f"Gene degree is highly unequal (Gini {f['gene_gini']:.2f}, median degree "
-        f"{f['gene_median_degree']:.0f}); the top hubs are {_names(f['top_genes'])}, "
+        f"Gene degree has Gini {f['gene_gini']:.2f} (rank {f['gene_gini_rank']} of "
+        f"{f['gini_label_count']} labels, 1 = most unequal) and median degree "
+        f"{f['gene_median_degree']:.0f}; the top hubs are {_names(f['top_genes'])}, "
         f"led by {f['top_genes'][0]} with {_n(f['top_gene_degree'])} edges.",
         f"{_n(iso_total)} nodes have no edges at all (by label: {iso_txt}).",
         f"Only {_pct(f['pct_genes_bound'])} of genes are bound by any compound, and "
         f"{_pct(f['pct_compounds_treating'])} of compounds treat any disease.",
         f"{f['diseases_no_treatment']} of {f['n_diseases']} diseases have neither a treating nor "
-        f"a palliating compound, so questions about them have empty gold answers.",
+        f"a palliating compound, so \"which compounds treat X\" questions about them have empty gold answers.",
         f"{_n(f['treat_palliate_overlap'])} compound-disease pairs carry both a TREATS and a "
         f"PALLIATES edge.",
         f"INTERACTS_GiG has {_n(f['interacts_self_loops'])} self-loops and "
-        f"{_n(f['interacts_reciprocal'])} reciprocal pairs, and {_n(conflicts)} "
+        f"{_n(f['interacts_reciprocal'])} reciprocal pairs, whereas REGULATES_GrG has "
+        f"{_n(f['regulates_reciprocal'])} reciprocal pairs, and {_n(conflicts)} "
         f"compound/disease/anatomy-gene pairs both up- and down-regulate the same gene.",
-        f"{_n(f['genes_missing_chromosome'])} genes lack a chromosome, and "
+        f"{_n(f['genes_missing_chromosome'])} {'gene lacks' if f['genes_missing_chromosome'] == 1 else 'genes lack'} a chromosome, and "
         f"{_n(f['cross_label_name_count'])} names (case-insensitive) are shared by nodes of "
         f"different labels.",
         f"Gene interaction degree and number of binding compounds have a {_strength(f['study_bias_rho'])} "
@@ -230,7 +240,7 @@ def _basic(data, f, figs) -> list[str]:
     (ds, dd), dn = _ranked(ec.groupby(["src", "dst"])["n"].sum())[0]
     cov = st.coverage(data["rel_coverage"], nc)
     comp = st.completeness(data["node_props"], nc)
-    stacked = comp.stack()
+    stacked = comp.stack().dropna()
     partial = stacked[stacked < 1]
     lowest = _ranked(partial, descending=False)[:3]
     low_txt = ", ".join(f"{lab}.{prop} ({_pct(v)})" for (lab, prop), v in lowest)
@@ -347,13 +357,15 @@ def _implications(data, f) -> list[str]:
         f"- **Casing.** {row('Disease', 'all_lower')} disease names are fully lowercase (the rest contain capitals) while "
         f"{row('Compound', 'starts_upper')} compound names start with a capital, so exact-match "
         f"filters such as `name = 'Metformin'` fail on the wrong case.",
-        f"- **Punctuation and encoding.** {row('Compound', 'has_punct')} compound names contain "
-        f"punctuation ({st.PUNCT}) and {_n(q['non_ascii'].sum())} names across all labels contain "
+        f"- **Punctuation and encoding.** {row('Compound', 'has_punct')} compound names "
+        f"{_agree(q.loc['Compound', 'has_punct'], 'contains', 'contain')} "
+        f"punctuation ({st.PUNCT}) and {_n(q['non_ascii'].sum())} names across all labels "
+        f"{_agree(q['non_ascii'].sum(), 'contains', 'contain')} "
         f"non-ASCII characters, which exact string matches must reproduce character for character.",
         f"- **Shared names.** {_n(f['cross_label_name_count'])} names occur under more than one label"
         + (f" (e.g. {_names(xl['name_lower'].tolist(), 3)})" if len(xl) else "")
         + ", and "
-        f"{_n(q['dup_names'].sum())} names are duplicated within their own label, so queries "
+        f"{_n(q['dup_names'].sum())} {'name is' if q['dup_names'].sum() == 1 else 'names are'} duplicated within their own label, so queries "
         f"without a label or `DISTINCT` can return extra rows.",
         f"- **Hub bias.** Questions about top genes ({_names(f['top_genes'], 3)}) return very large "
         f"result sets: {f['top_genes'][0]} alone has {_n(f['top_gene_degree'])} edges against a "

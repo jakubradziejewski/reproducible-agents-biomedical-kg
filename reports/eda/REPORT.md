@@ -6,18 +6,18 @@ Hetionet v1.0 on Neo4j 3.5 (neo4j.het.io); generated 2026-10-25; reproduce with 
 
 - The graph has 47,031 nodes in 11 labels and 2,250,197 edges in 24 relationship types.
 - The two largest relationship types (PARTICIPATES_GpBP, EXPRESSES_AeG) hold 48.3% of all edges.
-- Gene degree is highly unequal (Gini 0.54, median degree 82); the top hubs are UBC, APP, PCNA, CDC20, RPS4Y1, led by UBC with 9,372 edges.
+- Gene degree has Gini 0.54 (rank 8 of 11 labels, 1 = most unequal) and median degree 82; the top hubs are UBC, APP, PCNA, CDC20, RPS4Y1, led by UBC with 9,372 edges.
 - 1,873 nodes have no edges at all (by label: Anatomy 2, Compound 14, Disease 1, Gene 1,800, SideEffect 33, Symptom 23).
 - Only 8.1% of genes are bound by any compound, and 24.9% of compounds treat any disease.
-- 46 of 137 diseases have neither a treating nor a palliating compound, so questions about them have empty gold answers.
+- 46 of 137 diseases have neither a treating nor a palliating compound, so "which compounds treat X" questions about them have empty gold answers.
 - 0 compound-disease pairs carry both a TREATS and a PALLIATES edge.
-- INTERACTS_GiG has 0 self-loops and 0 reciprocal pairs, and 0 compound/disease/anatomy-gene pairs both up- and down-regulate the same gene.
+- INTERACTS_GiG has 0 self-loops and 0 reciprocal pairs, whereas REGULATES_GrG has 1,689 reciprocal pairs, and 0 compound/disease/anatomy-gene pairs both up- and down-regulate the same gene.
 - 37 genes lack a chromosome, and 279 names (case-insensitive) are shared by nodes of different labels.
 - Gene interaction degree and number of binding compounds have a weak rank correlation (Spearman rho 0.13).
 - Metapath counts separate treated from untreated pairs (AUROC 0.757 for CbGaD, 0.754 for CrCtD).
 - Of the 441 TREATS edges into the 36 treated diseases that share their name with a side effect, 65 (14.7%) come from a compound also listed as causing that side effect, 1.9 times the 34.3 expected if treating compounds caused it as often as all 1,552 compounds do.
 - 18 genes are listed on both chromosomes X and Y (`X|Y`), e.g. AKAP17A and ASMT, so an exact filter such as `chromosome = 'X'` misses them.
-- 1,463 of the 1,800 isolated genes (81.3%) are uncharacterised `LOC` placeholder records, and 94.5% of all 1,548 `LOC` genes have no edge at all.
+- 1,463 of the 1,800 isolated genes (81.3%) are genes whose names start with `LOC`, and 94.5% of all 1,548 `LOC` genes have no edge at all.
 
 ## 1. Basic properties
 
@@ -63,7 +63,7 @@ Gene degree has Gini 0.54 and median 82, but the top hub, UBC, has 9,372 edges. 
 
 ![Property completeness per label](figures/completeness_heatmap.png)
 
-3 of 132 label-property combinations are less than fully populated; the emptiest are Pathway.url (16.1%), Anatomy.bto_id (61.7%), Gene.chromosome (99.8%).
+3 of 62 label-property combinations are less than fully populated; the emptiest are Pathway.url (16.1%), Anatomy.bto_id (61.7%), Gene.chromosome (99.8%).
 
 ### B6. Provenance
 
@@ -77,7 +77,7 @@ Edges come from 40 distinct sources. The share of edges flagged unbiased ranges 
 
 ![Compounds treating or palliating each disease](figures/treatments_per_disease.png)
 
-46 of 137 diseases have no treating or palliating compound: Behcet's disease, Creutzfeldt-Jakob disease, Fuchs' endothelial dystrophy, IgA glomerulonephritis, abdominal aortic aneurysm, adrenal gland cancer, age related macular degeneration, anemia, appendix cancer, bile duct cancer, celiac disease, cleft lip, degenerative disc disease, dental caries, duodenum cancer, fallopian tube cancer, gallbladder cancer, ileum cancer, intracranial aneurysm, jejunal cancer, larynx cancer, malignant mesothelioma, mediastinal cancer, membranous glomerulonephritis, meningioma, middle ear cancer, nasal cavity cancer, otosclerosis, penile cancer, periodontitis, peritoneum cancer, pharynx cancer, pleural cancer, rectum cancer, refractive error, retroperitoneal cancer, salivary gland cancer, sclerosing cholangitis, spinal cancer, thoracic aortic aneurysm, tracheal cancer, ureter cancer, uterine fibroid, vaginal cancer, vascular cancer, vulva cancer. 0 compound-disease pairs carry both TREATS and PALLIATES. Most-treated diseases: hypertension (70), hematologic cancer (53), breast cancer (43), asthma (40), coronary artery disease (38).
+46 of 137 diseases have no treating or palliating compound: abdominal aortic aneurysm, adrenal gland cancer, age related macular degeneration, anemia, appendix cancer, Behcet's disease, bile duct cancer, celiac disease, cleft lip, Creutzfeldt-Jakob disease, degenerative disc disease, dental caries, duodenum cancer, fallopian tube cancer, Fuchs' endothelial dystrophy, gallbladder cancer, IgA glomerulonephritis, ileum cancer, intracranial aneurysm, jejunal cancer, larynx cancer, malignant mesothelioma, mediastinal cancer, membranous glomerulonephritis, meningioma, middle ear cancer, nasal cavity cancer, otosclerosis, penile cancer, periodontitis, peritoneum cancer, pharynx cancer, pleural cancer, rectum cancer, refractive error, retroperitoneal cancer, salivary gland cancer, sclerosing cholangitis, spinal cancer, thoracic aortic aneurysm, tracheal cancer, ureter cancer, uterine fibroid, vaginal cancer, vascular cancer, vulva cancer. 0 compound-disease pairs carry both TREATS and PALLIATES. Most-treated diseases: hypertension (70), hematologic cancer (53), breast cancer (43), asthma (40), coronary artery disease (38).
 
 ### Q2. Graph structure
 
@@ -179,9 +179,9 @@ Caveat: the AUROC describes association within the 2017 snapshot and does not va
 
 ## 4. Implications for the agent benchmark
 
-- **Trap questions.** 46 diseases have no treating or palliating compound (e.g. Behcet's disease, Creutzfeldt-Jakob disease, Fuchs' endothelial dystrophy, IgA glomerulonephritis, ...); asking which compounds treat them has an empty gold answer, so a correct agent must say nothing was found rather than guess.
+- **Trap questions.** 46 diseases have no treating or palliating compound (e.g. abdominal aortic aneurysm, adrenal gland cancer, age related macular degeneration, anemia, ...); asking which compounds treat them has an empty gold answer, so a correct agent must say nothing was found rather than guess.
 - **Casing.** 123 of 137 disease names are fully lowercase (the rest contain capitals) while 1,552 of 1,552 compound names start with a capital, so exact-match filters such as `name = 'Metformin'` fail on the wrong case.
-- **Punctuation and encoding.** 1 of 1,552 compound names contain punctuation (,()[]/') and 4 names across all labels contain non-ASCII characters, which exact string matches must reproduce character for character.
+- **Punctuation and encoding.** 1 of 1,552 compound names contains punctuation (,()[]/') and 4 names across all labels contain non-ASCII characters, which exact string matches must reproduce character for character.
 - **Shared names.** 279 names occur under more than one label (e.g. abdominal aortic aneurysm, abdominal pain, ache, ...), and 8 names are duplicated within their own label, so queries without a label or `DISTINCT` can return extra rows.
 - **Hub bias.** Questions about top genes (UBC, APP, PCNA, ...) return very large result sets: UBC alone has 9,372 edges against a median gene degree of 82, far beyond the row cap an agent sees.
 - **Repurposing questions.** Path counts are an informative but far from decisive signal (AUROC 0.757 for CbGaD, 0.754 for CrCtD), so agent rankings built on them are not a substitute for the gold answer; gold rankings tie-break alphabetically by name.
@@ -200,4 +200,4 @@ Promoted from a bounded open-ended exploration (at most 3 findings; the full pro
 
 ### Isolated genes are mostly LOC placeholders
 
-*Classification: modelling artefact.* 1,463 of the 1,800 isolated genes (81.3%) are uncharacterised `LOC` placeholder records, and 94.5% of all 1,548 `LOC` genes have no edge at all.
+*Classification: modelling artefact.* 1,463 of the 1,800 isolated genes (81.3%) are genes whose names start with `LOC`, and 94.5% of all 1,548 `LOC` genes have no edge at all.

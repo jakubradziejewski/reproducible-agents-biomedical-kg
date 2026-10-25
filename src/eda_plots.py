@@ -17,7 +17,7 @@ import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
 from matplotlib.colors import LinearSegmentedColormap, LogNorm  # noqa: E402
 
-from eda_stats import coverage, completeness, metapath_auroc, pair_scores, spearman  # noqa: E402
+from eda_stats import all_pair_scores, coverage, completeness, metapath_auroc, spearman  # noqa: E402
 
 SURFACE = "#fcfcfb"
 INK = "#0b0b0b"
@@ -261,14 +261,12 @@ def fig_compound_profile(data, out_dir: Path) -> Path:
 
 def fig_metapath_signal(data, out_dir: Path) -> Path:
     deg = data["degrees"]
-    compounds = deg.loc[deg["label"] == "Compound", "id"].tolist()
-    diseases = deg.loc[deg["label"] == "Disease", "id"].tolist()
     panels = [("cbgad_paths", "CbGaD (compound-binds-gene-associates-disease)"),
               ("crctd_paths", "CrCtD (compound-resembles-compound-treats-disease)")]
     fig, axes = plt.subplots(1, 2, figsize=(11, 4.6), sharey=True)
     for ax, (key, name) in zip(axes, panels):
-        ps = pair_scores(data[key], data["treatments"], compounds, diseases)
-        auc = metapath_auroc(data[key], data["treatments"], deg)
+        ps = all_pair_scores(data[key], data["treatments"], deg)
+        auc = metapath_auroc(data[key], data["treatments"], deg, scores=ps)
         for treated, color, lab in [(True, BLUE, "treated"), (False, ORANGE, "untreated")]:
             x = np.sort(np.log1p(ps.loc[ps["treated"] == treated, "paths"].to_numpy()))
             ax.step(x, np.arange(1, len(x) + 1) / len(x), where="post", color=color, lw=1.8,

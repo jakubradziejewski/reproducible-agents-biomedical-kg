@@ -106,9 +106,17 @@ def pair_scores(
     return out
 
 
-def metapath_auroc(paths: pd.DataFrame, treatments: pd.DataFrame, degrees: pd.DataFrame) -> float:
-    """AUROC of path counts separating treated from untreated Compound x Disease pairs."""
+def all_pair_scores(paths: pd.DataFrame, treatments: pd.DataFrame, degrees: pd.DataFrame) -> pd.DataFrame:
+    """pair_scores over every Compound x Disease pair in `degrees`."""
     compounds = degrees.loc[degrees["label"] == "Compound", "id"].tolist()
     diseases = degrees.loc[degrees["label"] == "Disease", "id"].tolist()
-    ps = pair_scores(paths, treatments, compounds, diseases)
+    return pair_scores(paths, treatments, compounds, diseases)
+
+
+def metapath_auroc(paths: pd.DataFrame, treatments: pd.DataFrame, degrees: pd.DataFrame,
+                   scores: pd.DataFrame | None = None) -> float:
+    """AUROC of path counts separating treated from untreated Compound x Disease pairs.
+
+    Pass `scores` (from all_pair_scores) to avoid recomputing the pair grid."""
+    ps = scores if scores is not None else all_pair_scores(paths, treatments, degrees)
     return auroc(ps.loc[ps["treated"], "paths"], ps.loc[~ps["treated"], "paths"])

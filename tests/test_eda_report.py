@@ -67,3 +67,15 @@ def test_promoted_findings_render_numbers_from_data(tiny_data, tmp_path):
         assert re.search(r"\d", sentence) and sentence in section_5 and f.kind in section_5
     assert "3 genes are listed on both chromosomes X and Y (`X|Y`), e.g. G7 and G8" in section_5
     assert "2 of the 3 isolated genes (66.7%)" in section_5
+
+
+def test_b5_denominator_counts_only_existing_label_properties(tiny_data, tmp_path):
+    figs = make_all(tiny_data, tmp_path)
+    md = "\n".join(eda_report._basic(tiny_data, compute_facts(tiny_data), figs))
+    m = re.search(r"of (\d+) label-property combinations", md)
+    assert m and int(m.group(1)) == len(tiny_data["node_props"])
+
+
+def test_takeaways_mention_regulates_reciprocal(tiny_data):
+    f = compute_facts(tiny_data)
+    assert any("REGULATES_GrG" in t for t in takeaways(f))

@@ -4,7 +4,7 @@ Budget: 15 of `MAX_PROBES = 25` probe queries used (one of them failed and still
 hypothesis, query and row count is in `probes.jsonl`; results are cached in `data/eda/probes/<slug>.csv`.
 Some seeds were answered offline from the already-cached report datasets (`data/eda/*.csv`); those checks
 are marked *offline* and cost no probe. Exploration stopped early: the seed list was used up and probes
-10-14 found nothing new.
+10-14 found nothing promotable.
 
 ## Offline checks (cached data, no probe)
 
