@@ -102,6 +102,7 @@ uv run python src/eda_queries.py --only degrees,treatments      # fetch selected
 
 # 2. Build figures and the report from the cache (offline)
 uv run python src/eda_report.py
+uv run python src/eda_pdf.py                                   # optional: 2-page PDF summary
 
 # 3. Run the tests
 uv run pytest
@@ -111,6 +112,7 @@ Outputs:
 
 - `reports/eda/REPORT.md`: the generated report (key takeaways, basic properties, data quirks, repurposing signal, implications for the benchmark, promoted findings). Every number in it is computed from the cache, and rebuilding it changes only the date line.
 - `reports/eda/figures/*.png`: the 11 figures linked from the report.
+- `reports/eda/REPORT.pdf`: a 2-page plain-language summary of the report, with compact figures in `reports/eda/pdf_figures/`. Its text quotes numbers from `REPORT.md` by hand, so update `src/eda_pdf.py` if the cache changes.
 - `reports/eda/EXPLORATION.md` and `reports/eda/probes.jsonl`: the log of the open-ended exploration. It is exploratory and not part of the reproducible report.
 
 If the cache is missing, `eda_report.py` stops with a message that names the missing dataset and the command to fetch it.

@@ -20,6 +20,7 @@ uv run python src/run_experiments.py --models a,b --reps 3 --max-steps 6        
 uv run python src/check_log.py [results/pilot_*.jsonl]   # re-check faithfulness offline (default: newest log)
 uv run python src/eda_queries.py [--refresh]   # fills the data/eda/ cache from the live server
 uv run python src/eda_report.py         # offline: figures plus reports/eda/REPORT.md
+uv run python src/eda_pdf.py            # offline: 2-page summary reports/eda/REPORT.pdf
 uv run pytest                           # unit tests
 ```
 
