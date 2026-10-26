@@ -90,7 +90,29 @@ uv run python src/run_experiments.py --models qwen3.8-27b --reps 3
 
 An exploratory analysis of Hetionet (sizes, degree distributions, data quirks, a repurposing-signal check and what they mean for the benchmark) is in [`reports/eda/REPORT.md`](reports/eda/REPORT.md).
 
+### How to run the data exploration
+
+The pipeline has three steps: **fetch** (Cypher on the live server, cached as CSV), then **analyse and plot**, then **report**. Only the fetch step needs the network. The cache in `data/eda/` is committed, so after `uv sync` you can rebuild the report offline with step 2 alone.
+
 ```powershell
-uv run python src/eda_queries.py     # fetch and cache datasets in data/eda/ (needs the server)
-uv run python src/eda_report.py      # offline: figures plus reports/eda/REPORT.md
+# 1. Fetch datasets into data/eda/*.csv (needs neo4j.het.io; datasets already cached are skipped)
+uv run python src/eda_queries.py
+uv run python src/eda_queries.py --refresh                      # re-fetch everything (~3 min)
+uv run python src/eda_queries.py --only degrees,treatments      # fetch selected datasets
+
+# 2. Build figures and the report from the cache (offline)
+uv run python src/eda_report.py
+
+# 3. Run the tests
+uv run pytest
 ```
+
+Outputs:
+
+- `reports/eda/REPORT.md`: the generated report (key takeaways, basic properties, data quirks, repurposing signal, implications for the benchmark, promoted findings). Every number in it is computed from the cache, and rebuilding it changes only the date line.
+- `reports/eda/figures/*.png`: the 11 figures linked from the report.
+- `reports/eda/EXPLORATION.md` and `reports/eda/probes.jsonl`: the log of the open-ended exploration. It is exploratory and not part of the reproducible report.
+
+If the cache is missing, `eda_report.py` stops with a message that names the missing dataset and the command to fetch it.
+
+For further open-ended exploration, use `eda_probe.probe(slug, hypothesis, query)`. It runs one read-only query, saves the result to `data/eda/probes/<slug>.csv` and appends it to `probes.jsonl`. The log allows at most 25 probes in total. A finding enters the report only after it is registered as a `finding_<slug>` dataset in `src/eda_queries.py` and added to `FINDINGS` in `src/eda_report.py`, with at most 3 findings.
