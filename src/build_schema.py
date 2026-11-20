@@ -1,8 +1,4 @@
-"""Export the Hetionet schema to data/schema.json. This is the "semantic schema" from T2CSS.
-
-Only the schema is saved (node labels, relationship types with their direction, properties),
-no actual nodes or edges. Every relationship type becomes one triple (source label, TYPE,
-target label) with a short description in plain English, which is the text we embed later.
+"""Export the Hetionet schema (labels, relationship types, properties) to data/schema.json.
 
 Run from the repo root:  uv run src/build_schema.py
 """
@@ -11,7 +7,6 @@ from datetime import date
 
 from db import URL, _post, run_cypher
 
-# one short description per relationship type, written by hand
 GLOSSES = {
     "ASSOCIATES_DaG": "disease is associated with gene",
     "BINDS_CbG": "compound (drug) binds gene (its protein target)",

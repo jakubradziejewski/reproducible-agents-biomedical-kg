@@ -1,30 +1,23 @@
-"""Checks on a generated Cypher query before we run it. Based on CYGNET (Tomczak, 2026).
+"""Checks on a generated Cypher query before we run it, based on CYGNET (Tomczak, 2026).
 
-Three checks ("gates"), from the cheapest to the most expensive:
 1. vocabulary - labels, relationship types and properties must exist in data/schema.json
 2. direction  - (a:L1)-[:TYPE]->(b:L2) must go the way TYPE goes in the schema
 3. explain    - the server plans the query with EXPLAIN, nothing is executed
-
-The first two work on regular expressions and not on a real Cypher parser, so they only
-understand ordinary MATCH patterns. Syntax is left to EXPLAIN. Why the other CYGNET gates
-are not here is explained in notebooks/preprocessing/01_t2css_pipeline.ipynb.
 """
 import re
 
 from db import _post, is_read_only, run_cypher
 
 _STRINGS = re.compile(r"'(?:[^'\\]|\\.)*'|\"(?:[^\"\\]|\\.)*\"")
-# a node "(...)" or a relationship "-[...]->", "<-[...]-", "--"
+# node (...) or relationship -[...]->
 _TOKEN = re.compile(r"(?P<node>\([^()]*\))|(?P<rel><?-\s*(?:\[[^\]]*\])?\s*->?)")
-# inside a node: variable, labels, and the rest (the {key: value} map)
 _NODE = re.compile(r"\s*(?P<var>[A-Za-z_]\w*)?\s*(?P<labels>(?::\s*`?\w+`?\s*)*)(?P<rest>.*)", re.S)
-# variable.property, but not function calls like db.labels()
+# variable.property
 _PROP = re.compile(r"(?<![\w.`])([A-Za-z_]\w*)\.([A-Za-z_]\w*)\b(?!\s*\()")
 
 
 def _parse(query):
-    """Nodes and relationships of the query in the order they appear."""
-    text = _STRINGS.sub("''", query)  # so that brackets inside names do not confuse us
+    text = _STRINGS.sub("''", query)
     out = []
     for m in _TOKEN.finditer(text):
         if m.group("node"):
@@ -38,7 +31,6 @@ def _parse(query):
         else:
             raw = m.group("rel")
             inside = raw[raw.index("[") + 1: raw.rindex("]")] if "[" in raw else ""
-            # [r:TYPE_A|TYPE_B*1..2 {..}] -> the part after ":" up to "*" or "{"
             names = re.split(r"[*{]", inside.split(":", 1)[1])[0] if ":" in inside else ""
             out.append({
                 "kind": "rel", "start": m.start(), "end": m.end(),
@@ -46,8 +38,7 @@ def _parse(query):
                 "left": raw.startswith("<"), "right": raw.endswith(">"),
             })
 
-    # "(...)" is also what a function call looks like, e.g. count(g). We treat it as a node
-    # of a pattern only when it stands directly next to a relationship.
+    # count(g) also looks like a node, so a node must stand right next to a relationship
     for i, rel in enumerate(out):
         if rel["kind"] != "rel":
             continue
@@ -62,12 +53,11 @@ def _parse(query):
 
 
 def _bindings(tokens):
-    """Which label each variable was declared with, e.g. {"c": "Compound"}."""
     return {t["var"]: t["labels"][0] for t in tokens if t["kind"] == "node" and t["var"] and t["labels"]}
 
 
 def check_vocabulary(query, schema):
-    """Gate 1: names that are not in the schema, and queries that are not read-only."""
+    """Gate 1: names that are not in the schema."""
     problems = []
     if not is_read_only(query):
         problems.append("write clause or procedure call: only read-only Cypher is allowed")
@@ -87,14 +77,12 @@ def check_vocabulary(query, schema):
         for name in t["labels"]:
             if name not in labels:
                 problems.append(f"unknown label :{name}")
-        # properties written inside the node, like (d:Disease {name: 'asthma'})
         if t["labels"] and t["labels"][0] in labels:
             label = t["labels"][0]
             for key in t["map_keys"]:
                 if key not in labels[label]["properties"]:
                     problems.append(f"label {label} has no property '{key}'")
 
-    # names can also be given as strings: type(r) = 'CbG' or 'Drug' IN labels(n)
     for name in re.findall(r"type\(\s*\w+\s*\)\s*(?:=|<>)\s*'([^']*)'", query, flags=re.I):
         if name not in types:
             problems.append(f"unknown relationship type '{name}' (compared with type())")
@@ -102,7 +90,6 @@ def check_vocabulary(query, schema):
         if name not in labels:
             problems.append(f"unknown label '{name}' (tested with labels())")
 
-    # properties used as variable.property
     for var, prop in _PROP.findall(_STRINGS.sub("''", query)):
         if var.lower() in ("db", "dbms"):
             continue
@@ -116,8 +103,7 @@ def check_vocabulary(query, schema):
 
 
 def check_direction(query, schema):
-    """Gate 2: relationships written against the direction they have in the schema.
-    EXPLAIN does not complain about these, the query would just return nothing."""
+    """Gate 2: relationships written against the direction they have in the schema."""
     types = {t["type"]: t for t in schema["triples"]}
     tokens = _parse(query)
     bound = _bindings(tokens)
@@ -132,7 +118,7 @@ def check_direction(query, schema):
         if rel["kind"] != "rel" or i == 0 or i == len(tokens) - 1:
             continue
         if rel["left"] == rel["right"]:
-            continue  # no arrow (or both), so it matches either way
+            continue
         a, b = tokens[i - 1], tokens[i + 1]
         if a["kind"] != "node" or b["kind"] != "node":
             continue
@@ -151,16 +137,14 @@ def check_direction(query, schema):
 
 
 def check_explain(query):
-    """Gate 3: ask the server to plan the query.
-    Returns the problems (errors and "unknown name" warnings), other notes from the planner
-    and the number of rows the planner expects."""
+    """Gate 3: ask the server to plan the query."""
     payload = _post("EXPLAIN " + query)
     problems = [e["message"].split("\n")[0] for e in payload.get("errors", [])]
     notes = []
     for n in payload.get("notifications", []):
         code = n.get("code", "")
         text = f"{n.get('title', '')} [{code.split('.')[-1]}]"
-        if ".Unknown" in code:  # UnknownLabelWarning, UnknownRelationshipTypeWarning, ...
+        if ".Unknown" in code:
             problems.append(text)
         else:
             notes.append(text)
@@ -169,8 +153,7 @@ def check_explain(query):
 
 
 def validate(query, schema, use_server=True, short_circuit=True):
-    """Run the gates in order. With short_circuit we do not bother the server
-    when one of the local gates has already failed."""
+    """With short_circuit the server is skipped when a local gate has already failed."""
     gates = {
         "vocabulary": check_vocabulary(query, schema),
         "direction": check_direction(query, schema),
@@ -187,7 +170,6 @@ def validate(query, schema, use_server=True, short_circuit=True):
 
 
 def validate_and_run(query, schema, max_rows=50):
-    """Validate, and run the query only if every gate passed."""
     report = validate(query, schema)
     report["result"] = run_cypher(query, max_rows) if report["ok"] else None
     return report
