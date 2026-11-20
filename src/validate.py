@@ -67,6 +67,13 @@ def check_vocabulary(query: str, schema: dict) -> list[str]:
                 problems += [f"label {t['labels'][0]} has no property '{k}'" for k in t["map_keys"] if k not in allowed]
         else:
             problems += [f"unknown relationship type :{x}" for x in t["types"] if x not in types]
+    # Names can also be smuggled in as strings: type(r) = 'CbG' or 'Drug' IN labels(n).
+    for name in re.findall(r"type\(\s*\w+\s*\)\s*(?:=|<>)\s*'([^']*)'", query, flags=re.I):
+        if name not in types:
+            problems.append(f"unknown relationship type '{name}' (compared with type())")
+    for name in re.findall(r"'([^']*)'\s+IN\s+labels\(", query, flags=re.I):
+        if name not in labels:
+            problems.append(f"unknown label '{name}' (tested with labels())")
     for var, prop in _PROP.findall(_STRINGS.sub("''", query)):
         if var.lower() in ("db", "dbms"):
             continue
