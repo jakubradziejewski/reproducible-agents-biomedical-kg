@@ -86,5 +86,24 @@ uv run python src/run_experiments.py --models qwen3.8-27b --reps 3
 | `--reps N` | Repeat each question N times (repeatability) |
 | `--max-steps N` | Max tool calls per run (default 6) |
 
+## Preprocessing and notebooks (Milestone 3)
+
+Prompt construction follows T2CSS (Wan et al., 2025) and query checking follows CYGNET (Tomczak, 2026). Both are adapted to this graph and server; the preprocessing notebook states where and why.
+
+```powershell
+uv run python src/build_schema.py            # writes data/schema.json (labels and 24 triples with glosses)
+uv run python src/t2css.py                   # writes data/t2css_context.jsonl (five prompt variants per question)
+uv run jupyter lab                           # open the notebooks below
+```
+
+| Notebook | Shows |
+|---|---|
+| `notebooks/intro/01_hetionet_cypher_http.ipynb` | Querying Hetionet over the Neo4j HTTP API, Cypher 3.5, `EXPLAIN` |
+| `notebooks/intro/02_agent_tool_calling.ipynb` | The agent's tool-calling loop, replayed from the pilot log |
+| `notebooks/intro/03_embeddings_model2vec.ipynb` | Text embeddings with model2vec |
+| `notebooks/preprocessing/01_t2css_pipeline.ipynb` | One question through all five preprocessing steps, and how the filter behaves on our questions |
+
+The notebooks are committed with their outputs. Running them needs no API key; the first run downloads the small embedding model `minishlab/potion-base-8M` from Hugging Face.
+
 
 

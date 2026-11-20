@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dialect",
+    "always": true,
+    "description": "cypher dialect version neo4j 3.5 old syntax",
+    "text": "Write Neo4j 3.5 Cypher only: no EXISTS { }, COUNT { } or CALL { } subqueries."
+  },
+  {
+    "id": "direction",
+    "always": true,
+    "description": "relationship direction arrow source target",
+    "text": "Write every relationship in the direction given in the schema: (source)-[:TYPE]->(target)."
+  },
+  {
+    "id": "lookup",
+    "always": false,
+    "description": "find a named entity: a specific disease, compound, drug or gene given by its name",
+    "text": "Look an entity up by exact name with a property map, e.g. (d:Disease {name: '...'}); do not use CONTAINS or regular expressions unless asked."
+  },
+  {
+    "id": "one_hop",
+    "always": false,
+    "description": "which entities are directly related to a given entity: treats, binds, causes, presents",
+    "text": "For a direct relation use one MATCH pattern with one relationship type and RETURN DISTINCT the name of the entity asked for."
+  },
+  {
+    "id": "multi_hop",
+    "always": false,
+    "description": "entities connected through a shared intermediate entity, such as genes shared by a compound and a disease",
+    "text": "For multi-step questions chain patterns through the shared node, e.g. (a)-[:R1]->(shared)<-[:R2]-(b), instead of two unrelated MATCH clauses."
+  },
+  {
+    "id": "count",
+    "always": false,
+    "description": "how many, number of, count of shared or distinct items",
+    "text": "Count with count(DISTINCT x) and give the result an alias, e.g. count(DISTINCT g) AS shared_genes."
+  },
+  {
+    "id": "ranking",
+    "always": false,
+    "description": "top N, the most, highest, ranking, best five, order results",
+    "text": "For top-N questions use ORDER BY <count> DESC, then name ASC as a tie-break, then LIMIT N with exactly the N asked for."
+  },
+  {
+    "id": "negation",
+    "always": false,
+    "description": "but not, excluding, not known to, without an existing relationship",
+    "text": "To exclude entities that already have a relationship use a pattern predicate: WHERE NOT (a)-[:TYPE]->(b), with both variables bound earlier in the query."
+  },
+  {
+    "id": "aggregate_filter",
+    "always": false,
+    "description": "at least, more than, threshold on a count or aggregate",
+    "text": "To filter on an aggregate, compute it in WITH and filter after it: WITH a, count(DISTINCT b) AS n WHERE n >= 2."
+  },
+  {
+    "id": "case",
+    "always": false,
+    "description": "name spelling, capital letters, upper or lower case of a name",
+    "text": "Names are case-sensitive; if the spelling may differ compare with toLower(n.name) = toLower('...')."
+  },
+  {
+    "id": "projection",
+    "always": false,
+    "description": "return name and another value, list columns, output fields",
+    "text": "Return only the columns the question asks for, each with an explicit alias (AS name)."
+  }
+]

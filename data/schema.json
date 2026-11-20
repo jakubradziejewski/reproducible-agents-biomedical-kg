@@ -1,0 +1,411 @@
+{
+  "source": "https://neo4j.het.io/db/data/transaction/commit",
+  "server": {
+    "name": "Neo4j Kernel",
+    "version": "3.5.12",
+    "edition": "community"
+  },
+  "exported": "2026-11-20",
+  "labels": {
+    "Anatomy": {
+      "properties": [
+        "identifier",
+        "license",
+        "mesh_id",
+        "name",
+        "source",
+        "url"
+      ]
+    },
+    "BiologicalProcess": {
+      "properties": [
+        "identifier",
+        "license",
+        "name",
+        "source",
+        "url"
+      ]
+    },
+    "CellularComponent": {
+      "properties": [
+        "identifier",
+        "license",
+        "name",
+        "source",
+        "url"
+      ]
+    },
+    "Compound": {
+      "properties": [
+        "identifier",
+        "inchi",
+        "inchikey",
+        "license",
+        "name",
+        "source",
+        "url"
+      ]
+    },
+    "Disease": {
+      "properties": [
+        "identifier",
+        "license",
+        "name",
+        "source",
+        "url"
+      ]
+    },
+    "Gene": {
+      "properties": [
+        "chromosome",
+        "description",
+        "identifier",
+        "license",
+        "name",
+        "source",
+        "url"
+      ]
+    },
+    "MolecularFunction": {
+      "properties": [
+        "identifier",
+        "license",
+        "name",
+        "source",
+        "url"
+      ]
+    },
+    "Pathway": {
+      "properties": [
+        "identifier",
+        "license",
+        "name",
+        "source"
+      ]
+    },
+    "PharmacologicClass": {
+      "properties": [
+        "class_type",
+        "identifier",
+        "license",
+        "name",
+        "source",
+        "url"
+      ]
+    },
+    "SideEffect": {
+      "properties": [
+        "identifier",
+        "license",
+        "name",
+        "source",
+        "url"
+      ]
+    },
+    "Symptom": {
+      "properties": [
+        "identifier",
+        "license",
+        "name",
+        "source",
+        "url"
+      ]
+    }
+  },
+  "triples": [
+    {
+      "type": "ASSOCIATES_DaG",
+      "source": "Disease",
+      "target": "Gene",
+      "gloss": "disease is associated with gene",
+      "properties": [
+        "license",
+        "sources",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "BINDS_CbG",
+      "source": "Compound",
+      "target": "Gene",
+      "gloss": "compound (drug) binds gene (its protein target)",
+      "properties": [
+        "actions",
+        "license",
+        "sources",
+        "unbiased",
+        "urls"
+      ]
+    },
+    {
+      "type": "CAUSES_CcSE",
+      "source": "Compound",
+      "target": "SideEffect",
+      "gloss": "compound (drug) causes side effect",
+      "properties": [
+        "license",
+        "source",
+        "unbiased",
+        "url"
+      ]
+    },
+    {
+      "type": "COVARIES_GcG",
+      "source": "Gene",
+      "target": "Gene",
+      "gloss": "gene covaries with gene (evolutionary rate covariation)",
+      "properties": [
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "DOWNREGULATES_AdG",
+      "source": "Anatomy",
+      "target": "Gene",
+      "gloss": "anatomy (tissue) downregulates gene expression",
+      "properties": [
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "DOWNREGULATES_CdG",
+      "source": "Compound",
+      "target": "Gene",
+      "gloss": "compound (drug) downregulates gene expression",
+      "properties": [
+        "method",
+        "source",
+        "unbiased",
+        "z_score"
+      ]
+    },
+    {
+      "type": "DOWNREGULATES_DdG",
+      "source": "Disease",
+      "target": "Gene",
+      "gloss": "disease downregulates gene expression",
+      "properties": [
+        "license",
+        "log2_fold_change",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "EXPRESSES_AeG",
+      "source": "Anatomy",
+      "target": "Gene",
+      "gloss": "anatomy (tissue) expresses gene",
+      "properties": [
+        "license",
+        "sources",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "INCLUDES_PCiC",
+      "source": "PharmacologicClass",
+      "target": "Compound",
+      "gloss": "pharmacologic class includes compound (drug)",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "INTERACTS_GiG",
+      "source": "Gene",
+      "target": "Gene",
+      "gloss": "gene interacts with gene (protein-protein interaction)",
+      "properties": [
+        "sources",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "LOCALIZES_DlA",
+      "source": "Disease",
+      "target": "Anatomy",
+      "gloss": "disease localizes to anatomy (body part, tissue)",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "PALLIATES_CpD",
+      "source": "Compound",
+      "target": "Disease",
+      "gloss": "compound (drug) palliates disease (relieves its symptoms)",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "PARTICIPATES_GpBP",
+      "source": "Gene",
+      "target": "BiologicalProcess",
+      "gloss": "gene participates in biological process",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "PARTICIPATES_GpCC",
+      "source": "Gene",
+      "target": "CellularComponent",
+      "gloss": "gene participates in cellular component",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "PARTICIPATES_GpMF",
+      "source": "Gene",
+      "target": "MolecularFunction",
+      "gloss": "gene participates in molecular function",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "PARTICIPATES_GpPW",
+      "source": "Gene",
+      "target": "Pathway",
+      "gloss": "gene participates in pathway",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "PRESENTS_DpS",
+      "source": "Disease",
+      "target": "Symptom",
+      "gloss": "disease presents symptom",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "REGULATES_GrG",
+      "source": "Gene",
+      "target": "Gene",
+      "gloss": "gene regulates gene",
+      "properties": [
+        "method",
+        "source",
+        "subtypes",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "RESEMBLES_CrC",
+      "source": "Compound",
+      "target": "Compound",
+      "gloss": "compound (drug) resembles compound (chemical similarity)",
+      "properties": [
+        "license",
+        "similarity",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "RESEMBLES_DrD",
+      "source": "Disease",
+      "target": "Disease",
+      "gloss": "disease resembles disease",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "TREATS_CtD",
+      "source": "Compound",
+      "target": "Disease",
+      "gloss": "compound (drug) treats disease",
+      "properties": [
+        "license",
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "UPREGULATES_AuG",
+      "source": "Anatomy",
+      "target": "Gene",
+      "gloss": "anatomy (tissue) upregulates gene expression",
+      "properties": [
+        "source",
+        "unbiased"
+      ]
+    },
+    {
+      "type": "UPREGULATES_CuG",
+      "source": "Compound",
+      "target": "Gene",
+      "gloss": "compound (drug) upregulates gene expression",
+      "properties": [
+        "method",
+        "source",
+        "unbiased",
+        "z_score"
+      ]
+    },
+    {
+      "type": "UPREGULATES_DuG",
+      "source": "Disease",
+      "target": "Gene",
+      "gloss": "disease upregulates gene expression",
+      "properties": [
+        "license",
+        "log2_fold_change",
+        "source",
+        "unbiased"
+      ]
+    }
+  ],
+  "property_keys": [
+    "actions",
+    "affinity_nM",
+    "bto_id",
+    "chromosome",
+    "class_type",
+    "description",
+    "identifier",
+    "inchi",
+    "inchikey",
+    "license",
+    "log2_fold_change",
+    "mesh_id",
+    "method",
+    "name",
+    "pubmed_ids",
+    "similarity",
+    "source",
+    "sources",
+    "subtypes",
+    "unbiased",
+    "url",
+    "urls",
+    "z_score"
+  ]
+}
