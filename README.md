@@ -86,6 +86,17 @@ uv run python src/run_experiments.py --models qwen3.8-27b --reps 3
 | `--reps N` | Repeat each question N times (repeatability) |
 | `--max-steps N` | Max tool calls per run (default 6) |
 
+## Exploring indirect evidence
+
+[explore_indirect_evidence.py](src/explore_indirect_evidence.py) profiles candidate compounds
+against a disease in Hetionet. It reports graph presence, direct-edge status, C-G-D and C-G-G-D
+path counts, distinct-gene coverage, candidate overlap and a C-G-D ranking.
+
+```powershell
+uv run python src/explore_indirect_evidence.py "vitiligo" Ruxolitinib Methoxsalen Monobenzone
+uv run python src/explore_indirect_evidence.py "endogenous depression" Dextromethorphan Bupropion Pramipexole Sertraline Metformin
+```
+
 ## Preprocessing and notebooks (Milestone 3)
 
 The prompts are built the way T2CSS (Wan et al., 2025) describes it, and the generated queries are checked with gates taken from CYGNET (Tomczak, 2026). We adapted both to Hetionet and to the public server, and the preprocessing notebook explains what we changed and why.
@@ -104,6 +115,3 @@ uv run jupyter lab                           # open the notebooks below
 | `notebooks/preprocessing/01_t2css_pipeline.ipynb` | One question through all five preprocessing steps, and how the filter behaves on our questions |
 
 The notebooks are committed with their outputs, so they can be read directly on GitHub. Running them does not need an API key. The first run downloads the embedding model `minishlab/potion-base-8M` from Hugging Face.
-
-
-
