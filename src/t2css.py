@@ -126,11 +126,9 @@ def build_system_prompt(question, schema, rules, use_schema="filtered", use_rule
     elif use_rules == "filtered":
         parts.append(rules_block(select_rules(question, rules, rule_k)))
 
-    # only the schema part of the team prompt is replaced
-    start = SYSTEM_PROMPT.index("Node labels")
-    end = SYSTEM_PROMPT.index("Rules:")
-    middle = "\n".join(parts) + "\n" if parts else ""
-    return SYSTEM_PROMPT[:start] + middle + SYSTEM_PROMPT[end:]
+    if not parts:
+        return SYSTEM_PROMPT
+    return SYSTEM_PROMPT + "\n\n" + "\n\n".join(parts)
 
 
 # s1-s4 are the input strategies from the ablation in the paper (section 6.4.2)

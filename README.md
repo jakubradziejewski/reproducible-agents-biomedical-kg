@@ -1,6 +1,6 @@
 ﻿# Utilizing LLMs in Drug Repurposing
 
-Deterministic text-to-Cypher pipelines over biomedical knowledge graphs to accelerate indication discovery.
+Evaluating LLM agents that query biomedical knowledge graphs for reproducible drug-repurposing research.
 
 ## Motivation
 
@@ -50,7 +50,7 @@ All 24 relationship types, with properties, are in [`data/schema.md`](data/schem
 - The graph contains only **137 diseases** and **755 known treatments**, so coverage is limited by design.
 - The data is a **2017 snapshot** and never changes, which suits reproducibility studies.
 - The server runs **Neo4j 3.x**, so modern Cypher syntax (for example `EXISTS { ... }` subqueries) is not available. Agents must write older-dialect Cypher.
-- Entity names are lowercase strings (`bile duct cancer`), gene identifiers are numeric, and compound names are capitalised (`Flavoxate`).
+- Disease names are lowercase (`bile duct cancer`), gene identifiers are numeric, and compound names are capitalised (`Flavoxate`).
 
 ## How to run
 
@@ -84,7 +84,12 @@ uv run python src/run_experiments.py --models qwen3.8-27b --reps 3
 | `--models a,b` | Keys from `src/models.py` |
 | `--only q01,q03` | Run only these questions |
 | `--reps N` | Repeat each question N times (repeatability) |
-| `--max-steps N` | Max tool calls per run (default 6) |
+| `--max-steps N` | Max model response turns per run (default 6); a turn may issue multiple tool calls |
+
+The agent is instructed to return its final answer as a JSON array of row objects.
+Experiment accuracy is calculated from that final answer, not by selecting the best
+intermediate tool call against the gold data. Graph queries are executed only when the
+provider returns a native OpenAI-compatible tool call.
 
 ## Exploring indirect evidence
 
@@ -97,9 +102,32 @@ uv run python src/explore_indirect_evidence.py "vitiligo" Ruxolitinib Methoxsale
 uv run python src/explore_indirect_evidence.py "endogenous depression" Dextromethorphan Bupropion Pramipexole Sertraline Metformin
 ```
 
+## MCP tools for agent runs
+
+The experiment agent launches the local MCP server in `src/mcp_server.py` over stdio.
+It discovers these tools and passes them to the OpenAI-compatible model as tool calls:
+
+- `run_cypher`: execute read-only Cypher against Hetionet (50-row limit);
+- `get_graph_schema`: fetch compact labels, relationship directions, and Neo4j 3.5 guidance.
+  Detailed property lists are not exposed to the model to avoid unnecessary prompt tokens.
+
+Each run log records per-model-turn prompt/completion token counts and the tools called on
+that turn, so token changes can be traced to added conversation context.
+
+The default system prompt is intentionally short. The schema tool is available but not required
+for every question. The MCP SDK is installed by `uv sync`.
+
 ## Preprocessing and notebooks (Milestone 3)
 
-The prompts are built the way T2CSS (Wan et al., 2025) describes it, and the generated queries are checked with gates taken from CYGNET (Tomczak, 2026). We adapted both to Hetionet and to the public server, and the preprocessing notebook explains what we changed and why.
+The project includes offline prompt-context generation based on T2CSS (Wan et al., 2025)
+and a separate Cypher validator based on CYGNET (Tomczak, 2026), adapted for Hetionet.
+The validator checks vocabulary, relationship direction, and (optionally) server planning.
+
+`src/t2css.py` writes five prompt variants per question to `data/t2css_context.jsonl`.
+`src/run_experiments.py` does not use these variants, and it does not run agent-generated
+queries through `src/validate.py`. Experiments use the short default prompt, can request
+compact schema information through MCP, and execute read-only queries through the database
+helper. T2CSS filtering and CYGNET-style validation are not currently part of live runs.
 
 ```powershell
 uv run python src/build_schema.py            # writes data/schema.json (labels and 24 triples with glosses)

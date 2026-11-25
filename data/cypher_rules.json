@@ -64,5 +64,17 @@
     "always": false,
     "description": "return name and another value, list columns, output fields",
     "text": "Return only the columns the question asks for, each with an explicit alias (AS name)."
+  },
+  {
+    "id": "metapath_census",
+    "always": false,
+    "description": "indirect evidence, metapath, path census, intermediate genes, compound disease chain",
+    "text": "For an indirect metapath, chain the relationship types in the named order and use count(*) for raw paths plus count(DISTINCT intermediate) for distinct carriers."
+  },
+  {
+    "id": "set_coverage",
+    "always": false,
+    "description": "union shared intersection only in one combination of two compounds or genes",
+    "text": "Use count(DISTINCT g) for gene coverage; use two bound compound patterns for shared genes and pattern NOT (b)-[:REL]->(g) for one-sided differences."
   }
 ]
