@@ -1,26 +1,16 @@
-﻿"""Model-agnostic agent loop over any OpenAI-compatible chat API."""
+"""Model-agnostic agent loop over any OpenAI-compatible chat API."""
+import asyncio
 import json
 import os
+import sys
 import time
+from pathlib import Path
 
 from openai import BadRequestError, OpenAI
+from mcp import ClientSession
+from mcp.client.stdio import StdioServerParameters, stdio_client
 
-from db import run_cypher
 from prompt import SYSTEM_PROMPT
-
-TOOLS = [{
-    "type": "function",
-    "function": {
-        "name": "run_cypher",
-        "description": "Run a read-only Cypher query (Neo4j 3.5) on the Hetionet graph. "
-                       "Returns columns, rows, total_rows, truncated, or an error message.",
-        "parameters": {
-            "type": "object",
-            "properties": {"query": {"type": "string", "description": "The Cypher query"}},
-            "required": ["query"],
-        },
-    },
-}]
 
 
 def make_client(cfg):
@@ -28,9 +18,118 @@ def make_client(cfg):
     return OpenAI(base_url=cfg["base_url"], api_key=key, timeout=120, max_retries=6)
 
 
-def _chat(client, cfg, messages, temperature, seed):
+def _tool_definitions(mcp_tools):
+    return [
+        {
+            "type": "function",
+            "function": {
+                "name": tool.name,
+                "description": tool.description or "",
+                "parameters": tool.inputSchema,
+            },
+        }
+        for tool in mcp_tools
+    ]
+
+
+def _tool_result(result):
+    if result.isError:
+        messages = [item.text for item in result.content if hasattr(item, "text")]
+        return {"error": "\n".join(messages) or "MCP tool call failed."}
+
+    structured = getattr(result, "structuredContent", None)
+    if structured is not None:
+        return structured
+
+    text = "\n".join(item.text for item in result.content if hasattr(item, "text"))
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        return {"text": text}
+
+
+async def _run_agent(cfg, question, max_steps, temperature, seed):
+    client = make_client(cfg)
+    messages = [{"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": question}]
+    rec = {
+        "steps": [], "final_answer": None, "tokens": 0, "seed_used": None,
+        "model_turns": 0, "turn_usage": [],
+    }
+    t0 = time.time()
+    server_path = Path(__file__).with_name("mcp_server.py")
+    server = StdioServerParameters(
+        command=sys.executable,
+        args=[str(server_path)],
+        cwd=str(server_path.parent.parent),
+    )
+    async with stdio_client(server) as (read_stream, write_stream):
+        async with ClientSession(read_stream, write_stream) as session:
+            await session.initialize()
+            available_tools = (await session.list_tools()).tools
+            tools = _tool_definitions(available_tools)
+            for _ in range(max_steps):
+                rec["model_turns"] += 1
+                resp, used = await asyncio.to_thread(
+                    _chat, client, cfg, messages, temperature, seed, tools
+                )
+                rec["seed_used"] = used
+                turn_usage = {
+                    "turn": rec["model_turns"],
+                    "prompt_tokens": 0,
+                    "completion_tokens": 0,
+                    "total_tokens": 0,
+                    "tool_calls": [],
+                }
+                if resp.usage:
+                    turn_usage["total_tokens"] = resp.usage.total_tokens or 0
+                    turn_usage["prompt_tokens"] = resp.usage.prompt_tokens or 0
+                    turn_usage["completion_tokens"] = resp.usage.completion_tokens or 0
+                    rec["tokens"] += turn_usage["total_tokens"]
+                    rec["prompt_tokens"] = rec.get("prompt_tokens", 0) + turn_usage["prompt_tokens"]
+                    rec["completion_tokens"] = rec.get("completion_tokens", 0) + turn_usage["completion_tokens"]
+                msg = resp.choices[0].message
+                turn_usage["tool_calls"] = [
+                    tc.function.name for tc in (msg.tool_calls or [])
+                ]
+                rec["turn_usage"].append(turn_usage)
+                if not msg.tool_calls:
+                    rec["final_answer"] = msg.content
+                    rec["stop_reason"] = "final_answer" if msg.content is not None else "empty_model_response"
+                    break
+                messages.append({
+                    "role": "assistant", "content": msg.content or "",
+                    "tool_calls": [tc.model_dump(exclude_none=True) for tc in msg.tool_calls],
+                })
+                for tc in msg.tool_calls:
+                    try:
+                        arguments = json.loads(tc.function.arguments)
+                        if not isinstance(arguments, dict):
+                            raise TypeError("Tool arguments must be a JSON object.")
+                        result = _tool_result(
+                            await session.call_tool(tc.function.name, arguments)
+                        )
+                    except (ValueError, TypeError):
+                        arguments, result = {}, {"error": "Tool arguments must be a JSON object."}
+                    rec["steps"].append({
+                        "tool": tc.function.name,
+                        "arguments": arguments,
+                        "cypher": arguments.get("query") if tc.function.name == "run_cypher" else None,
+                        "result": result,
+                    })
+                    messages.append({
+                        "role": "tool", "tool_call_id": tc.id,
+                        "content": json.dumps(result, default=str)[:20000],
+                    })
+    rec.setdefault("stop_reason", "max_model_turns")
+    rec["n_steps"] = len(rec["steps"])
+    rec["latency_s"] = round(time.time() - t0, 2)
+    return rec
+
+
+def _chat(client, cfg, messages, temperature, seed, tools):
     """One model call. Some providers reject 'seed'; fall back and record whether it was used."""
-    kwargs = dict(model=cfg["model"], messages=messages, tools=TOOLS, temperature=temperature)
+    kwargs = dict(model=cfg["model"], messages=messages, tools=tools, temperature=temperature)
     if seed is not None:
         kwargs["seed"] = seed
     try:
@@ -43,35 +142,4 @@ def _chat(client, cfg, messages, temperature, seed):
 
 
 def run_agent(cfg, question, max_steps=6, temperature=0.0, seed=0):
-    client = make_client(cfg)
-    messages = [{"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": question}]
-    rec = {"steps": [], "final_answer": None, "tokens": 0, "seed_used": None}
-    t0 = time.time()
-    for _ in range(max_steps):
-        resp, used = _chat(client, cfg, messages, temperature, seed)
-        rec["seed_used"] = used
-        if resp.usage:
-            rec["tokens"] += resp.usage.total_tokens or 0
-            rec["prompt_tokens"] = rec.get("prompt_tokens", 0) + (resp.usage.prompt_tokens or 0)
-            rec["completion_tokens"] = rec.get("completion_tokens", 0) + (resp.usage.completion_tokens or 0)
-        msg = resp.choices[0].message
-        if not msg.tool_calls:
-            rec["final_answer"] = msg.content
-            break
-        messages.append({
-            "role": "assistant", "content": msg.content or "",
-            "tool_calls": [tc.model_dump(exclude_none=True) for tc in msg.tool_calls],
-        })
-        for tc in msg.tool_calls:
-            try:
-                query = json.loads(tc.function.arguments)["query"]
-                result = run_cypher(query)
-            except (ValueError, KeyError, TypeError):
-                query, result = "", {"error": "Tool arguments must be JSON with a 'query' string."}
-            rec["steps"].append({"cypher": query, "result": result})
-            messages.append({"role": "tool", "tool_call_id": tc.id,
-                             "content": json.dumps(result, default=str)[:20000]})
-    rec["n_steps"] = len(rec["steps"])
-    rec["latency_s"] = round(time.time() - t0, 2)
-    return rec
+    return asyncio.run(_run_agent(cfg, question, max_steps, temperature, seed))
