@@ -48,9 +48,12 @@ def _tool_result(result):
         return {"text": text}
 
 
-async def _run_agent(cfg, question, max_steps, temperature, seed):
+async def _run_agent(cfg, question, max_steps, temperature, seed, system_prompt,
+                     cygnet_validation):
     client = make_client(cfg)
-    messages = [{"role": "system", "content": SYSTEM_PROMPT},
+    if system_prompt is None:
+        system_prompt = SYSTEM_PROMPT
+    messages = [{"role": "system", "content": system_prompt},
                 {"role": "user", "content": question}]
     rec = {
         "steps": [], "final_answer": None, "tokens": 0, "seed_used": None,
@@ -60,7 +63,7 @@ async def _run_agent(cfg, question, max_steps, temperature, seed):
     server_path = Path(__file__).with_name("mcp_server.py")
     server = StdioServerParameters(
         command=sys.executable,
-        args=[str(server_path)],
+        args=[str(server_path)] + (["--cygnet-validation"] if cygnet_validation else []),
         cwd=str(server_path.parent.parent),
     )
     async with stdio_client(server) as (read_stream, write_stream):
@@ -111,12 +114,16 @@ async def _run_agent(cfg, question, max_steps, temperature, seed):
                         )
                     except (ValueError, TypeError):
                         arguments, result = {}, {"error": "Tool arguments must be a JSON object."}
-                    rec["steps"].append({
+                    validation = result.pop("_cygnet_validation", None)
+                    step = {
                         "tool": tc.function.name,
                         "arguments": arguments,
                         "cypher": arguments.get("query") if tc.function.name == "run_cypher" else None,
                         "result": result,
-                    })
+                    }
+                    if validation is not None:
+                        step["validation"] = validation
+                    rec["steps"].append(step)
                     messages.append({
                         "role": "tool", "tool_call_id": tc.id,
                         "content": json.dumps(result, default=str)[:20000],
@@ -141,5 +148,8 @@ def _chat(client, cfg, messages, temperature, seed, tools):
         raise
 
 
-def run_agent(cfg, question, max_steps=6, temperature=0.0, seed=0):
-    return asyncio.run(_run_agent(cfg, question, max_steps, temperature, seed))
+def run_agent(cfg, question, max_steps=6, temperature=0.0, seed=0,
+              system_prompt=SYSTEM_PROMPT, cygnet_validation=False):
+    return asyncio.run(_run_agent(
+        cfg, question, max_steps, temperature, seed, system_prompt, cygnet_validation
+    ))

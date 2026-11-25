@@ -124,14 +124,19 @@ and a separate Cypher validator based on CYGNET (Tomczak, 2026), adapted for Het
 The validator checks vocabulary, relationship direction, and (optionally) server planning.
 
 `src/t2css.py` writes five prompt variants per question to `data/t2css_context.jsonl`.
-`src/run_experiments.py` does not use these variants, and it does not run agent-generated
-queries through `src/validate.py`. Experiments use the short default prompt, can request
-compact schema information through MCP, and execute read-only queries through the database
-helper. T2CSS filtering and CYGNET-style validation are not currently part of live runs.
+The runner supports four comparable conditions: baseline, filtered T2CSS context, CYGNET
+validation, and both together. T2CSS uses the filtered schema-and-rules prompt; CYGNET
+checks each generated query's vocabulary and relationship direction, then asks Neo4j to
+`EXPLAIN` it before execution. Failed checks are returned to the agent so it can repair
+the query. The runner checks that cached T2CSS prompts match the current gold questions.
 
 ```powershell
 uv run python src/build_schema.py            # writes data/schema.json (labels and 24 triples with glosses)
 uv run python src/t2css.py                   # writes data/t2css_context.jsonl (five prompt variants per question)
+uv run python src/run_experiments.py `
+  --models qwen3.8-27b,mimo-v2.6-flash-mopd,glm-5.3-flash,qwen3-vl-235b `
+  --reps 3 `
+  --conditions baseline,t2css,cygnet,t2css_cygnet # 240 runs total
 uv run jupyter lab                           # open the notebooks below
 ```
 

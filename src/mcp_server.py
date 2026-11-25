@@ -1,4 +1,5 @@
 """MCP tools for read-only access to the Hetionet graph and its schema."""
+import argparse
 import json
 from pathlib import Path
 
@@ -8,6 +9,8 @@ from db import run_cypher as execute_cypher
 
 ROOT = Path(__file__).resolve().parents[1]
 mcp = FastMCP("Hetionet")
+CYGNET_VALIDATION = False
+VALIDATION_SCHEMA = None
 
 
 @mcp.tool()
@@ -40,8 +43,27 @@ def get_graph_schema() -> dict:
 @mcp.tool()
 def run_cypher(query: str) -> dict:
     """Run a read-only Neo4j 3.5 Cypher query. Results are limited to 50 rows."""
-    return execute_cypher(query)
+    if not CYGNET_VALIDATION:
+        return execute_cypher(query)
+
+    from validate import validate
+
+    report = validate(query, VALIDATION_SCHEMA, use_server=True)
+    if not report["ok"]:
+        diagnostics = json.dumps(report["gates"], ensure_ascii=False, sort_keys=True)
+        return {
+            "error": f"Query rejected by CYGNET validation: {diagnostics}",
+            "_cygnet_validation": report,
+        }
+    return {**execute_cypher(query), "_cygnet_validation": report}
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--cygnet-validation", action="store_true")
+    args = parser.parse_args()
+    if args.cygnet_validation:
+        with (ROOT / "data" / "schema.json").open(encoding="utf-8") as file:
+            VALIDATION_SCHEMA = json.load(file)
+        CYGNET_VALIDATION = True
     mcp.run(transport="stdio")
